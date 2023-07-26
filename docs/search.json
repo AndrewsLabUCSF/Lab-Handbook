@@ -5,5 +5,26 @@
     "title": "AndrewsLab Handbook",
     "section": "",
     "text": "Preface\nWelcome to the Andrews Lab. As a member of our team, you are joining a group of dedicated researchers committed to advancing our understanding of the causal pathways that underly the development of Alzheimer’s disease and related dementias.\nOur lab is a dynamic and collaborative environment where curiosity, creativity, and critical thinking are valued and nurtured. We believe that every member of our team brings unique perspectives and skills that enrich our research and contribute to our shared mission.\nThis handbook is designed to provide you with a comprehensive overview of our lab’s operations, policies, and procedures. It serves as a guide to help you navigate your journey with us, whether you are a new member just starting out or an existing member seeking to refresh your knowledge.\nIn this handbook, you will find information about our lab’s history, our team, the research we conduct, and the resources available to you. You will also find detailed protocols for our common procedures, guidelines for data management and authorship, and information about our ethical standards and compliance requirements.\nWe encourage you to read this handbook thoroughly and refer to it often. However, please remember that it is not meant to cover every possible scenario or answer every question. When in doubt, do not hesitate to ask. Open communication is key to our lab’s success, and we are here to support you.\nWe are excited to have you on board and look forward to the contributions you will make to our lab. Together, we will continue to push the boundaries of genetic epidemiology and bioinformatics, making discoveries that have the potential to transform human health.\nWelcome to our team!\nShea Andrews\nPrincipal Investigator"
+  },
+  {
+    "objectID": "scripts/reading_lists.html#alzheimers-disease",
+    "href": "scripts/reading_lists.html#alzheimers-disease",
+    "title": "1  Reading List",
+    "section": "Alzheimer’s disease",
+    "text": "Alzheimer’s disease\n\nWhat is AD\n\nKnopman, D. S. et al. Alzheimer disease. Nat Rev Dis Primers 7, 33 (2021).\nAlzheimer’s Association. 2023 Alzheimer’s disease facts and figures. Alzheimer’s Dementia (2023) doi:10.1002/alz.13016.\nSirkis, D. W., Bonham, L. W., Johnson, T. P., Joie, R. L. & Yokoyama, J. S. Dissecting the clinical heterogeneity of early-onset Alzheimer’s disease. Mol Psychiatr 27, 2674–2688 (2022).\nFrisoni, G. B. et al. The probabilistic model of Alzheimer disease: the amyloid hypothesis revised. Nat Rev Neurosci 23, 53–66 (2022).\n\n\n\nHealth Disparities\n\nKornblith, E. et al. Association of Race and Ethnicity With Incidence of Dementia Among Older Adults. Jama 327, 1488–1495 (2022).\nAdkins‐Jackson, P. B. et al. The structural and social determinants of Alzheimer’s disease related dementias. Alzheimer’s Dementia (2023) doi:10.1002/alz.13027.\n\n\n\nGenetics of AD\n\nAndrews, S. J. et al. The complex genetic architecture of Alzheimer’s disease: novel insights and future directions. eBioMedicine 90, 104511 (2023).\nReitz, C., Pericak-Vance, M. A., Foroud, T. & Mayeux, R. A global view of the genetic basis of Alzheimer disease. Nat Rev Neurol 1–17 (2023) doi:10.1038/s41582-023-00789-z.\nLambert, J.-C., Ramirez, A., Grenier-Boley, B. & Bellenguez, C. Step by step: towards a better understanding of the genetic architecture of Alzheimer’s disease. Mol Psychiatr 1–12 (2023) doi:10.1038/s41380-023-02076-1.\nAndrews, S. J., Fulton-Howard, B. & Goate, A. Interpretation of risk loci from genome-wide association studies of Alzheimer’s disease. Lancet Neurology 19, 326–335 (2020).\nBellenguez, C. et al. New insights into the genetic etiology of Alzheimer’s disease and related dementias. Nat Genet 54, 412–436 (2022).\n\n\n\nRisk factors\n\nLivingston, G. et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet 396, 413–446 (2020).\nNianogo, R. A. et al. Risk Factors Associated With Alzheimer Disease and Related Dementias by Sex and Race and Ethnicity in the US. Jama Neurol 79, 584–591 (2022).\n\n\n\nDementia risk scores"
+  },
+  {
+    "objectID": "scripts/reading_lists.html#genetic-epidemiology",
+    "href": "scripts/reading_lists.html#genetic-epidemiology",
+    "title": "1  Reading List",
+    "section": "Genetic Epidemiology",
+    "text": "Genetic Epidemiology\n\nGenome-wide association studies\n\n\nPolygenic risk scores\n\n\nMendelian randomization\n\n\nGenetic correlations\n\n\nHeritability"
+  },
+  {
+    "objectID": "scripts/reading_lists.html#genetic-ancestry",
+    "href": "scripts/reading_lists.html#genetic-ancestry",
+    "title": "1  Reading List",
+    "section": "Genetic ancestry",
+    "text": "Genetic ancestry\n\nNational Academies of Sciences, Engineering, and Medicine. 2023. Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field. Washington, DC: The National Academies Press. https://doi.org/10.17226/26902."
   }
 ]

@@ -1,0 +1,51 @@
+---
+title: Reading List
+---
+
+This curated list of references is an essential part of our shared knowledge base, designed to provide you with a solid foundation and a deeper understanding of the fields we are passionate about: genetic epidemiology and neurodegenerative disease. You will also find readings on other aspects of the scientific enterprise such as writing, presentations, and career development.
+
+The references included here have been carefully selected for their relevance, clarity, and contribution to our field. They range from seminal papers that have shaped our understanding of genetic epidemiology and neurodegenerative disease, to the latest cutting-edge research that pushes the boundaries of what we know. You will also find comprehensive textbooks, insightful reviews, and practical guides that cover the methodologies, tools, and techniques we use in our lab.
+
+Whether you are a new member seeking to familiarize yourself with our field, or an experienced researcher looking to stay abreast of the latest developments, this reading list is a valuable resource. We encourage you to delve into these materials and explore the fascinating world of genetic epidemiology and neurodegenerative disease.
+
+Remember, learning is a lifelong journey, and science is continually evolving. This reading list is not static but will be updated periodically to reflect new discoveries and advancements in our field. We also welcome your suggestions for additions to the list, as we believe that everyone in our lab can contribute to our collective learning.
+
+
+## Alzheimer's disease 
+### What is AD 
+- Knopman, D. S. et al. Alzheimer disease. Nat Rev Dis Primers 7, 33 (2021).
+- Alzheimer's Association. 2023 Alzheimer’s disease facts and figures. Alzheimer’s Dementia (2023) doi:10.1002/alz.13016.
+- Sirkis, D. W., Bonham, L. W., Johnson, T. P., Joie, R. L. & Yokoyama, J. S. Dissecting the clinical heterogeneity of early-onset Alzheimer’s disease. Mol Psychiatr 27, 2674–2688 (2022).
+- Frisoni, G. B. et al. The probabilistic model of Alzheimer disease: the amyloid hypothesis revised. Nat Rev Neurosci 23, 53–66 (2022).
+
+### Health Disparities   
+- Kornblith, E. et al. Association of Race and Ethnicity With Incidence of Dementia Among Older Adults. Jama 327, 1488–1495 (2022).
+- Adkins‐Jackson, P. B. et al. The structural and social determinants of Alzheimer’s disease related dementias. Alzheimer’s Dementia (2023) doi:10.1002/alz.13027.
+    
+
+### Genetics of AD
+- Andrews, S. J. et al. The complex genetic architecture of Alzheimer’s disease: novel insights and future directions. eBioMedicine 90, 104511 (2023).
+- Reitz, C., Pericak-Vance, M. A., Foroud, T. & Mayeux, R. A global view of the genetic basis of Alzheimer disease. Nat Rev Neurol 1–17 (2023) doi:10.1038/s41582-023-00789-z.
+- Lambert, J.-C., Ramirez, A., Grenier-Boley, B. & Bellenguez, C. Step by step: towards a better understanding of the genetic architecture of Alzheimer’s disease. Mol Psychiatr 1–12 (2023) doi:10.1038/s41380-023-02076-1.
+- Andrews, S. J., Fulton-Howard, B. & Goate, A. Interpretation of risk loci from genome-wide association studies of Alzheimer’s disease. Lancet Neurology 19, 326–335 (2020).
+- Bellenguez, C. et al. New insights into the genetic etiology of Alzheimer’s disease and related dementias. Nat Genet 54, 412–436 (2022).
+
+### Risk factors 
+- Livingston, G. et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet 396, 413–446 (2020).
+- Nianogo, R. A. et al. Risk Factors Associated With Alzheimer Disease and Related Dementias by Sex and Race and Ethnicity in the US. Jama Neurol 79, 584–591 (2022).
+  
+
+### Dementia risk scores  
+
+
+## Genetic Epidemiology
+### Genome-wide association studies 
+### Polygenic risk scores 
+### Mendelian randomization 
+### Genetic correlations 
+### Heritability 
+
+## Genetic ancestry 
+- National Academies of Sciences, Engineering, and Medicine. 2023. Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field. Washington, DC: The National Academies Press. https://doi.org/10.17226/26902.
+
+    

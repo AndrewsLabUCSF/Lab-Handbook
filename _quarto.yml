@@ -11,6 +11,7 @@ book:
   sharing: [twitter]
   chapters:
     - index.qmd
+    - scripts/reading_lists.qmd
  
 format:
   html:
