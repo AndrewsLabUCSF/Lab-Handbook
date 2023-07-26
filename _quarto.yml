@@ -1,0 +1,21 @@
+project:
+  type: book
+  output-dir: docs
+  execute-dir: project
+
+book:
+  title: "AndrewsLab Handbook"
+  author: "Shea J Andrews"
+  date: "2023-07-26"
+  repo-url: https://github.com/AndrewsLabUCSF/Lab-Handbook
+  sharing: [twitter]
+  chapters:
+    - index.qmd
+ 
+format:
+  html:
+    theme: yeti
+    number-depth: 1
+
+
+editor: visual
