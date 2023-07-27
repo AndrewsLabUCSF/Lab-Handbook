@@ -48,4 +48,9 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 ## Genetic ancestry 
 - National Academies of Sciences, Engineering, and Medicine. 2023. Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field. Washington, DC: The National Academies Press. https://doi.org/10.17226/26902.
 
+## Bioinformatics 
+### Reproducibility 
+- Rodrigues, Bruno. Building reproducible analytical pipelines with R. 2023
+- Mölder, F. et al. Sustainable data analysis with Snakemake. F1000research 10, 33 (2021).
+- Jackson, M., Kavoussanakis, K. & Wallace, E. W. J. Using prototyping to choose a bioinformatics workflow management system. Plos Comput Biol 17, e1008622 (2021).
     
