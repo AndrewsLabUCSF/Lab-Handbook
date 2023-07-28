@@ -1,4 +1,4 @@
-# Preface {.unnumbered}
+# Welcome {.unnumbered}
 
 Welcome to the Andrews Lab. As a member of our team, you are joining a group of dedicated researchers committed to advancing our understanding of the causal pathways that underly the development of Alzheimer’s disease and related dementias.
 
