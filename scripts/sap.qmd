@@ -1,0 +1,51 @@
+---
+title: Statistical Analysis Plan
+---
+
+A Statistical Analysis Plan (SAP) is a comprehensive, detailed document that outlines the strategies and techniques that will be used to analyze the data collected in a research study. The SAP is crucial for ensuring the integrity and objectivity of the research. It specifies the statistical methods for assessing the primary and secondary outcomes, addresses how to handle missing data, and outlines procedures for any subgroup or sensitivity analyses. By pre-specifying these methods, the SAP helps to prevent bias and data dredging, where researchers might otherwise consciously or unconsciously analyze the data in ways that produce desired outcomes. In essence, the SAP serves as a roadmap for data analysis, guiding researchers to adhere to rigorous, pre-established analytical methods.
+
+Below is a SAP template. 
+
+## Project Title 
+
+### Background and Objective: 
+- Provide a clear statement about what is known about the topic. This should include a review of recent and relevant literature to the proposed research.
+- Identify gaps in the existing research or knowledge.
+- Define the specific problem or question the research will address.
+- State the overall objective of your research. This should be a concise statement of what you hope to achieve with the research.
+
+### Planned analysis by Aims: 
+
+Break down the general research objective into specific aims. These should be clear, concrete goals that you will work towards throughout your research.
+
+#### Aim 1:
+- Define the first specific aim of your research. This should be a clear, measurable goal that directly contributes to your overall research objective.
+
+**Hypothesis:**
+
+- Formulate a hypothesis for Aim 1. This should be a specific, testable prediction about what you expect to find in your research.
+
+**Rational:** 
+
+- Explain why you have chosen this particular hypothesis and aim. This should include an explanation of why this hypothesis and aim are important and how they will contribute to the overall field of study.
+
+**Primary Proposed Analysis:** 
+
+- Outline the methods you will use to test your hypothesis. This should include a detailed description of the experimental design, data collection procedures, and statistical methods you plan to use.
+
+**Anticipated Problems and Alternative Approaches:**
+
+- Discuss potential challenges that may arise during your research, as well as how you plan to address them.
+- Include contingency plans for unexpected results or complications.
+- Consider possible alternative approaches or methods that could be used if the primary approach doesn't work out.
+
+**Secondary, exploratory analysis:** 
+
+- Explain any additional analyses you plan to conduct that are not directly tied to testing your hypothesis. This could include examining relationships between variables not included in your primary analysis, or investigating unexpected findings.
+- Note that while these analyses may provide interesting additional insights, they are considered exploratory because they were not part of the original research plan.
+
+### Gantt Chart 
+- Use a Gantt Chart to visualize and manage the timeline of various analytical tasks and project milestones. This allows researchers to easily see the sequence of tasks, their durations, and any dependencies between them.
+
+### References 
+- List of references 
