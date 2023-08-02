@@ -14,6 +14,7 @@ book:
       chapters: 
         - scripts/about.qmd
     - part: scripts/policies.qmd
+        - scripts/open_science.qmd 
     - part: scripts/resources.qmd
       chapters:
         - scripts/sap.qmd
