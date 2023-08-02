@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AndrewsLab Handbook - 1&nbsp; About the Lab</title>
+<title>AndrewsLab Handbook - 3&nbsp; Compute</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../scripts/policies.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../scripts/resources.html" rel="next">
+<link href="../scripts/open_science.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Welcome</a></li><li class="breadcrumb-item"><a href="../scripts/about.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About the Lab</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../scripts/policies.html">Lab Policies</a></li><li class="breadcrumb-item"><a href="../scripts/compute.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Compute</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/about.html" class="sidebar-item-text sidebar-link active">
+  <a href="../scripts/about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About the Lab</span></span></a>
   </div>
 </li>
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/compute.html" class="sidebar-item-text sidebar-link">
+  <a href="../scripts/compute.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Compute</span></span></a>
   </div>
 </li>
@@ -172,14 +172,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#local-machine" id="toc-local-machine" class="nav-link active" data-scroll-target="#local-machine">Local Machine</a>
+  <ul class="collapse">
+  <li><a href="#oh-my-zsh" id="toc-oh-my-zsh" class="nav-link" data-scroll-target="#oh-my-zsh">Oh My Zsh</a></li>
+  </ul></li>
+  <li><a href="#high-performance-computing" id="toc-high-performance-computing" class="nav-link" data-scroll-target="#high-performance-computing">High Performance Computing</a>
+  <ul class="collapse">
+  <li><a href="#mamba" id="toc-mamba" class="nav-link" data-scroll-target="#mamba">Mamba</a></li>
+  <li><a href="#cookiecutter" id="toc-cookiecutter" class="nav-link" data-scroll-target="#cookiecutter">Cookiecutter</a></li>
+  <li><a href="#snakemake" id="toc-snakemake" class="nav-link" data-scroll-target="#snakemake">Snakemake</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About the Lab</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Compute</span></h1>
 </div>
 
 
@@ -194,8 +209,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="local-machine">Local Machine</h2>
+<section id="oh-my-zsh" class="level3">
+<h3 class="anchored" data-anchor-id="oh-my-zsh">Oh My Zsh</h3>
+<p>I like to install Oh My Zsh on my local machine for autocomplete etc</p>
+<ul>
+<li><a href="https://github.com/ohmyzsh/ohmyzsh">OhMyZsh</a>: Mange your zsh configuration</li>
+<li><a href="https://github.com/zsh-users/zsh-autosuggestions/">zsh-autosuggestions</a></li>
+</ul>
+</section>
+</section>
+<section id="high-performance-computing" class="level2">
+<h2 class="anchored" data-anchor-id="high-performance-computing">High Performance Computing</h2>
+<p><a href="https://wynton.ucsf.edu/hpc/get-started/access-cluster.html">Get Started with Wynton</a> <a href="https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html">Job Submission</a> <a href="https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html">File Transfers</a></p>
+<p><code>ssh sjfandrews@log1.wynton.ucsf.edu</code></p>
+<p><code>/wynton/group/andrews</code></p>
+<p><a href="https://code.sbamin.com/hpc/">Getting started with HPC</a></p>
+<section id="mamba" class="level3">
+<h3 class="anchored" data-anchor-id="mamba">Mamba</h3>
+<p>Conda and Mamba are tools that help you install and manage software packages and their dependencies, which are other packages that a software needs to function properly. They’re especially useful when different projects need different versions of the same software package. Conda, created by Anaconda, Inc., is well-known for its ability to create isolated spaces (called environments) for your projects, ensuring that the software packages of one project don’t interfere with those of another. Mamba is a faster version of Conda, doing the same job but more quickly. Both of them support many programming languages, making them versatile tools for managing software in your projects.</p>
+<p>Install <a href="https://github.com/conda-forge/miniforge#mambaforge">Mambaforge</a> in your home directory</p>
+</section>
+<section id="cookiecutter" class="level3">
+<h3 class="anchored" data-anchor-id="cookiecutter">Cookiecutter</h3>
+<p>A command-line utility that creates projects from cookiecutters (project templates), e.g.&nbsp;creating a Python package project from a Python package project template.</p>
+<p>Install <a href="https://cookiecutter.readthedocs.io/en/stable/installation.html">cookiecutter</a> using mamba</p>
+</section>
+<section id="snakemake" class="level3">
+<h3 class="anchored" data-anchor-id="snakemake">Snakemake</h3>
+<p>Snakemake is a versatile, Python-based workflow management system that enables the creation of reproducible and scalable data analyses. It operates on the principle of defining “rules” that explicitly state how to produce output files from input files. These rules, which can incorporate shell commands or scripts in any language, are written in a Snakefile. Snakemake takes care of determining the correct order of rule execution based on their dependencies. It also supports parallelization of jobs, making it suitable for high-throughput computations. Furthermore, Snakemake workflows are self-documenting, meaning they can serve as a record of your data analysis, enhancing reproducibility. It’s widely used in bioinformatics, but its application can extend to any field that involves pipeline-based data analysis.</p>
+<p>Install <a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#">Snakemake</a> using mamba</p>
+<p>Install <a href="https://github.com/snakemake-profiles/sge">sge</a> snakemake profile using cookiecutter</p>
+<pre><code># Print rulegraph 
+snakemake --rulegraph | dot -Tpdf &gt; images/dag.pdf
+
+# Install conda/singularity envs, dont run workflow
+snakemake --use-conda --conda-create-envs-only</code></pre>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -433,13 +487,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
+      <a href="../scripts/open_science.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Open Science</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../scripts/policies.html" class="pagination-link">
-        <span class="nav-page-text">Lab Policies</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../scripts/resources.html" class="pagination-link">
+        <span class="nav-page-text">Resources</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
