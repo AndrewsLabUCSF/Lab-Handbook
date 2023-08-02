@@ -1,5 +1,7 @@
 # Welcome {.unnumbered}
 
+![Interplay Between the Genome and Exposome in Dementia - An Illustration by Midjourney](images/dementia.jpg)
+
 Welcome to the Andrews Lab. As a member of our team, you are joining a group of dedicated researchers committed to advancing our understanding of the causal pathways that underly the development of Alzheimer’s disease and related dementias.
 
 Our lab is a dynamic and collaborative environment where curiosity, creativity, and critical thinking are valued and nurtured. We believe that every member of our team brings unique perspectives and skills that enrich our research and contribute to our shared mission.
