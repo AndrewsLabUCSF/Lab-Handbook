@@ -1,0 +1,118 @@
+# Directory Structure
+In any research project, especially those involving data analysis, maintaining an organized and standardized directory structure is crucial. This practice facilitates efficient data management and ensures the reproducibility of your research. Here are some key reasons why standardized directory structures are important:
+
+1. **Ease of Navigation:** A well-organized directory structure allows you and others to easily locate files and understand their purpose. This is particularly beneficial when working in a team or when your project is handed over to another researcher.
+
+2. **Reproducibility:** Reproducibility is a cornerstone of scientific research. A standardized directory structure, coupled with good documentation, allows others to understand and replicate your workflow, enhancing the reproducibility of your research.
+
+3. **Efficiency and Error Minimization:** When directories are organized systematically, it reduces the time spent searching for files and decreases the likelihood of errors that can occur from using incorrect files or versions.
+
+4. **Collaboration and Sharing:** If you're collaborating with others or plan to share your work publicly, a standardized directory structure ensures that your colleagues or the wider research community can understand and use your work effectively.
+
+5. **Long-term Maintenance:** Over time, projects can become more complex. A standardized directory structure can accommodate this growth, making it easier to manage and maintain your project in the long run.
+
+In our lab, we adhere to a specific directory structure that includes separate directories for raw data, processed data, scripts, and output files, among others. This structure is outlined in detail below. By consistently using this structure, we ensure that our work is organized, understandable, and reproducible.
+
+## Project Directories 
+Project level directories should be a dedicated git repository for a specific project adhering to a modified [Snakemake directory structure](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html). Project level directories should be located in `/wynton/group/andrews/users/username/project`. 
+
+::: {.callout-note}
+# Directory Structure
+```
+├── .gitignore
+├── README.md
+├── LICENSE.md
+├── workflow
+│   ├── rules
+|   │   ├── module1.smk
+|   │   └── module2.smk
+│   ├── envs
+|   │   ├── tool1.yaml
+|   │   └── tool2.yaml
+│   ├── scripts
+|   │   ├── script1.py
+|   │   └── script2.R
+|   └── Snakefile
+├── config
+│   ├── config.yaml
+│   └── some-sheet.tsv
+├── results
+├── data
+├── docs
+└── resources
+```
+::: 
+
+
+To push empty directories while ensureing that large or sensitive files are not inadvertently made available on GitHub, you can add the following .gitignore file. This is useful to included in `resources` or `data` directories.
+
+
+::: {.callout-tip}
+# .gitignore to create empty directories
+```
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+```
+::: 
+
+
+## Data Directories
+Datasets obtained from external sources are housed in the `/wynton/group/andrews/data` directory. Project-level directories create soft links to these resources for easy and efficient access. Each dataset is assigned its own directory, adhering to the following structure.
+
+::: {.callout-note}
+# Directory Structure
+```
+parent/
+├── .gitignore
+├── README.md
+├── LICENSE.md
+├── data/
+└── docs/
+```
+::: 
+
+- `parent` is the top-level directory, and should be named according to the dataset. 
+- `data` contains the original files downloaded from the external resources. Potential subdirectories can included different releases. 
+- `docs` contains documentation files such as data dictionries
+- `README.md` contains information about the dataset. 
+
+
+The `README.md` should contain the following information. 
+
+::: {.callout-note}
+# README
+```
+# Data
+## Description
+This directory contains raw data files downloaded from [repository name]. These files serve as the starting point for our data analysis pipeline.
+
+## Data Source
+Repository Name: [repository name]
+Repository URL: [repository URL]
+Date of Access: [date when the data was downloaded]
+
+## Data Files
+This section describes the data files included in this directory.
+
+file1.extension: Brief description of what this file contains.
+file2.extension: Brief description of what this file contains.
+...
+
+## Data Structure
+Briefly describe the structure of the data. For example, if the data is tabular, describe the columns and what they represent. If the data is in a different format, describe the relevant elements.
+
+### Data Download and Processing
+Describe the process of downloading the data from the repository and any steps taken to process or clean the data after download. If scripts were used for this process, link to them here.
+
+## Usage Notes
+Include any additional information that users of the data should be aware of. This could include known issues with the data, special considerations for using the data, or any other relevant notes.
+
+## Contact Information
+For any additional questions or clarifications, please contact:
+
+Name: [Your name]
+Email: [Your email]
+```
+:::
