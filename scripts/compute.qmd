@@ -82,8 +82,9 @@ Your public key has been saved in /wynton/group/andrews/users/<your wynton usern
 The key fingerprint is:
 <your key fingerprint> <your email address associated with GitHub>
 
-$ eval "$(ssh-agent -s)”
-Agent pid 67064
+# Open a connection to your authentication agent
+$ eval `ssh-agent -s'
+Agent pid (new number each time)
 
 # Move your key_pair and key_pair.pub files into a new folder called ".ssh"
 $ mkdir .ssh
@@ -114,3 +115,21 @@ $ pwd
 
 $ git clone git@github.com:AndrewsLabUCSF/CAIDE_APOE.git
 # Success!
+
+# Logging out and logging back into Wynton
+$ ssh <your wynton username>@log1.wynton.ucsf.edu
+$ ssh dev2 (or dev1, etc)
+
+# Open a connection to your authentication agent
+$ eval `ssh-agent -s'
+Agent pid (new number each time)
+
+# Add your key pair
+$ ssh-add /wynton/group/andrews/users/evelasquez/.ssh/key_pair
+$ ssh-add /wynton/group/andrews/users/evelasquez/.ssh/key_pair.pub
+$ ssh -T git@github.com
+Hi <GitHub username>! You've successfully authenticated, but GitHub does not provide shell access.
+
+# Push some previously committed files
+$ git push
+Success!
