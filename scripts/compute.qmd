@@ -100,7 +100,10 @@ $ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 $ cat /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 <your key> <your email address associated with GitHub>
 
-# Copy the contents of key_pair.pub in order to paste them into the following location: Log onto GitHub and click on your personal account, then click on “settings”. Click on “SSH and GPG keys”. Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.
+# Copy the contents of key_pair.pub in order to paste them into the following location: 
+Log onto GitHub and click on your personal account, then click on “settings”. 
+Click on “SSH and GPG keys”. 
+Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.
 
 $ ssh -T git@github.com
 . . . Are you sure you want to continue connecting (yes/no)? 
