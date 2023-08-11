@@ -128,8 +128,8 @@ $ eval `ssh-agent -s'
 Agent pid (new number each time)
 
 # Add your key pair
-$ ssh-add /wynton/group/andrews/users/evelasquez/.ssh/key_pair
-$ ssh-add /wynton/group/andrews/users/evelasquez/.ssh/key_pair.pub
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 $ ssh -T git@github.com
 Hi <GitHub username>! You've successfully authenticated, but GitHub does not provide shell access.
 
