@@ -96,11 +96,11 @@ $ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair
 $ chmod 600 /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 $ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 
-# Copy your key_pair.pub file
+# Copy the contents of your key_pair.pub file to paste on GitHub (see below)
 $ cat /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
 <your key> <your email address associated with GitHub>
 
-# Copy the contents of key_pair.pub in order to paste them into the following location: 
+# Paste the contents of key_pair.pub into the following location: 
 Log onto GitHub and click on your personal account, then click on “settings”. 
 Click on “SSH and GPG keys”. 
 Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.
@@ -114,7 +114,9 @@ $ pwd
 /wynton/group/andrews/users/<your wynton username>
 
 # On GitHub
-# Click on “<> Code” in green on the desired repository page. Click on SSH. Copy the code in the box to use in your git clone command (see below).
+Click on “<> Code” in green on the desired repository page. 
+Click on SSH. 
+Copy the code in the box to use in your git clone command (see below).
 
 $ git clone git@github.com:AndrewsLabUCSF/CAIDE_APOE.git
 # Success!
