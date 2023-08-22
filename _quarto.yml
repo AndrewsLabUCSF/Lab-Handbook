@@ -21,6 +21,7 @@ book:
       chapters:
         - scripts/sap.qmd
         - scripts/directories.qmd
+        - scripts/grants.qmd
         - scripts/reading_lists.qmd
  
 format:

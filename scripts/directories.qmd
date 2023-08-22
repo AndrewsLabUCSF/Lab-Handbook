@@ -74,7 +74,7 @@ parent/
 ::: 
 
 - `parent` is the top-level directory, and should be named according to the dataset. 
-- `data` contains the original files downloaded from the external resources. Potential subdirectories can included different releases. 
+- `data` contains the original files downloaded from the external resources. Potential subdirectories can include different releases. 
 - `docs` contains documentation files such as data dictionries
 - `README.md` contains information about the dataset. 
 

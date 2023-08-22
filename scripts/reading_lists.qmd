@@ -53,4 +53,10 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 - Rodrigues, Bruno. Building reproducible analytical pipelines with R. 2023
 - Mölder, F. et al. Sustainable data analysis with Snakemake. F1000research 10, 33 (2021).
 - Jackson, M., Kavoussanakis, K. & Wallace, E. W. J. Using prototyping to choose a bioinformatics workflow management system. Plos Comput Biol 17, e1008622 (2021).
-    
+
+## Writing & communication
+### How to write a paper 
+- Mensh, B. & Kording, K. Ten simple rules for structuring papers. [PLoS Comput. Biol. 13, e1005619 (2017)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)    
+- Zhang, W. Ten Simple Rules for Writing Research Papers. [PLoS Comput. Biol. 10, e1003453 (2014)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003453)
+- Ecarnot, F., Seronde, M.-F., Chopard, R., Schiele, F. & Meneveau, N. Writing a scientific article: A step-by-step guide for beginners. [Eur. Geriatr. Med. 6, 573–579 (2015)](https://doi.org/10.1016/j.eurger.2015.08.005)
+  
