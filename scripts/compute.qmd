@@ -51,3 +51,90 @@ snakemake --rulegraph | dot -Tpdf > images/dag.pdf
 # Install conda/singularity envs, dont run workflow
 snakemake --use-conda --conda-create-envs-only
 ```
+### Git on UCSF HPC server Wynton
+
+$ ssh <your wynton username>@log1.wynton.ucsf.edu
+
+$ cd /wynton/group/andrews/users/<your wynton username>
+
+# Check your location
+$ pwd
+/wynton/group/andrews/users/<your wynton username>
+
+# You can’t use git on log1, so switch to dev node
+$ ssh dev2  
+
+# You can't use `git clone' yet. You need an authorization key.
+$ git clone https://github.com/AndrewsLabUCSF/CAIDE_APOE
+failure
+
+$ ssh-keygen -t ed25519 -C <your email address associated with GitHub>
+Generating public/private ed25519 key pair.
+Enter file in which to save the key: (You don’t need to create this file “key_pair” beforehand)
+
+$ /wynton/group/andrews/users/<your wynton username>/key_pair
+Enter passphrase (empty for no passphrase): 
+(optional; You can just hit return)
+Enter same passphrase again:
+(optional; You can just hit return)
+Your identification has been saved in /wynton/group/andrews/users/<your wynton username>/key_pair.
+Your public key has been saved in /wynton/group/andrews/users/<your wynton username>/key_pair.pub.
+The key fingerprint is:
+<your key fingerprint> <your email address associated with GitHub>
+
+# Open a connection to your authentication agent
+$ eval `ssh-agent -s'
+Agent pid (new number each time)
+
+# Move your key_pair and key_pair.pub files into a new folder called ".ssh"
+$ mkdir .ssh
+$ mv key_pair .ssh
+$ mv key_pair.pub .ssh
+
+# ssh-add your files and assign the necessary permissions
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair
+$ chmod 600 /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
+
+# Copy the contents of your key_pair.pub file to paste on GitHub (see below)
+$ cat /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
+<your key> <your email address associated with GitHub>
+
+# Paste the contents of key_pair.pub into the following location: 
+Log onto GitHub and click on your personal account, then click on “settings”. 
+Click on “SSH and GPG keys”. 
+Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.
+
+$ ssh -T git@github.com
+. . . Are you sure you want to continue connecting (yes/no)? 
+$ yes
+
+# Check your location
+$ pwd
+/wynton/group/andrews/users/<your wynton username>
+
+# On GitHub
+Click on “<> Code” in green on the desired repository page. 
+Click on SSH. 
+Copy the code in the box to use in your git clone command (see below).
+
+$ git clone git@github.com:AndrewsLabUCSF/CAIDE_APOE.git
+# Success!
+
+# Logging out and logging back into Wynton
+$ ssh <your wynton username>@log1.wynton.ucsf.edu
+$ ssh dev2 (or dev1, etc)
+
+# Open a connection to your authentication agent
+$ eval `ssh-agent -s'
+Agent pid (new number each time)
+
+# Add your key pair
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair
+$ ssh-add /wynton/group/andrews/users/<your wynton username>/.ssh/key_pair.pub
+$ ssh -T git@github.com
+Hi <GitHub username>! You've successfully authenticated, but GitHub does not provide shell access.
+
+# Push some previously committed files
+$ git push
+Success!
