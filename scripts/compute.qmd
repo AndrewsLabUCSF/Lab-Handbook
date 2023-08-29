@@ -17,6 +17,11 @@ I like to install Oh My Zsh on my local machine for autocomplete etc
 [File Transfers](https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html)
 
 
+[Wynton Bioinformatics Open Data Resource](https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/)
+
+`/wynton/group/databases`
+
+
 `ssh sjfandrews@log1.wynton.ucsf.edu`
 
 `/wynton/group/andrews`
