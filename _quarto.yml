@@ -15,6 +15,8 @@ book:
         - scripts/about.qmd
     - part: scripts/policies.qmd
       chapters:
+        - scripts/code_of_conduct.qmd
+        - scripts/communication.qmd
         - scripts/open_science.qmd 
         - scripts/compute.qmd
     - part: scripts/resources.qmd
@@ -22,6 +24,7 @@ book:
         - scripts/sap.qmd
         - scripts/directories.qmd
         - scripts/grants.qmd
+        - scripts/journal_club.qmd
         - scripts/reading_lists.qmd
  
 format:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AndrewsLab Handbook - 5&nbsp; Compute</title>
+<title>AndrewsLab Handbook - 9&nbsp; Journal Club</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../scripts/resources.html" rel="next">
-<link href="../scripts/open_science.html" rel="prev">
+<link href="../scripts/reading_lists.html" rel="next">
+<link href="../scripts/grants.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../scripts/policies.html">Lab Policies</a></li><li class="breadcrumb-item"><a href="../scripts/compute.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Compute</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../scripts/resources.html">Resources</a></li><li class="breadcrumb-item"><a href="../scripts/journal_club.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Journal Club</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/compute.html" class="sidebar-item-text sidebar-link active">
+  <a href="../scripts/compute.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Compute</span></span></a>
   </div>
 </li>
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/journal_club.html" class="sidebar-item-text sidebar-link">
+  <a href="../scripts/journal_club.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Journal Club</span></span></a>
   </div>
 </li>
@@ -206,31 +206,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#local-machine" id="toc-local-machine" class="nav-link active" data-scroll-target="#local-machine">Local Machine</a>
-  <ul class="collapse">
-  <li><a href="#oh-my-zsh" id="toc-oh-my-zsh" class="nav-link" data-scroll-target="#oh-my-zsh">Oh My Zsh</a></li>
-  </ul></li>
-  <li><a href="#high-performance-computing" id="toc-high-performance-computing" class="nav-link" data-scroll-target="#high-performance-computing">High Performance Computing</a>
-  <ul class="collapse">
-  <li><a href="#mamba" id="toc-mamba" class="nav-link" data-scroll-target="#mamba">Mamba</a></li>
-  <li><a href="#cookiecutter" id="toc-cookiecutter" class="nav-link" data-scroll-target="#cookiecutter">Cookiecutter</a></li>
-  <li><a href="#snakemake" id="toc-snakemake" class="nav-link" data-scroll-target="#snakemake">Snakemake</a></li>
-  <li><a href="#git-on-ucsf-hpc-server-wynton" id="toc-git-on-ucsf-hpc-server-wynton" class="nav-link" data-scroll-target="#git-on-ucsf-hpc-server-wynton">Git on UCSF HPC server Wynton</a></li>
-  </ul></li>
-  <li><a href="#check-your-location" id="toc-check-your-location" class="nav-link" data-scroll-target="#check-your-location"><span class="header-section-number">6</span> Check your location</a></li>
-  <li><a href="#you-cant-use-git-on-log1-so-switch-to-dev-node" id="toc-you-cant-use-git-on-log1-so-switch-to-dev-node" class="nav-link" data-scroll-target="#you-cant-use-git-on-log1-so-switch-to-dev-node"><span class="header-section-number">7</span> You can’t use git on log1, so switch to dev node</a></li>
-  <li><a href="#you-cant-use-git-clone-yet.-you-need-an-authorization-key." id="toc-you-cant-use-git-clone-yet.-you-need-an-authorization-key." class="nav-link" data-scroll-target="#you-cant-use-git-clone-yet.-you-need-an-authorization-key."><span class="header-section-number">8</span> You can’t use `git clone’ yet. You need an authorization key.</a></li>
-  <li><a href="#open-a-connection-to-your-authentication-agent" id="toc-open-a-connection-to-your-authentication-agent" class="nav-link" data-scroll-target="#open-a-connection-to-your-authentication-agent"><span class="header-section-number">9</span> Open a connection to your authentication agent</a></li>
-  <li><a href="#move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" id="toc-move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" class="nav-link" data-scroll-target="#move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh"><span class="header-section-number">10</span> Move your key_pair and key_pair.pub files into a new folder called “.ssh”</a></li>
-  <li><a href="#ssh-add-your-files-and-assign-the-necessary-permissions" id="toc-ssh-add-your-files-and-assign-the-necessary-permissions" class="nav-link" data-scroll-target="#ssh-add-your-files-and-assign-the-necessary-permissions"><span class="header-section-number">11</span> ssh-add your files and assign the necessary permissions</a></li>
-  <li><a href="#copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" id="toc-copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" class="nav-link" data-scroll-target="#copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below"><span class="header-section-number">12</span> Copy the contents of your key_pair.pub file to paste on GitHub (see below)</a></li>
-  <li><a href="#paste-the-contents-of-key_pair.pub-into-the-following-location" id="toc-paste-the-contents-of-key_pair.pub-into-the-following-location" class="nav-link" data-scroll-target="#paste-the-contents-of-key_pair.pub-into-the-following-location"><span class="header-section-number">13</span> Paste the contents of key_pair.pub into the following location:</a></li>
-  <li><a href="#check-your-location-1" id="toc-check-your-location-1" class="nav-link" data-scroll-target="#check-your-location-1"><span class="header-section-number">14</span> Check your location</a></li>
-  <li><a href="#on-github" id="toc-on-github" class="nav-link" data-scroll-target="#on-github"><span class="header-section-number">15</span> On GitHub</a></li>
-  <li><a href="#logging-out-and-logging-back-into-wynton" id="toc-logging-out-and-logging-back-into-wynton" class="nav-link" data-scroll-target="#logging-out-and-logging-back-into-wynton"><span class="header-section-number">16</span> Logging out and logging back into Wynton</a></li>
-  <li><a href="#open-a-connection-to-your-authentication-agent-1" id="toc-open-a-connection-to-your-authentication-agent-1" class="nav-link" data-scroll-target="#open-a-connection-to-your-authentication-agent-1"><span class="header-section-number">17</span> Open a connection to your authentication agent</a></li>
-  <li><a href="#add-your-key-pair" id="toc-add-your-key-pair" class="nav-link" data-scroll-target="#add-your-key-pair"><span class="header-section-number">18</span> Add your key pair</a></li>
-  <li><a href="#push-some-previously-committed-files" id="toc-push-some-previously-committed-files" class="nav-link" data-scroll-target="#push-some-previously-committed-files"><span class="header-section-number">19</span> Push some previously committed files</a></li>
+  <li><a href="#how-to-find-papers" id="toc-how-to-find-papers" class="nav-link active" data-scroll-target="#how-to-find-papers">How to find papers</a></li>
+  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure</a></li>
   </ul>
 </nav>
     </div>
@@ -239,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Compute</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Journal Club</span></h1>
 </div>
 
 
@@ -254,111 +231,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="local-machine" class="level2">
-<h2 class="anchored" data-anchor-id="local-machine">Local Machine</h2>
-<section id="oh-my-zsh" class="level3">
-<h3 class="anchored" data-anchor-id="oh-my-zsh">Oh My Zsh</h3>
-<p>I like to install Oh My Zsh on my local machine for autocomplete etc</p>
+<p>Journal clubs serve as a critical cornerstone in the ongoing education and professional development of researchers, clinicians, and students alike. They provide a structured yet collaborative environment for dissecting and discussing current research papers in depth. Not only do these sessions enhance critical thinking and appraisal skills, but they also keep participants abreast of the latest advancements and methodologies in their field. Furthermore, journal clubs foster a culture of collective learning and interdisciplinary dialogue, enabling the exchange of diverse perspectives and insights. This enriches the understanding of complex topics and often sparks innovative ideas for future research endeavors.</p>
+<section id="how-to-find-papers" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-find-papers">How to find papers</h2>
+<p>Shea has established an RSS feed to stay updated on newly published papers. Utilizing <a href="https://feedly.com/">Feedly</a>, he follows approximately 40 journals, receiving daily updates. Each morning, Shea skims through paper titles to identify articles of interest. He then reviews selected abstracts and fully reads a few of the more compelling papers. Additionally, he uses X (formerly Twitter) to discover papers that are being discussed or shared by other researchers in the field.</p>
+<p>Shea follows all the journals in which he has published, as they are presumably relevant to his research. He also keeps tabs on other high-impact journals in the field, as well as the Pre-print servers BioRxiv (Genetics) and MedRxiv (Genetic And Genomic Medicine).</p>
+<p>Some suggested journals are:</p>
 <ul>
-<li><a href="https://github.com/ohmyzsh/ohmyzsh">OhMyZsh</a>: Mange your zsh configuration</li>
-<li><a href="https://github.com/zsh-users/zsh-autosuggestions/">zsh-autosuggestions</a></li>
+<li>Nature</li>
+<li>Science</li>
+<li>Alzheimer’s &amp; Dementia</li>
+<li>JAMA Neurology</li>
+<li>Lancety Neurology</li>
+<li>Nature Genetics</li>
+<li>The American Journal of Human Genetics</li>
 </ul>
 </section>
-</section>
-<section id="high-performance-computing" class="level2">
-<h2 class="anchored" data-anchor-id="high-performance-computing">High Performance Computing</h2>
-<p><a href="https://wynton.ucsf.edu/hpc/get-started/access-cluster.html">Get Started with Wynton</a> <a href="https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html">Job Submission</a> <a href="https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html">File Transfers</a></p>
-<p><a href="https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/">Wynton Bioinformatics Open Data Resource</a></p>
-<p><code>/wynton/group/databases</code></p>
-<p><code>ssh sjfandrews@log1.wynton.ucsf.edu</code></p>
-<p><code>/wynton/group/andrews</code></p>
-<p><a href="https://code.sbamin.com/hpc/">Getting started with HPC</a></p>
-<section id="mamba" class="level3">
-<h3 class="anchored" data-anchor-id="mamba">Mamba</h3>
-<p>Conda and Mamba are tools that help you install and manage software packages and their dependencies, which are other packages that a software needs to function properly. They’re especially useful when different projects need different versions of the same software package. Conda, created by Anaconda, Inc., is well-known for its ability to create isolated spaces (called environments) for your projects, ensuring that the software packages of one project don’t interfere with those of another. Mamba is a faster version of Conda, doing the same job but more quickly. Both of them support many programming languages, making them versatile tools for managing software in your projects.</p>
-<p>Install <a href="https://github.com/conda-forge/miniforge#mambaforge">Mambaforge</a> in your home directory</p>
-</section>
-<section id="cookiecutter" class="level3">
-<h3 class="anchored" data-anchor-id="cookiecutter">Cookiecutter</h3>
-<p>A command-line utility that creates projects from cookiecutters (project templates), e.g.&nbsp;creating a Python package project from a Python package project template.</p>
-<p>Install <a href="https://cookiecutter.readthedocs.io/en/stable/installation.html">cookiecutter</a> using mamba</p>
-</section>
-<section id="snakemake" class="level3">
-<h3 class="anchored" data-anchor-id="snakemake">Snakemake</h3>
-<p>Snakemake is a versatile, Python-based workflow management system that enables the creation of reproducible and scalable data analyses. It operates on the principle of defining “rules” that explicitly state how to produce output files from input files. These rules, which can incorporate shell commands or scripts in any language, are written in a Snakefile. Snakemake takes care of determining the correct order of rule execution based on their dependencies. It also supports parallelization of jobs, making it suitable for high-throughput computations. Furthermore, Snakemake workflows are self-documenting, meaning they can serve as a record of your data analysis, enhancing reproducibility. It’s widely used in bioinformatics, but its application can extend to any field that involves pipeline-based data analysis.</p>
-<p>Install <a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#">Snakemake</a> using mamba</p>
-<p>Install <a href="https://github.com/snakemake-profiles/sge">sge</a> snakemake profile using cookiecutter</p>
-<pre><code># Print rulegraph 
-snakemake --rulegraph | dot -Tpdf &gt; images/dag.pdf
-
-# Install conda/singularity envs, dont run workflow
-snakemake --use-conda --conda-create-envs-only</code></pre>
-</section>
-<section id="git-on-ucsf-hpc-server-wynton" class="level3">
-<h3 class="anchored" data-anchor-id="git-on-ucsf-hpc-server-wynton">Git on UCSF HPC server Wynton</h3>
-<p>$ ssh <your wynton="" username=""><span class="citation" data-cites="log1.wynton.ucsf.edu">@log1.wynton.ucsf.edu</span></your></p>
-<p>$ cd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-</section>
-<section id="check-your-location" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Check your location</h1>
-<p>$ pwd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-<section id="you-cant-use-git-on-log1-so-switch-to-dev-node" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> You can’t use git on log1, so switch to dev node</h1>
-<p>$ ssh dev2</p>
-</section>
-<section id="you-cant-use-git-clone-yet.-you-need-an-authorization-key." class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> You can’t use `git clone’ yet. You need an authorization key.</h1>
-<p>$ git clone https://github.com/AndrewsLabUCSF/CAIDE_APOE failure</p>
-<p>$ ssh-keygen -t ed25519 -C <your email="" address="" associated="" with="" github=""> Generating public/private ed25519 key pair. Enter file in which to save the key: (You don’t need to create this file “key_pair” beforehand)</your></p>
-<p>$ /wynton/group/andrews/users/<your wynton="" username="">/key_pair Enter passphrase (empty for no passphrase): (optional; You can just hit return) Enter same passphrase again: (optional; You can just hit return) Your identification has been saved in /wynton/group/andrews/users/<your wynton="" username="">/key_pair. Your public key has been saved in /wynton/group/andrews/users/<your wynton="" username="">/key_pair.pub. The key fingerprint is: <your key="" fingerprint=""> <your email="" address="" associated="" with="" github=""></your></your></your></your></your></p>
-</section>
-<section id="open-a-connection-to-your-authentication-agent" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> Open a connection to your authentication agent</h1>
-<p>$ eval `ssh-agent -s’ Agent pid (new number each time)</p>
-</section>
-<section id="move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> Move your key_pair and key_pair.pub files into a new folder called “.ssh”</h1>
-<p>$ mkdir .ssh $ mv key_pair .ssh $ mv key_pair.pub .ssh</p>
-</section>
-<section id="ssh-add-your-files-and-assign-the-necessary-permissions" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> ssh-add your files and assign the necessary permissions</h1>
-<p>$ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair $ chmod 600 /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub $ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub</your></your></your></p>
-</section>
-<section id="copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" class="level1" data-number="12">
-<h1 data-number="12"><span class="header-section-number">12</span> Copy the contents of your key_pair.pub file to paste on GitHub (see below)</h1>
-<p>$ cat /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub <your key=""> <your email="" address="" associated="" with="" github=""></your></your></your></p>
-</section>
-<section id="paste-the-contents-of-key_pair.pub-into-the-following-location" class="level1" data-number="13">
-<h1 data-number="13"><span class="header-section-number">13</span> Paste the contents of key_pair.pub into the following location:</h1>
-<p>Log onto GitHub and click on your personal account, then click on “settings”. Click on “SSH and GPG keys”. Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.</p>
-<p>$ ssh -T git@github.com . . . Are you sure you want to continue connecting (yes/no)? $ yes</p>
-</section>
-<section id="check-your-location-1" class="level1" data-number="14">
-<h1 data-number="14"><span class="header-section-number">14</span> Check your location</h1>
-<p>$ pwd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-<section id="on-github" class="level1" data-number="15">
-<h1 data-number="15"><span class="header-section-number">15</span> On GitHub</h1>
-<p>Click on “&lt;&gt; Code” in green on the desired repository page. Click on SSH. Copy the code in the box to use in your git clone command (see below).</p>
-<p>$ git clone git@github.com:AndrewsLabUCSF/CAIDE_APOE.git # Success!</p>
-</section>
-<section id="logging-out-and-logging-back-into-wynton" class="level1" data-number="16">
-<h1 data-number="16"><span class="header-section-number">16</span> Logging out and logging back into Wynton</h1>
-<p>$ ssh <your wynton="" username=""><span class="citation" data-cites="log1.wynton.ucsf.edu">@log1.wynton.ucsf.edu</span> $ ssh dev2 (or dev1, etc)</your></p>
-</section>
-<section id="open-a-connection-to-your-authentication-agent-1" class="level1" data-number="17">
-<h1 data-number="17"><span class="header-section-number">17</span> Open a connection to your authentication agent</h1>
-<p>$ eval `ssh-agent -s’ Agent pid (new number each time)</p>
-</section>
-<section id="add-your-key-pair" class="level1" data-number="18">
-<h1 data-number="18"><span class="header-section-number">18</span> Add your key pair</h1>
-<p>$ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair $ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub $ ssh -T git@github.com Hi <github username="">! You’ve successfully authenticated, but GitHub does not provide shell access.</github></your></your></p>
-</section>
-<section id="push-some-previously-committed-files" class="level1" data-number="19">
-<h1 data-number="19"><span class="header-section-number">19</span> Push some previously committed files</h1>
-<p>$ git push Success!</p>
+<section id="structure" class="level2">
+<h2 class="anchored" data-anchor-id="structure">Structure</h2>
+<p>This is a suggested structure for Journal Club presentations. Presenters should aim for a presentation length of about 30 minutes, followed by a discussion period.</p>
+<p><strong>The Introduction:</strong> Start the presentation by introducting the paper, authors, and affiliations. Share what specifically attracted you to this paper. Was it the topic, the methodology, or something else? Briefly mention why this paper is important to the lab’s work or the field in general.</p>
+<p><strong>The Problem:</strong> This section should clearly state the problem or the project that the research is addressing. It should be concise and to the point, providing enough context for the reader to understand the importance of the research. This section often includes a brief overview of the current state of knowledge or research in the field.</p>
+<p><strong>The Methods:</strong> Summarize the main methods and research techniques that are relevant to the results being presented. Briefly mention where the data comes from, if relevant.</p>
+<p><strong>The Results:</strong> This section should detail the main findings or observations of the research. It should explain what was discovered or observed and how it was done. This section often includes specific details about the methods used in the research.</p>
+<p><strong>Critical analysis:</strong> Discuss what the paper does well. This could be anything from innovative methods to significant findings. Point out areas where the paper falls short. This could be limitations in the study design, data collection, or interpretation of results. Evaluate the validity of the results and the soundness of the methodology. Are the conclusions supported by the data?</p>
+<p><strong>The Implications:</strong> This section should discuss the implications of the research findings. It should explain how the findings contribute to the field and what they mean for future research. This section often includes speculation or predictions about future developments in the field based on the research findings.</p>
 
 
 </section>
@@ -599,13 +496,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../scripts/open_science.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Open Science</span></span>
+      <a href="../scripts/grants.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Grants</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../scripts/resources.html" class="pagination-link">
-        <span class="nav-page-text">Resources</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../scripts/reading_lists.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Reading List</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

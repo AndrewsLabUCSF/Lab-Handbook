@@ -1,0 +1,37 @@
+# Communication 
+
+Our primary means of communiction is Slack, but we also talk with outside collaborators via email, zoom, and social media. 
+
+## Internal Communication
+We use Slack as our primary means of communication within the lab. If you plan on sending an e-mail to someone within the lab, try a slack message instead. **You'll find that almost all messages you write on Slack should be in a channel, and not in a Direct Message.** This is because Slack's value is in its search functions: they make it easy to find messages about a particular project long after they have been posted. This only works well if messages are grouped in the right channels; we can't search each other's direct messages. 
+
+:::{.callout-important}
+Direct messages should only be used for confidential conversations (like advising discussions with Shea) or for incidental messages that nobody else needs to read (like "are we meeting now?").
+:::
+
+### How and where to post
+Every project has its own channel (like #mendelian-randomization). Some of these channels will be large due to it covering multiple subprojects peopel are working one, as these start to become unweildy we will make channel-children. 
+
+In additional to project-specific channles, we have a varity of channels for oganizational purposes. 
+
+`#general` is where we share various thoughts and ideas across the lab that are not specific to a given channel and lab-wide anncouncements. 
+
+`#journal-club` is for posting interesting papers that you have come across. 
+
+`#lab-meeting` is for organizing lab meetings, posting agendas, or meeting minutes. 
+
+`#wynton` is for discussing using wynton and computational resources. 
+
+`#check-in` is where, each work day, we post a quick overview of what we plan on working on for the day.
+
+#### check-in
+The daily check-in serves to keep all lab members informed about ongoing work, facilitate collaboration, and help individuals manage their time effectively. All full-time lab members are required to post a brief summary of their daily work plans. This can be done either at the beginning or end of the workday. If posting in the morning, please address **"What did you accomplish yesterday, and what are you planning to work on today?".** If posting in the evening, the focus should be on **"What did you accomplish today, and what are your goals for tomorrow?".** For part-time lab members, please post a check-in only on the days you are actively working on Andrews Lab projects. Lab members are encouraged to review each other's check-ins to offer help, resources, or collaboration where applicable.
+
+
+There is no need to provide a check-in if you are not working on a particular day due to a holiday, vacation, or other reasons. 
+
+
+#### journal-club
+In an effort to foster a culture of continuous learning and to keep the team updated on the latest scientific developments, all full-time lab members are required to actively participate in our Slack channel, `#journal-club`. Each full-time lab member must post at least once a week - but more often is better! - sharing a scientific paper they find interesting and is relevent to the lab lab's research focus or broader scientific community. Please also include a link to the paper and a brief statement (2-3 sentences) on why you think it is interesting or relevent. Lab members are encouraged to read the shared papers and engage in discussions, either by asking questions, providing insights, or sharing related work. 
+
+See Journal Club for some suggestions on how to develop a habbit of keeping up with the litrature. 
