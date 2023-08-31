@@ -45,7 +45,7 @@ Install [Snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/i
 Install [sge](https://github.com/snakemake-profiles/sge) snakemake profile using cookiecutter
 
 
-Installing Mamba and Snakemake (Detailed Instructions):
+### Installing Mamba and Snakemake (Detailed Instructions):
 
 Log into your wynton account and switch to a development node: 
 
