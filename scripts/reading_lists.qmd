@@ -15,7 +15,7 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 ### What is AD 
 - Knopman, D. S. et al. Alzheimer disease. Nat Rev Dis Primers 7, 33 (2021).
 - Alzheimer's Association. 2023 Alzheimer’s disease facts and figures. Alzheimer’s Dementia (2023) doi:10.1002/alz.13016.
-- Sirkis, D. W., Bonham, L. W., Johnson, T. P., Joie, R. L. & Yokoyama, J. S. Dissecting the clinical heterogeneity of early-onset Alzheimer’s disease. Mol Psychiatr 27, 2674–2688 (2022).
+- Sirkis, D. W., et al. Dissecting the clinical heterogeneity of early-onset Alzheimer’s disease. Mol Psychiatr 27, 2674–2688 (2022).
 - Frisoni, G. B. et al. The probabilistic model of Alzheimer disease: the amyloid hypothesis revised. Nat Rev Neurosci 23, 53–66 (2022).
 
 ### Health Disparities   
@@ -36,23 +36,46 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
   
 
 ### Dementia risk scores  
-
+- Anstey, K. J. et al. Dementia Risk Scores and Their Role in the Implementation of Risk Reduction Guidelines. Front Neurol 12, 765454 (2022).
+- Huque, M. H. et al. CogDrisk, ANU-ADRI, CAIDE, and LIBRA Risk Scores for Estimating Dementia Risk. JAMA Netw. Open 6, e2331460 (2023).
+- Walsh, S. et al. What would a population‐level approach to dementia risk reduction look like, and how would it work? Alzheimer’s Dement. 19, 3203–3209 (2023).
 
 ## Genetic Epidemiology
 ### Genome-wide association studies 
-### Polygenic risk scores 
-### Mendelian randomization 
-### Genetic correlations 
-### Heritability 
+- Uffelmann, E. et al. Genome-wide association studies. Nat Rev Methods Primers 1, 59 (2021).
+- Marees, A. T. et al. A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis. Int J Method Psych 27, e1608 (2018).
+- Balagué-Dobón, L., Cáceres, A. & González, J. R. Fully exploiting SNP arrays: a systematic review on the tools to extract underlying genomic structure. Brief Bioinform 23, bbac043 (2022).
+- Abdellaoui, A., Yengo, L., Verweij, K. J. H. & Visscher, P. M. 15 years of GWAS discovery: Realizing the promise. Am J Hum Genetics (2023) doi:10.1016/j.ajhg.2022.12.011.  
+- Brandes, N., Weissbrod, O. & Linial, M. Open problems in human trait genetics. Genome Biol 23, 131 (2022).
+  
 
-## Genetic ancestry 
+### Polygenic risk scores 
+- Choi, S. W., Mak, T. S.-H. & O’Reilly, P. F. Tutorial: a guide to performing polygenic risk score analyses. Nat Protoc 15, 2759–2772 (2020).
+- Kachuri, L. et al. Principles and methods for transferring polygenic risk scores across global populations. Nat. Rev. Genet. 1–18 (2023) doi:10.1038/s41576-023-00637-2.
+- Ding, Y. et al. Polygenic scoring accuracy varies across the genetic ancestry continuum. Nature 1–8 (2023) doi:10.1038/s41586-023-06079-4.
+- Moorthie et al. Evaluation of polygenic score applications. [PHG Foundation (2023)](https://www.phgfoundation.org/report/evaluation-of-polygenic-score-applications)
+
+### Mendelian randomization 
+- Sanderson, E. et al. Mendelian randomization. Nat Rev Methods Primers 2, 6 (2022).
+  
+### Genetic correlations 
+- Rheenen, W. van, Peyrot, W. J., Schork, A. J., Lee, S. H. & Wray, N. R. Genetic correlations of polygenic disease traits: from theory to practice. Nat Rev Genetics 20, 567–581 (2019).
+
+### Heritability 
+- Barry, C.-J. S. et al. How to estimate heritability: a guide for genetic epidemiologists. Int J Epidemiol (2022) doi:10.1093/ije/dyac224.
+  
+### Genetic ancestry 
 - National Academies of Sciences, Engineering, and Medicine. 2023. Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field. Washington, DC: The National Academies Press. https://doi.org/10.17226/26902.
+- Lewis, A. C. F. et al. Getting genetic ancestry right for science and society. Science 376, 250–252 (2022).
+- Rebbeck, T. R., Mahal, B., Maxwell, K. N., Garraway, I. P. & Yamoah, K. The distinct impacts of race and genetic ancestry on health. Nat Med 28, 890–893 (2022).
+- Fatumo, S. et al. A roadmap to increase diversity in genomic studies. Nat Med 28, 243–250 (2022).
+      
 
 ## Bioinformatics 
 ### Reproducibility 
 - Rodrigues, Bruno. Building reproducible analytical pipelines with R. 2023
 - Mölder, F. et al. Sustainable data analysis with Snakemake. F1000research 10, 33 (2021).
-- Jackson, M., Kavoussanakis, K. & Wallace, E. W. J. Using prototyping to choose a bioinformatics workflow management system. Plos Comput Biol 17, e1008622 (2021).
+- Ziemann, Poulain, and Bora. The five pillars of computational reproducibility: Bioinformatics and beyond. [OSF (2023)](https://osf.io/4pd9n/)
 
 ## Writing & communication
 ### How to write a paper 
