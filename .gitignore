@@ -46,3 +46,5 @@ po/*~
 rsconnect/
 
 /.quarto/
+.DS_Store
+scripts/.DS_Store

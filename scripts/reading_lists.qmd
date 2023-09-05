@@ -57,7 +57,8 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 
 ### Mendelian randomization 
 - Sanderson, E. et al. Mendelian randomization. Nat Rev Methods Primers 2, 6 (2022).
-  
+- Davies, N. M., Holmes, M. V. & Smith, G. D. Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians. Bmj 362, k601 (2017).
+    
 ### Genetic correlations 
 - Rheenen, W. van, Peyrot, W. J., Schork, A. J., Lee, S. H. & Wray, N. R. Genetic correlations of polygenic disease traits: from theory to practice. Nat Rev Genetics 20, 567–581 (2019).
 
