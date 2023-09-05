@@ -215,22 +215,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#mamba" id="toc-mamba" class="nav-link" data-scroll-target="#mamba">Mamba</a></li>
   <li><a href="#cookiecutter" id="toc-cookiecutter" class="nav-link" data-scroll-target="#cookiecutter">Cookiecutter</a></li>
   <li><a href="#snakemake" id="toc-snakemake" class="nav-link" data-scroll-target="#snakemake">Snakemake</a></li>
-  <li><a href="#git-on-ucsf-hpc-server-wynton" id="toc-git-on-ucsf-hpc-server-wynton" class="nav-link" data-scroll-target="#git-on-ucsf-hpc-server-wynton">Git on UCSF HPC server Wynton</a></li>
+  <li><a href="#installing-mamba-and-snakemake-detailed-instructions" id="toc-installing-mamba-and-snakemake-detailed-instructions" class="nav-link" data-scroll-target="#installing-mamba-and-snakemake-detailed-instructions">Installing Mamba and Snakemake (Detailed Instructions):</a></li>
+  <li><a href="#git-and-git-clone-on-ucsf-hpc-server-wynton" id="toc-git-and-git-clone-on-ucsf-hpc-server-wynton" class="nav-link" data-scroll-target="#git-and-git-clone-on-ucsf-hpc-server-wynton">Git (and Git Clone) on UCSF HPC Server Wynton</a></li>
   </ul></li>
-  <li><a href="#check-your-location" id="toc-check-your-location" class="nav-link" data-scroll-target="#check-your-location"><span class="header-section-number">6</span> Check your location</a></li>
-  <li><a href="#you-cant-use-git-on-log1-so-switch-to-dev-node" id="toc-you-cant-use-git-on-log1-so-switch-to-dev-node" class="nav-link" data-scroll-target="#you-cant-use-git-on-log1-so-switch-to-dev-node"><span class="header-section-number">7</span> You can’t use git on log1, so switch to dev node</a></li>
-  <li><a href="#you-cant-use-git-clone-yet.-you-need-an-authorization-key." id="toc-you-cant-use-git-clone-yet.-you-need-an-authorization-key." class="nav-link" data-scroll-target="#you-cant-use-git-clone-yet.-you-need-an-authorization-key."><span class="header-section-number">8</span> You can’t use `git clone’ yet. You need an authorization key.</a></li>
-  <li><a href="#open-a-connection-to-your-authentication-agent" id="toc-open-a-connection-to-your-authentication-agent" class="nav-link" data-scroll-target="#open-a-connection-to-your-authentication-agent"><span class="header-section-number">9</span> Open a connection to your authentication agent</a></li>
-  <li><a href="#move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" id="toc-move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" class="nav-link" data-scroll-target="#move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh"><span class="header-section-number">10</span> Move your key_pair and key_pair.pub files into a new folder called “.ssh”</a></li>
-  <li><a href="#ssh-add-your-files-and-assign-the-necessary-permissions" id="toc-ssh-add-your-files-and-assign-the-necessary-permissions" class="nav-link" data-scroll-target="#ssh-add-your-files-and-assign-the-necessary-permissions"><span class="header-section-number">11</span> ssh-add your files and assign the necessary permissions</a></li>
-  <li><a href="#copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" id="toc-copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" class="nav-link" data-scroll-target="#copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below"><span class="header-section-number">12</span> Copy the contents of your key_pair.pub file to paste on GitHub (see below)</a></li>
-  <li><a href="#paste-the-contents-of-key_pair.pub-into-the-following-location" id="toc-paste-the-contents-of-key_pair.pub-into-the-following-location" class="nav-link" data-scroll-target="#paste-the-contents-of-key_pair.pub-into-the-following-location"><span class="header-section-number">13</span> Paste the contents of key_pair.pub into the following location:</a></li>
-  <li><a href="#check-your-location-1" id="toc-check-your-location-1" class="nav-link" data-scroll-target="#check-your-location-1"><span class="header-section-number">14</span> Check your location</a></li>
-  <li><a href="#on-github" id="toc-on-github" class="nav-link" data-scroll-target="#on-github"><span class="header-section-number">15</span> On GitHub</a></li>
-  <li><a href="#logging-out-and-logging-back-into-wynton" id="toc-logging-out-and-logging-back-into-wynton" class="nav-link" data-scroll-target="#logging-out-and-logging-back-into-wynton"><span class="header-section-number">16</span> Logging out and logging back into Wynton</a></li>
-  <li><a href="#open-a-connection-to-your-authentication-agent-1" id="toc-open-a-connection-to-your-authentication-agent-1" class="nav-link" data-scroll-target="#open-a-connection-to-your-authentication-agent-1"><span class="header-section-number">17</span> Open a connection to your authentication agent</a></li>
-  <li><a href="#add-your-key-pair" id="toc-add-your-key-pair" class="nav-link" data-scroll-target="#add-your-key-pair"><span class="header-section-number">18</span> Add your key pair</a></li>
-  <li><a href="#push-some-previously-committed-files" id="toc-push-some-previously-committed-files" class="nav-link" data-scroll-target="#push-some-previously-committed-files"><span class="header-section-number">19</span> Push some previously committed files</a></li>
+  <li><a href="#add-your-key-pair" id="toc-add-your-key-pair" class="nav-link" data-scroll-target="#add-your-key-pair"><span class="header-section-number">6</span> Add your key pair:</a></li>
   </ul>
 </nav>
     </div>
@@ -288,77 +276,110 @@ ul.task-list li input[type="checkbox"] {
 <p>Snakemake is a versatile, Python-based workflow management system that enables the creation of reproducible and scalable data analyses. It operates on the principle of defining “rules” that explicitly state how to produce output files from input files. These rules, which can incorporate shell commands or scripts in any language, are written in a Snakefile. Snakemake takes care of determining the correct order of rule execution based on their dependencies. It also supports parallelization of jobs, making it suitable for high-throughput computations. Furthermore, Snakemake workflows are self-documenting, meaning they can serve as a record of your data analysis, enhancing reproducibility. It’s widely used in bioinformatics, but its application can extend to any field that involves pipeline-based data analysis.</p>
 <p>Install <a href="https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#">Snakemake</a> using mamba</p>
 <p>Install <a href="https://github.com/snakemake-profiles/sge">sge</a> snakemake profile using cookiecutter</p>
+</section>
+<section id="installing-mamba-and-snakemake-detailed-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="installing-mamba-and-snakemake-detailed-instructions">Installing Mamba and Snakemake (Detailed Instructions):</h3>
+<p>Log into your wynton account and switch to a development node:</p>
+<p>$ ssh username@wynton.ucsf.edu</p>
+<p>$ ssh dev2 (because you can’t use “git” on log1)</p>
+<p>In your web browser:</p>
+<p>Go to: https://github.com/conda-forge/miniforge#mambaforge to find “Mambaforge.”</p>
+<p>Then find “Linux” under OS, then “x86_64 (amd64)” under Architecture, then “Mambaforge-Linux-x86_64” under Download. Right-click on the “Mambaforge-Linux-x86_64” link (copying the link).</p>
+<p>In your Wynton terminal:</p>
+<p>$ wget paste_the_mamba_link_here (So, your command looks like: “wget http://etc”)</p>
+<p>$ bash Mambaforge-Linux-x86_64.sh (make sure that you have this “Mambaforge” file by typing “ls” and seeing the file.)</p>
+<p>Then, accept the license terms when wynton asks you. Confirm the location when wynton asks you. Initialize Mambaforge when wynton asks you.</p>
+<p>Mambaforge should now be installed:</p>
+<p>You should get the following message:</p>
+<p>“Thank you for installing Mambaforge!”</p>
+<p>Log out of wynton (write “logout”) and log back in for the changes to take effect: Log first into log1 and then dev2 (or dev1).</p>
+<p>Next, do a full installation of Snakemake:</p>
+<p>In your web browser:</p>
+<p>Go to: https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#</p>
+<p>Find the “Full installation” instructions. (The Wynton commands are “conda activate base”, then “mamba create -c conda-forge -c bioconda -n snakemake snakemake”, then “conda activate snakemake”.)</p>
+<p>Confirm the changes when wynton asks.</p>
+<p>In your web browser:</p>
+<p>Go to: https://github.com/AndrewsLabUCSF/sge-wynton and type the wynton command line instructions:</p>
+<p>$ mkdir -p ~/.config/snakemake</p>
+<p>$ cd ~/.config/snakemake</p>
+<p>The final wynton command line,</p>
+<p>$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git (may fail)</p>
+<p>If it fails, follow the instructions in the lab handbook, “Git on the UCSF HPC Server Wynton” in the “Compute” section of the lab handbook to get git clone to work properly.</p>
+<p>Note: If you already have the key_pair file, overwrite it when wynton asks you.</p>
 <pre><code># Print rulegraph 
 snakemake --rulegraph | dot -Tpdf &gt; images/dag.pdf
 
 # Install conda/singularity envs, dont run workflow
 snakemake --use-conda --conda-create-envs-only</code></pre>
 </section>
-<section id="git-on-ucsf-hpc-server-wynton" class="level3">
-<h3 class="anchored" data-anchor-id="git-on-ucsf-hpc-server-wynton">Git on UCSF HPC server Wynton</h3>
-<p>$ ssh <your wynton="" username=""><span class="citation" data-cites="log1.wynton.ucsf.edu">@log1.wynton.ucsf.edu</span></your></p>
-<p>$ cd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-</section>
-<section id="check-your-location" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Check your location</h1>
-<p>$ pwd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-<section id="you-cant-use-git-on-log1-so-switch-to-dev-node" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> You can’t use git on log1, so switch to dev node</h1>
+<section id="git-and-git-clone-on-ucsf-hpc-server-wynton" class="level3">
+<h3 class="anchored" data-anchor-id="git-and-git-clone-on-ucsf-hpc-server-wynton">Git (and Git Clone) on UCSF HPC Server Wynton</h3>
+<p>On Wynton (open a terminal):</p>
+<p>$ ssh your_wynton_username@log1.wynton.ucsf.edu</p>
+<p>You can’t use git on log1, so switch to a development node:</p>
 <p>$ ssh dev2</p>
+<p>You can’t use `git clone’ yet (You need an authorization key):</p>
+<p>$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git</p>
+<p>failure</p>
+<p>Generate public/private (ed25519) key pair:</p>
+<p>$ ssh-keygen -t ed25519 -C your_email_address_assoc_with_GitHub</p>
+<p>Enter the filename in which to save the key:</p>
+<p>$ key_pair</p>
+<p>Enter passphrase (empty for no passphrase):</p>
+<p>(optional; You can just hit return)</p>
+<p>Enter same passphrase again:</p>
+<p>(optional; You can just hit return)</p>
+<p>Your identification has been saved in key_pair. Your public key has been saved in key_pair.pub. The key fingerprint is:</p>
+<p>Your_key_fingerprint your_email_address_assoc_with_GitHub</p>
+<p>Type “ls -la” to check that your key_pair and key_pair.pub exist.</p>
+<p>Open a connection to your authentication agent:</p>
+<p>$ eval $(ssh-agent)</p>
+<p>Agent pid (new number each time)</p>
+<p>Move your key_pair and key_pair.pub files into a new folder called “.ssh”:</p>
+<p>$ mkdir .ssh (if .ssh doesn’t yet exist)</p>
+<p>$ mv key_pair .ssh</p>
+<p>$ mv key_pair.pub .ssh</p>
+<p>SSH-ADD your files and assign the necessary permissions:</p>
+<p>$ ssh-add .ssh/key_pair</p>
+<p>$ chmod 600 .ssh/key_pair.pub</p>
+<p>$ ssh-add .ssh/key_pair.pub</p>
+<p>Copy the contents of your key_pair.pub file to paste in GitHub (This command gives the file’s contents):</p>
+<p>$ cat .ssh/key_pair.pub</p>
+<p>Your_key your_email_address_assoc_with_GitHub</p>
+<p>Paste the contents of key_pair.pub into the following location:</p>
+<p>Log onto GitHub and click on your personal account, then click on “settings”.</p>
+<p>Click on “SSH and GPG keys”.</p>
+<p>Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”.</p>
+<p>Save this key, after giving a title.</p>
+<p>Prepare for “git” and “git clone”:</p>
+<p>$ ssh -T git@github.com</p>
+<p>(You may get this message: . . . Are you sure you want to continue connecting (yes/no)?):</p>
+<p>$ yes</p>
+<p>On GitHub:</p>
+<p>Click on “&lt;&gt; Code” in green on the desired repository page.</p>
+<p>Click on SSH.</p>
+<p>Copy the code in the box to use in your git clone command (see below) - use the SSH code.</p>
+<p>On Wynton:</p>
+<p>$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git</p>
+<p>Success!</p>
+<p>Logging out and logging back into Wynton:</p>
+<p>$ ssh your_wynton_username@log1.wynton.ucsf.edu</p>
+<p>$ ssh dev2 (or dev1, etc)</p>
+<p>Open a connection to your authentication agent:</p>
+<p>$ eval $(ssh-agent)</p>
+<p>Agent pid (new number each time)</p>
 </section>
-<section id="you-cant-use-git-clone-yet.-you-need-an-authorization-key." class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> You can’t use `git clone’ yet. You need an authorization key.</h1>
-<p>$ git clone https://github.com/AndrewsLabUCSF/CAIDE_APOE failure</p>
-<p>$ ssh-keygen -t ed25519 -C <your email="" address="" associated="" with="" github=""> Generating public/private ed25519 key pair. Enter file in which to save the key: (You don’t need to create this file “key_pair” beforehand)</your></p>
-<p>$ /wynton/group/andrews/users/<your wynton="" username="">/key_pair Enter passphrase (empty for no passphrase): (optional; You can just hit return) Enter same passphrase again: (optional; You can just hit return) Your identification has been saved in /wynton/group/andrews/users/<your wynton="" username="">/key_pair. Your public key has been saved in /wynton/group/andrews/users/<your wynton="" username="">/key_pair.pub. The key fingerprint is: <your key="" fingerprint=""> <your email="" address="" associated="" with="" github=""></your></your></your></your></your></p>
 </section>
-<section id="open-a-connection-to-your-authentication-agent" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> Open a connection to your authentication agent</h1>
-<p>$ eval `ssh-agent -s’ Agent pid (new number each time)</p>
-</section>
-<section id="move-your-key_pair-and-key_pair.pub-files-into-a-new-folder-called-.ssh" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> Move your key_pair and key_pair.pub files into a new folder called “.ssh”</h1>
-<p>$ mkdir .ssh $ mv key_pair .ssh $ mv key_pair.pub .ssh</p>
-</section>
-<section id="ssh-add-your-files-and-assign-the-necessary-permissions" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> ssh-add your files and assign the necessary permissions</h1>
-<p>$ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair $ chmod 600 /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub $ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub</your></your></your></p>
-</section>
-<section id="copy-the-contents-of-your-key_pair.pub-file-to-paste-on-github-see-below" class="level1" data-number="12">
-<h1 data-number="12"><span class="header-section-number">12</span> Copy the contents of your key_pair.pub file to paste on GitHub (see below)</h1>
-<p>$ cat /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub <your key=""> <your email="" address="" associated="" with="" github=""></your></your></your></p>
-</section>
-<section id="paste-the-contents-of-key_pair.pub-into-the-following-location" class="level1" data-number="13">
-<h1 data-number="13"><span class="header-section-number">13</span> Paste the contents of key_pair.pub into the following location:</h1>
-<p>Log onto GitHub and click on your personal account, then click on “settings”. Click on “SSH and GPG keys”. Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. Save this key.</p>
-<p>$ ssh -T git@github.com . . . Are you sure you want to continue connecting (yes/no)? $ yes</p>
-</section>
-<section id="check-your-location-1" class="level1" data-number="14">
-<h1 data-number="14"><span class="header-section-number">14</span> Check your location</h1>
-<p>$ pwd /wynton/group/andrews/users/<your wynton="" username=""></your></p>
-</section>
-<section id="on-github" class="level1" data-number="15">
-<h1 data-number="15"><span class="header-section-number">15</span> On GitHub</h1>
-<p>Click on “&lt;&gt; Code” in green on the desired repository page. Click on SSH. Copy the code in the box to use in your git clone command (see below).</p>
-<p>$ git clone git@github.com:AndrewsLabUCSF/CAIDE_APOE.git # Success!</p>
-</section>
-<section id="logging-out-and-logging-back-into-wynton" class="level1" data-number="16">
-<h1 data-number="16"><span class="header-section-number">16</span> Logging out and logging back into Wynton</h1>
-<p>$ ssh <your wynton="" username=""><span class="citation" data-cites="log1.wynton.ucsf.edu">@log1.wynton.ucsf.edu</span> $ ssh dev2 (or dev1, etc)</your></p>
-</section>
-<section id="open-a-connection-to-your-authentication-agent-1" class="level1" data-number="17">
-<h1 data-number="17"><span class="header-section-number">17</span> Open a connection to your authentication agent</h1>
-<p>$ eval `ssh-agent -s’ Agent pid (new number each time)</p>
-</section>
-<section id="add-your-key-pair" class="level1" data-number="18">
-<h1 data-number="18"><span class="header-section-number">18</span> Add your key pair</h1>
-<p>$ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair $ ssh-add /wynton/group/andrews/users/<your wynton="" username="">/.ssh/key_pair.pub $ ssh -T git@github.com Hi <github username="">! You’ve successfully authenticated, but GitHub does not provide shell access.</github></your></your></p>
-</section>
-<section id="push-some-previously-committed-files" class="level1" data-number="19">
-<h1 data-number="19"><span class="header-section-number">19</span> Push some previously committed files</h1>
-<p>$ git push Success!</p>
+<section id="add-your-key-pair" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Add your key pair:</h1>
+<p>$ ssh-add .ssh/key_pair</p>
+<p>$ ssh-add .ssh/key_pair.pub</p>
+<p>Prepare for ‘git’ and ‘git clone’ on Wynton:</p>
+<p>$ ssh -T git@github.com</p>
+<p>Hi GitHub_username! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
+<p>Push some previously committed files:</p>
+<p>$ git push etc</p>
+<p>Success!</p>
 
 
 </section>
