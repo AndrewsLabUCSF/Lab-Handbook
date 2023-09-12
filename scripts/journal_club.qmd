@@ -4,6 +4,8 @@ Journal clubs serve as a critical cornerstone in the ongoing education and profe
 ## How to find papers
 Shea has established an RSS feed to stay updated on newly published papers. Utilizing [Feedly](https://feedly.com/), he follows approximately 40 journals, receiving daily updates. Each morning, Shea skims through paper titles to identify articles of interest. He then reviews selected abstracts and fully reads a few of the more compelling papers. Additionally, he uses  X (formerly Twitter) to discover papers that are being discussed or shared by other researchers in the field.
 
+![Shea Feedly ](../images/feedly.png)
+
 Shea follows all the journals in which he has published, as they are presumably relevant to his research. He also keeps tabs on other high-impact journals in the field, as well as the Pre-print servers BioRxiv (Genetics) and MedRxiv (Genetic And Genomic Medicine).
 
 Some suggested journals are: 
@@ -12,7 +14,7 @@ Some suggested journals are:
 - Science 
 - Alzheimer's & Dementia
 - JAMA Neurology 
-- Lancety Neurology 
+- Lancet Neurology 
 - Nature Genetics 
 - The American Journal of Human Genetics
 

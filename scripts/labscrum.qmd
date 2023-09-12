@@ -1,0 +1,9 @@
+# LabScrum 
+
+![LabScrum](../images/LabScrum.png)
+
+## References 
+1. May. 2019. [LabScrum Guide](https://labscrum.org/labscrum-guide)
+2. Pirro. 2019. [How agile project management can work for your research](https://www.nature.com/articles/d41586-019-01184-9). Nature. 
+3. Adam. 2019. [A project-management tool from the tech industry could benefit your lab](https://www.nature.com/articles/d41586-019-02620-6)
+4. Brauer. 2021. ["I'll Finish It This Week" And Other Lies](https://arxiv.org/abs/2103.16574). arxiv.
