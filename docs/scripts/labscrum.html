@@ -212,7 +212,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  <li><a href="#labscrum-sprint-cycle" id="toc-labscrum-sprint-cycle" class="nav-link active" data-scroll-target="#labscrum-sprint-cycle">LabScrum sprint cycle</a>
+  <ul class="collapse">
+  <li><a href="#sprint-planning" id="toc-sprint-planning" class="nav-link" data-scroll-target="#sprint-planning">Sprint Planning</a></li>
+  <li><a href="#scrum-meetings" id="toc-scrum-meetings" class="nav-link" data-scroll-target="#scrum-meetings">Scrum meetings</a></li>
+  <li><a href="#sprint-review" id="toc-sprint-review" class="nav-link" data-scroll-target="#sprint-review">Sprint Review</a></li>
+  <li><a href="#sprint-retrospective" id="toc-sprint-retrospective" class="nav-link" data-scroll-target="#sprint-retrospective">Sprint Retrospective</a></li>
+  </ul></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further reading</a></li>
   </ul>
 </nav>
     </div>
@@ -236,20 +243,80 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>LabScrum adapts the Scrum framework from software development for research laboratories. It applies agile principles to scientific research to improve collaboration and streamline workflows. Research projects are divided into “sprints” with regular communication through stand-ups and retrospectives. This approach helps teams adapt to changes and work efficiently.</p>
+<section id="labscrum-sprint-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="labscrum-sprint-cycle">LabScrum sprint cycle</h2>
+<p>Our LabSrum framework is as follows. Every quarter, we identify key milestones. These encompass tasks with firm deadlines like grant applications, progress reports, conference abstracts, and presentations, as well as those with flexible deadlines, such as paper submissions. The quarter is divided into five sprints, each spanning three weeks, with an additional free week. Each sprint involves a planning meeting, four scrum meetings, a review, and a retrospective. Meetings are scheduled on Tuesdays and Thursdays.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/LabScrum.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">LabScrum</figcaption>
+<figcaption class="figure-caption">LabScrum Outline</figcaption>
 </figure>
 </div>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is our initial attempt at implementing LabScrum for project management, and we anticipate making revisions to better suit the lab’s needs</p>
+</div>
+</div>
+<section id="sprint-planning" class="level3">
+<h3 class="anchored" data-anchor-id="sprint-planning">Sprint Planning</h3>
+<p>The objective of the planning meeting is to establish concrete, measurable sprint goals for each team member. Every member should arrive at the meeting with a preliminary sprint plan detailing their overarching goals and the associated subtasks to be accomplished by the sprint’s conclusion. This plan is then adjusted based on feedback regarding prioritization and logistics. The sprint goals should align with upcoming quarterly milestones, ensuring they contribute to the lab’s long-term research objectives. Employing SMART goals ensures the sprint goals are feasible within the sprint’s timeframe.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://www.atlassian.com/blog/productivity/how-to-write-smart-goals">SMART Goals</a> are <strong>S</strong>pecific <strong>M</strong>easurable <strong>A</strong>chievable <strong>R</strong>elevant <strong>T</strong>ime-Bound.</p>
+<p>An example of a SMART-goal statement might look like this: Our goal is to [quantifiable objective] by [timeframe or deadline]. [Key players or teams] will accomplish this goal by [what steps you’ll take to achieve the goal]. Accomplishing this goal will [result or benefit].</p>
+</div>
+</div>
+</section>
+<section id="scrum-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="scrum-meetings">Scrum meetings</h3>
+<p>Scrum meetings offer brief updates on each team member’s progress. They aim to collectively identify solutions to challenges and pinpoint colleagues who might help. While solutions might become evident during the scrum itself, sometimes a separate discussion with colleagues afterward is necessary. The format for updates isn’t rigid; it can be slides, a verbal summary, or even raw code. However, each update should tackle these three key questions:</p>
+<ol type="1">
+<li>What tasks have you completed since our last meeting?</li>
+<li>What will you focus on next?</li>
+<li>Are there any obstacles hindering your progress?</li>
+</ol>
+</section>
+<section id="sprint-review" class="level3">
+<h3 class="anchored" data-anchor-id="sprint-review">Sprint Review</h3>
+<p>Upon concluding the sprint, we present the accomplishments of each team member and assess the progress against their initially set sprint goals. This presentation will utilize a slide deck format. It serves as a platform to receive in-depth feedback on the completed tasks, pinpoint challenges faced, prioritize upcoming tasks, and establish new objectives informed by the review and feedback.</p>
+</section>
+<section id="sprint-retrospective" class="level3">
+<h3 class="anchored" data-anchor-id="sprint-retrospective">Sprint Retrospective</h3>
+<p>The Sprint Retrospective is held after the sprint review to reflect on the past sprint and identify opportunities to enhance the effectiveness and enjoyment of future sprints. The goal is to foster a culture of continuous learning. By consistently evaluating our methods and results, we ensure that we’re continually adapting and evolving based on real-world feedback and experience. The key questions to address are:</p>
+<ol type="1">
+<li>What went well in the last sprint?</li>
+<li>What could be improved?</li>
+<li>What will we commit to improving in the next sprint?</li>
+</ol>
+<p>Beyond these central questions, the retrospective also serves as a venue to discuss any issues related to team dynamics, communication, or collaboration. It’s also a moment to recognize and appreciate the hard work and contributions of team members. It’s important to celebrate successes, both big and small!</p>
+</section>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further reading</h2>
 <ol type="1">
 <li>May. 2019. <a href="https://labscrum.org/labscrum-guide">LabScrum Guide</a></li>
 <li>Pirro. 2019. <a href="https://www.nature.com/articles/d41586-019-01184-9">How agile project management can work for your research</a>. Nature.</li>
-<li>Adam. 2019. <a href="https://www.nature.com/articles/d41586-019-02620-6">A project-management tool from the tech industry could benefit your lab</a></li>
+<li>Adam. 2019. <a href="https://www.nature.com/articles/d41586-019-02620-6">A project-management tool from the tech industry could benefit your lab</a>. Nature.</li>
 <li>Brauer. 2021. <a href="https://arxiv.org/abs/2103.16574">“I’ll Finish It This Week” And Other Lies</a>. arxiv.</li>
 </ol>
+<p>Finally, watch the <a href="https://youtu.be/mcs-KJyfQ84">YouTube video</a> from our lab meeting where we initially discuss LabScrum for project management.</p>
 
 
 </section>

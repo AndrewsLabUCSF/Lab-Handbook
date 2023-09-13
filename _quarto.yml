@@ -19,6 +19,7 @@ book:
         - scripts/communication.qmd
         - scripts/open_science.qmd 
         - scripts/compute.qmd
+        - scripts/labscrum.qmd
     - part: scripts/resources.qmd
       chapters:
         - scripts/sap.qmd
