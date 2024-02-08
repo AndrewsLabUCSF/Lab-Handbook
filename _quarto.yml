@@ -15,18 +15,23 @@ book:
         - scripts/about.qmd
     - part: scripts/policies.qmd
       chapters:
-        - scripts/code_of_conduct.qmd
+        - scripts/getting_started.qmd
+        - scripts/working.qmd
         - scripts/communication.qmd
+        - scripts/expectations.qmd
+        - scripts/setbacks.qmd
         - scripts/open_science.qmd 
-        - scripts/compute.qmd
-        - scripts/labscrum.qmd
+        - scripts/rcr.qmd 
     - part: scripts/resources.qmd
       chapters:
+        - scripts/compute.qmd
+        - scripts/labscrum.qmd
         - scripts/sap.qmd
         - scripts/directories.qmd
         - scripts/grants.qmd
         - scripts/journal_club.qmd
         - scripts/reading_lists.qmd
+    - part: scripts/acknowldgments.qmd
  
 format:
   html:

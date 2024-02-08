@@ -1,5 +1,30 @@
 # Open Science 
 
+## Safety 
+
+
+## Equipment 
+
+
+## Standard Operating Procedures and Protocols
+
+
+## Record-Keeping Practices and Lab Notebooks
+
+
+## Data 
+
+### Management and Integrity
+
+
+### Data Analysis and Interpretation 
+
+
+### Intellectual Property and University-Owned Data
+
+
+### Data Sharing and Open Science
+
 ## GitHub
 
 Cloning git repo's requires using SSH. 

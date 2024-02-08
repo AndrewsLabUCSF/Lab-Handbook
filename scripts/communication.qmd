@@ -2,6 +2,20 @@
 
 Our primary means of communiction is Slack, but we also talk with outside collaborators via email, zoom, and social media. 
 
+## Meetings in the Lab 
+
+
+### Lab or Team Meetings 
+
+
+### One-on-One Individual Meetings
+
+
+### As-Needed Meetings
+
+
+### Seminar Series
+
 ## Internal Communication
 We use Slack as our primary means of communication within the lab. If you plan on sending an e-mail to someone within the lab, try a slack message instead. **You'll find that almost all messages you write on Slack should be in a channel, and not in a Direct Message.** This is because Slack's value is in its search functions: they make it easy to find messages about a particular project long after they have been posted. This only works well if messages are grouped in the right channels; we can't search each other's direct messages. 
 
