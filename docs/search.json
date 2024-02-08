@@ -21,121 +21,317 @@
     "text": "Lab Philosophy\nIn the Andrews Lab, our philosophy serves as the cornerstone of our scientific journey, influencing both the research questions we ask and the ethical standards we uphold. Grounded in principles of scientific integrity, collaboration, innovation, and team science, we aim to cultivate an environment that promotes inclusivity, values lifelong learning, and adheres to the principles of open science. Team science is central to our ethos, reinforcing the idea that individual accomplishments are a reflection of collective effort and that our greatest achievements stem from open collaboration and mutual support. This philosophy is not merely a collection of ideals; it’s a commitment to conducting research that is meaningful, ethical, and poised to make a lasting impact in the scientific community.\n\nTeam Science\nAt the heart of our lab’s philosophy is the concept of Team Science. We firmly believe that we are greater than the sum of our parts. In this lab, your success is everyone’s success, and the same holds true in reverse. We are all collaborators here, each contributing unique skills and perspectives that enrich our collective work. I am committed to promoting not just your research, but also your professional growth, and I expect the same level of cooperation and openness from you in return.\nCollaboration is a cornerstone of our lab philosophy. We believe that the best science is done when diverse minds come together to solve complex problems. This extends to collaborations within the lab, across departments, and even internationally. We encourage lab members to engage in interdisciplinary research and to seek external collaborations that can enhance the impact of our work.\nSharing—be it materials, data, or opportunities—is a fundamental aspect of our collaborative culture. We don’t see each other as competitors; we are collaborators, both within these walls and in the broader scientific community. When one of us succeeds, it’s a win for all of us. Conversely, setbacks are not borne alone; we rally around each other to find solutions.\nBy embracing the principles of Team Science, we aim to create a lab environment that is not just productive but also supportive, inclusive, and conducive to the personal and professional growth of all its members.\n\n\nScientific integrity\nIn the Andrews Lab, we uphold the highest standards of scientific integrity. This means conducting research that is rigorous, transparent, and ethical. We are committed to the responsible handling of data, from collection to analysis and reporting. Any form of data manipulation or scientific misconduct is unacceptable. Our aim is to contribute to the scientific community with work that can be trusted and built upon.\nAccountability: Accountability is a key aspect of our lab culture. Every lab member is responsible for the quality and integrity of their work, from the planning stage to publication. Regular lab meetings and internal reviews are platforms where we hold ourselves and each other accountable, ensuring that our research meets the high standards we set for ourselves. Mistakes are an inevitable part of the scientific process, and they are not setbacks but learning opportunities. The key is not in avoiding mistakes, but in how we handle them. If you encounter a problem, try to resolve it independently first. If that fails, bring it to my attention as soon as possible. There’s no room for covering up errors; transparency is crucial. Together, we will work to correct the issue, learn from it, and move forward.\nOpen Science: We are strong proponents of open science, believing that scientific knowledge is a public good. Whenever possible, we publish in open-access journals, share our data and code, and engage with the broader scientific community and the public. This commitment to openness increases the impact of our work and contributes to a more collaborative and transparent scientific community.\nInnovation and Adaptability: In the Andrews Lab, innovation and adaptability go hand in hand as core values that drive our scientific inquiry. We encourage lab members to think creatively, question existing paradigms, and explore novel approaches to complex problems. Innovation is not confined to groundbreaking ideas but also extends to the methodologies, tools, and techniques we employ in our research.\nHowever, more than innovation is required; the ability to adapt is equally crucial. Science is an ever-evolving field, and unexpected challenges or results are inevitable. We value adaptability as a complementary skill to innovation, enabling us to pivot our research focus or methodologies when warranted by new findings, technical advancements, or unforeseen challenges. This dual commitment to innovation and adaptability ensures that we are not only at the forefront of scientific discovery but also equipped to navigate the complexities and uncertainties that come with pioneering research.\n\n\nLifelong Learning\nScience is a constantly evolving field, and we are all perpetual students. In the Andrews Lab, we emphasize the importance of continuous learning—whether it’s mastering a new research technique, staying updated on the latest literature, or developing soft skills like communication and leadership. We encourage lab members to attend conferences, workshops, and webinars, and to always be curious.\n\n\nInclusivity and Diversity\nOur lab is committed to fostering an environment where all individuals feel respected, included, and valued. We believe that diverse perspectives enrich our research and make us more effective scientists. We strive to recruit lab members from diverse backgrounds, including but not limited to race, gender, sexual orientation, and socioeconomic status, and we are committed to their professional development."
   },
   {
+    "objectID": "scripts/getting_started.html#general-guidance-for-new-lab-members",
+    "href": "scripts/getting_started.html#general-guidance-for-new-lab-members",
+    "title": "2  Getting Started in the Lab",
+    "section": "General Guidance for New Lab Members",
+    "text": "General Guidance for New Lab Members"
+  },
+  {
+    "objectID": "scripts/getting_started.html#new-lab-member-essentials",
+    "href": "scripts/getting_started.html#new-lab-member-essentials",
+    "title": "2  Getting Started in the Lab",
+    "section": "New Lab Member Essentials",
+    "text": "New Lab Member Essentials"
+  },
+  {
+    "objectID": "scripts/getting_started.html#new-lab-member-onboarding-tasks",
+    "href": "scripts/getting_started.html#new-lab-member-onboarding-tasks",
+    "title": "2  Getting Started in the Lab",
+    "section": "New Lab Member Onboarding Tasks",
+    "text": "New Lab Member Onboarding Tasks"
+  },
+  {
+    "objectID": "scripts/getting_started.html#materials-to-review",
+    "href": "scripts/getting_started.html#materials-to-review",
+    "title": "2  Getting Started in the Lab",
+    "section": "Materials to Review",
+    "text": "Materials to Review"
+  },
+  {
+    "objectID": "scripts/getting_started.html#training-basics",
+    "href": "scripts/getting_started.html#training-basics",
+    "title": "2  Getting Started in the Lab",
+    "section": "Training Basics",
+    "text": "Training Basics"
+  },
+  {
+    "objectID": "scripts/working.html#work-hours",
+    "href": "scripts/working.html#work-hours",
+    "title": "3  Working in the lab",
+    "section": "Work Hours",
+    "text": "Work Hours"
+  },
+  {
+    "objectID": "scripts/working.html#time-off",
+    "href": "scripts/working.html#time-off",
+    "title": "3  Working in the lab",
+    "section": "Time Off",
+    "text": "Time Off"
+  },
+  {
+    "objectID": "scripts/working.html#code-of-conduct",
+    "href": "scripts/working.html#code-of-conduct",
+    "title": "3  Working in the lab",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct"
+  },
+  {
+    "objectID": "scripts/working.html#performance-reviews",
+    "href": "scripts/working.html#performance-reviews",
+    "title": "3  Working in the lab",
+    "section": "Performance Reviews",
+    "text": "Performance Reviews"
+  },
+  {
+    "objectID": "scripts/working.html#professional-development",
+    "href": "scripts/working.html#professional-development",
+    "title": "3  Working in the lab",
+    "section": "Professional Development",
+    "text": "Professional Development"
+  },
+  {
+    "objectID": "scripts/working.html#leaving-the-lab",
+    "href": "scripts/working.html#leaving-the-lab",
+    "title": "3  Working in the lab",
+    "section": "Leaving the Lab",
+    "text": "Leaving the Lab\n\nPlanned and Voluntary Separation from the Lab\n\n\nInvoluntary Separation or Termination"
+  },
+  {
+    "objectID": "scripts/communication.html#meetings-in-the-lab",
+    "href": "scripts/communication.html#meetings-in-the-lab",
+    "title": "4  Communication",
+    "section": "Meetings in the Lab",
+    "text": "Meetings in the Lab\n\nLab or Team Meetings\n\n\nOne-on-One Individual Meetings\n\n\nAs-Needed Meetings\n\n\nSeminar Series"
+  },
+  {
     "objectID": "scripts/communication.html#internal-communication",
     "href": "scripts/communication.html#internal-communication",
-    "title": "3  Communication",
+    "title": "4  Communication",
     "section": "Internal Communication",
     "text": "Internal Communication\nWe use Slack as our primary means of communication within the lab. If you plan on sending an e-mail to someone within the lab, try a slack message instead. You’ll find that almost all messages you write on Slack should be in a channel, and not in a Direct Message. This is because Slack’s value is in its search functions: they make it easy to find messages about a particular project long after they have been posted. This only works well if messages are grouped in the right channels; we can’t search each other’s direct messages.\n\n\n\n\n\n\nImportant\n\n\n\nDirect messages should only be used for confidential conversations (like advising discussions with Shea) or for incidental messages that nobody else needs to read (like “are we meeting now?”).\n\n\n\nHow and where to post\nEvery project has its own channel (like #mendelian-randomization). Some of these channels will be large due to it covering multiple subprojects peopel are working one, as these start to become unweildy we will make channel-children.\nIn additional to project-specific channles, we have a varity of channels for oganizational purposes.\n#general is where we share various thoughts and ideas across the lab that are not specific to a given channel and lab-wide anncouncements.\n#journal-club is for posting interesting papers that you have come across.\n#lab-meeting is for organizing lab meetings, posting agendas, or meeting minutes.\n#wynton is for discussing using wynton and computational resources.\n#check-in is where, each work day, we post a quick overview of what we plan on working on for the day.\n\ncheck-in\nThe daily check-in serves to keep all lab members informed about ongoing work, facilitate collaboration, and help individuals manage their time effectively. All full-time lab members are required to post a brief summary of their daily work plans. This can be done either at the beginning or end of the workday. If posting in the morning, please address “What did you accomplish yesterday, and what are you planning to work on today?”. If posting in the evening, the focus should be on “What did you accomplish today, and what are your goals for tomorrow?”. For part-time lab members, please post a check-in only on the days you are actively working on Andrews Lab projects. Lab members are encouraged to review each other’s check-ins to offer help, resources, or collaboration where applicable.\nThere is no need to provide a check-in if you are not working on a particular day due to a holiday, vacation, or other reasons.\n\n\njournal-club\nIn an effort to foster a culture of continuous learning and to keep the team updated on the latest scientific developments, all full-time lab members are required to actively participate in our Slack channel, #journal-club. Each full-time lab member must post at least once a week - but more often is better! - sharing a scientific paper they find interesting and is relevent to the lab lab’s research focus or broader scientific community. Please also include a link to the paper and a brief statement (2-3 sentences) on why you think it is interesting or relevent. Lab members are encouraged to read the shared papers and engage in discussions, either by asking questions, providing insights, or sharing related work.\nSee Journal Club for some suggestions on how to develop a habbit of keeping up with the litrature."
   },
   {
+    "objectID": "scripts/expectations.html#what-you-should-expect-from-me-as-principal-investigator",
+    "href": "scripts/expectations.html#what-you-should-expect-from-me-as-principal-investigator",
+    "title": "5  Expectations of Lab Members",
+    "section": "What You Should Expect from Me as Principal Investigator",
+    "text": "What You Should Expect from Me as Principal Investigator"
+  },
+  {
+    "objectID": "scripts/expectations.html#what-i-expect-from-lab-members",
+    "href": "scripts/expectations.html#what-i-expect-from-lab-members",
+    "title": "5  Expectations of Lab Members",
+    "section": "What I Expect from Lab Members",
+    "text": "What I Expect from Lab Members"
+  },
+  {
+    "objectID": "scripts/setbacks.html#making-and-disclosing-mistakes-andor-problems",
+    "href": "scripts/setbacks.html#making-and-disclosing-mistakes-andor-problems",
+    "title": "6  When Things Don’t Go Right in the Lab",
+    "section": "Making and Disclosing Mistakes and/or Problems",
+    "text": "Making and Disclosing Mistakes and/or Problems"
+  },
+  {
+    "objectID": "scripts/setbacks.html#resolving-conflicts-with-peers-or-pi",
+    "href": "scripts/setbacks.html#resolving-conflicts-with-peers-or-pi",
+    "title": "6  When Things Don’t Go Right in the Lab",
+    "section": "Resolving Conflicts (with peers or PI)",
+    "text": "Resolving Conflicts (with peers or PI)"
+  },
+  {
+    "objectID": "scripts/setbacks.html#problem-solving-strategies-the-smarter-approach",
+    "href": "scripts/setbacks.html#problem-solving-strategies-the-smarter-approach",
+    "title": "6  When Things Don’t Go Right in the Lab",
+    "section": "Problem Solving Strategies (The SMARTER Approach)",
+    "text": "Problem Solving Strategies (The SMARTER Approach)"
+  },
+  {
+    "objectID": "scripts/open_science.html#safety",
+    "href": "scripts/open_science.html#safety",
+    "title": "7  Open Science",
+    "section": "Safety",
+    "text": "Safety"
+  },
+  {
+    "objectID": "scripts/open_science.html#equipment",
+    "href": "scripts/open_science.html#equipment",
+    "title": "7  Open Science",
+    "section": "Equipment",
+    "text": "Equipment"
+  },
+  {
+    "objectID": "scripts/open_science.html#standard-operating-procedures-and-protocols",
+    "href": "scripts/open_science.html#standard-operating-procedures-and-protocols",
+    "title": "7  Open Science",
+    "section": "Standard Operating Procedures and Protocols",
+    "text": "Standard Operating Procedures and Protocols"
+  },
+  {
+    "objectID": "scripts/open_science.html#record-keeping-practices-and-lab-notebooks",
+    "href": "scripts/open_science.html#record-keeping-practices-and-lab-notebooks",
+    "title": "7  Open Science",
+    "section": "Record-Keeping Practices and Lab Notebooks",
+    "text": "Record-Keeping Practices and Lab Notebooks"
+  },
+  {
+    "objectID": "scripts/open_science.html#data",
+    "href": "scripts/open_science.html#data",
+    "title": "7  Open Science",
+    "section": "Data",
+    "text": "Data\n\nManagement and Integrity\n\n\nData Analysis and Interpretation\n\n\nIntellectual Property and University-Owned Data\n\n\nData Sharing and Open Science"
+  },
+  {
     "objectID": "scripts/open_science.html#github",
     "href": "scripts/open_science.html#github",
-    "title": "4  Open Science",
+    "title": "7  Open Science",
     "section": "GitHub",
     "text": "GitHub\nCloning git repo’s requires using SSH.\nGenerating a new SSH key and adding it to the ssh-agent\nAdding a new SSH key to your GitHub account"
   },
   {
+    "objectID": "scripts/rcr.html#compliance",
+    "href": "scripts/rcr.html#compliance",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Compliance",
+    "text": "Compliance"
+  },
+  {
+    "objectID": "scripts/rcr.html#writing-and-adhering-to-compliance-protocols",
+    "href": "scripts/rcr.html#writing-and-adhering-to-compliance-protocols",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Writing and Adhering to Compliance Protocols",
+    "text": "Writing and Adhering to Compliance Protocols"
+  },
+  {
+    "objectID": "scripts/rcr.html#authorship-in-the-lab",
+    "href": "scripts/rcr.html#authorship-in-the-lab",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Authorship in the Lab",
+    "text": "Authorship in the Lab"
+  },
+  {
+    "objectID": "scripts/rcr.html#proper-citation-and-writing-with-integrity",
+    "href": "scripts/rcr.html#proper-citation-and-writing-with-integrity",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Proper Citation and Writing with Integrity",
+    "text": "Proper Citation and Writing with Integrity"
+  },
+  {
+    "objectID": "scripts/rcr.html#fabrication-falsification-and-plagiarism-ffp",
+    "href": "scripts/rcr.html#fabrication-falsification-and-plagiarism-ffp",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Fabrication, Falsification, and Plagiarism (FFP)",
+    "text": "Fabrication, Falsification, and Plagiarism (FFP)"
+  },
+  {
+    "objectID": "scripts/rcr.html#conflicts-of-interest-and-conflicts-of-commitment",
+    "href": "scripts/rcr.html#conflicts-of-interest-and-conflicts-of-commitment",
+    "title": "8  Responsible Conduct of Research",
+    "section": "Conflicts of Interest and Conflicts of Commitment",
+    "text": "Conflicts of Interest and Conflicts of Commitment"
+  },
+  {
     "objectID": "scripts/compute.html",
     "href": "scripts/compute.html",
-    "title": "5  Compute",
+    "title": "9  Compute",
     "section": "",
-    "text": "6 Add your key pair:\n$ ssh-add .ssh/key_pair\n$ ssh-add .ssh/key_pair.pub\nPrepare for ‘git’ and ‘git clone’ on Wynton:\n$ ssh -T git@github.com\nHi GitHub_username! You’ve successfully authenticated, but GitHub does not provide shell access.\nPush some previously committed files:\n$ git push etc\nSuccess!"
+    "text": "10 Add your key pair:\n$ ssh-add .ssh/key_pair\n$ ssh-add .ssh/key_pair.pub\nPrepare for ‘git’ and ‘git clone’ on Wynton:\n$ ssh -T git@github.com\nHi GitHub_username! You’ve successfully authenticated, but GitHub does not provide shell access.\nPush some previously committed files:\n$ git push etc\nSuccess!"
   },
   {
     "objectID": "scripts/compute.html#local-machine",
     "href": "scripts/compute.html#local-machine",
-    "title": "5  Compute",
+    "title": "9  Compute",
     "section": "Local Machine",
     "text": "Local Machine\n\nOh My Zsh\nI like to install Oh My Zsh on my local machine for autocomplete etc\n\nOhMyZsh: Mange your zsh configuration\nzsh-autosuggestions"
   },
   {
     "objectID": "scripts/compute.html#high-performance-computing",
     "href": "scripts/compute.html#high-performance-computing",
-    "title": "5  Compute",
+    "title": "9  Compute",
     "section": "High Performance Computing",
     "text": "High Performance Computing\nGet Started with Wynton Job Submission File Transfers\nWynton Bioinformatics Open Data Resource\n/wynton/group/databases\nssh sjfandrews@log1.wynton.ucsf.edu\n/wynton/group/andrews\nGetting started with HPC\n\nMamba\nConda and Mamba are tools that help you install and manage software packages and their dependencies, which are other packages that a software needs to function properly. They’re especially useful when different projects need different versions of the same software package. Conda, created by Anaconda, Inc., is well-known for its ability to create isolated spaces (called environments) for your projects, ensuring that the software packages of one project don’t interfere with those of another. Mamba is a faster version of Conda, doing the same job but more quickly. Both of them support many programming languages, making them versatile tools for managing software in your projects.\nInstall Mambaforge in your home directory\n\n\nCookiecutter\nA command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.\nInstall cookiecutter using mamba\n\n\nSnakemake\nSnakemake is a versatile, Python-based workflow management system that enables the creation of reproducible and scalable data analyses. It operates on the principle of defining “rules” that explicitly state how to produce output files from input files. These rules, which can incorporate shell commands or scripts in any language, are written in a Snakefile. Snakemake takes care of determining the correct order of rule execution based on their dependencies. It also supports parallelization of jobs, making it suitable for high-throughput computations. Furthermore, Snakemake workflows are self-documenting, meaning they can serve as a record of your data analysis, enhancing reproducibility. It’s widely used in bioinformatics, but its application can extend to any field that involves pipeline-based data analysis.\nInstall Snakemake using mamba\nInstall sge snakemake profile using cookiecutter\n\n\nInstalling Mamba and Snakemake (Detailed Instructions):\nLog into your wynton account and switch to a development node:\n$ ssh username@wynton.ucsf.edu\n$ ssh dev2 (because you can’t use “git” on log1)\nIn your web browser:\nGo to: https://github.com/conda-forge/miniforge#mambaforge to find “Mambaforge.”\nThen find “Linux” under OS, then “x86_64 (amd64)” under Architecture, then “Mambaforge-Linux-x86_64” under Download. Right-click on the “Mambaforge-Linux-x86_64” link (copying the link).\nIn your Wynton terminal:\n$ wget paste_the_mamba_link_here (So, your command looks like: “wget http://etc”)\n$ bash Mambaforge-Linux-x86_64.sh (make sure that you have this “Mambaforge” file by typing “ls” and seeing the file.)\nThen, accept the license terms when wynton asks you. Confirm the location when wynton asks you. Initialize Mambaforge when wynton asks you.\nMambaforge should now be installed:\nYou should get the following message:\n“Thank you for installing Mambaforge!”\nLog out of wynton (write “logout”) and log back in for the changes to take effect: Log first into log1 and then dev2 (or dev1).\nNext, do a full installation of Snakemake:\nIn your web browser:\nGo to: https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#\nFind the “Full installation” instructions. (The Wynton commands are “conda activate base”, then “mamba create -c conda-forge -c bioconda -n snakemake snakemake”, then “conda activate snakemake”.)\nConfirm the changes when wynton asks.\nIn your web browser:\nGo to: https://github.com/AndrewsLabUCSF/sge-wynton and type the wynton command line instructions:\n$ mkdir -p ~/.config/snakemake\n$ cd ~/.config/snakemake\nThe final wynton command line,\n$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git (may fail)\nIf it fails, follow the instructions in the lab handbook, “Git on the UCSF HPC Server Wynton” in the “Compute” section of the lab handbook to get git clone to work properly.\nNote: If you already have the key_pair file, overwrite it when wynton asks you.\n# Print rulegraph \nsnakemake --rulegraph | dot -Tpdf &gt; images/dag.pdf\n\n# Install conda/singularity envs, dont run workflow\nsnakemake --use-conda --conda-create-envs-only\n\n\nGit (and Git Clone) on UCSF HPC Server Wynton\nOn Wynton (open a terminal):\n$ ssh your_wynton_username@log1.wynton.ucsf.edu\nYou can’t use git on log1, so switch to a development node:\n$ ssh dev2\nYou can’t use `git clone’ yet (You need an authorization key):\n$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git\nfailure\nGenerate public/private (ed25519) key pair:\n$ ssh-keygen -t ed25519 -C your_email_address_assoc_with_GitHub\nEnter the filename in which to save the key:\n$ key_pair\nEnter passphrase (empty for no passphrase):\n(optional; You can just hit return)\nEnter same passphrase again:\n(optional; You can just hit return)\nYour identification has been saved in key_pair. Your public key has been saved in key_pair.pub. The key fingerprint is:\nYour_key_fingerprint your_email_address_assoc_with_GitHub\nType “ls -la” to check that your key_pair and key_pair.pub exist.\nOpen a connection to your authentication agent:\n$ eval $(ssh-agent)\nAgent pid (new number each time)\nMove your key_pair and key_pair.pub files into a new folder called “.ssh”:\n$ mkdir .ssh (if .ssh doesn’t yet exist)\n$ mv key_pair .ssh\n$ mv key_pair.pub .ssh\nSSH-ADD your files and assign the necessary permissions:\n$ ssh-add .ssh/key_pair\n$ chmod 600 .ssh/key_pair.pub\n$ ssh-add .ssh/key_pair.pub\nCopy the contents of your key_pair.pub file to paste in GitHub (This command gives the file’s contents):\n$ cat .ssh/key_pair.pub\nYour_key your_email_address_assoc_with_GitHub\nPaste the contents of key_pair.pub into the following location:\nLog onto GitHub and click on your personal account, then click on “settings”.\nClick on “SSH and GPG keys”.\nClick on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”.\nSave this key, after giving a title.\nPrepare for “git” and “git clone”:\n$ ssh -T git@github.com\n(You may get this message: . . . Are you sure you want to continue connecting (yes/no)?):\n$ yes\nOn GitHub:\nClick on “&lt;&gt; Code” in green on the desired repository page.\nClick on SSH.\nCopy the code in the box to use in your git clone command (see below) - use the SSH code.\nOn Wynton:\n$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git\nSuccess!\nLogging out and logging back into Wynton:\n$ ssh your_wynton_username@log1.wynton.ucsf.edu\n$ ssh dev2 (or dev1, etc)\nOpen a connection to your authentication agent:\n$ eval $(ssh-agent)\nAgent pid (new number each time)"
   },
   {
     "objectID": "scripts/labscrum.html#labscrum-sprint-cycle",
     "href": "scripts/labscrum.html#labscrum-sprint-cycle",
-    "title": "6  LabScrum",
+    "title": "10  LabScrum",
     "section": "LabScrum sprint cycle",
     "text": "LabScrum sprint cycle\nOur LabSrum framework is as follows. Every quarter, we identify key milestones. These encompass tasks with firm deadlines like grant applications, progress reports, conference abstracts, and presentations, as well as those with flexible deadlines, such as paper submissions. The quarter is divided into five sprints, each spanning three weeks, with an additional free week. Each sprint involves a planning meeting, four scrum meetings, a review, and a retrospective. Meetings are scheduled on Tuesdays and Thursdays.\n\n\n\nLabScrum Outline\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is our initial attempt at implementing LabScrum for project management, and we anticipate making revisions to better suit the lab’s needs\n\n\n\nSprint Planning\nThe objective of the planning meeting is to establish concrete, measurable sprint goals for each team member. Every member should arrive at the meeting with a preliminary sprint plan detailing their overarching goals and the associated subtasks to be accomplished by the sprint’s conclusion. This plan is then adjusted based on feedback regarding prioritization and logistics. The sprint goals should align with upcoming quarterly milestones, ensuring they contribute to the lab’s long-term research objectives. Employing SMART goals ensures the sprint goals are feasible within the sprint’s timeframe.\n\n\n\n\n\n\nTip\n\n\n\nSMART Goals are Specific Measurable Achievable Relevant Time-Bound.\nAn example of a SMART-goal statement might look like this: Our goal is to [quantifiable objective] by [timeframe or deadline]. [Key players or teams] will accomplish this goal by [what steps you’ll take to achieve the goal]. Accomplishing this goal will [result or benefit].\n\n\n\n\nScrum meetings\nScrum meetings offer brief updates on each team member’s progress. They aim to collectively identify solutions to challenges and pinpoint colleagues who might help. While solutions might become evident during the scrum itself, sometimes a separate discussion with colleagues afterward is necessary. The format for updates isn’t rigid; it can be slides, a verbal summary, or even raw code. However, each update should tackle these three key questions:\n\nWhat tasks have you completed since our last meeting?\nWhat will you focus on next?\nAre there any obstacles hindering your progress?\n\n\n\nSprint Review\nUpon concluding the sprint, we present the accomplishments of each team member and assess the progress against their initially set sprint goals. This presentation will utilize a slide deck format. It serves as a platform to receive in-depth feedback on the completed tasks, pinpoint challenges faced, prioritize upcoming tasks, and establish new objectives informed by the review and feedback.\n\n\nSprint Retrospective\nThe Sprint Retrospective is held after the sprint review to reflect on the past sprint and identify opportunities to enhance the effectiveness and enjoyment of future sprints. The goal is to foster a culture of continuous learning. By consistently evaluating our methods and results, we ensure that we’re continually adapting and evolving based on real-world feedback and experience. The key questions to address are:\n\nWhat went well in the last sprint?\nWhat could be improved?\nWhat will we commit to improving in the next sprint?\n\nBeyond these central questions, the retrospective also serves as a venue to discuss any issues related to team dynamics, communication, or collaboration. It’s also a moment to recognize and appreciate the hard work and contributions of team members. It’s important to celebrate successes, both big and small!"
   },
   {
     "objectID": "scripts/labscrum.html#further-reading",
     "href": "scripts/labscrum.html#further-reading",
-    "title": "6  LabScrum",
+    "title": "10  LabScrum",
     "section": "Further reading",
     "text": "Further reading\n\nMay. 2019. LabScrum Guide\nPirro. 2019. How agile project management can work for your research. Nature.\nAdam. 2019. A project-management tool from the tech industry could benefit your lab. Nature.\nBrauer. 2021. “I’ll Finish It This Week” And Other Lies. arxiv.\n\nFinally, watch the YouTube video from our lab meeting where we initially discuss LabScrum for project management."
   },
   {
     "objectID": "scripts/sap.html#project-title",
     "href": "scripts/sap.html#project-title",
-    "title": "7  Statistical Analysis Plan",
+    "title": "11  Statistical Analysis Plan",
     "section": "Project Title",
     "text": "Project Title\n\nBackground and Objective:\n\nProvide a clear statement about what is known about the topic. This should include a review of recent and relevant literature to the proposed research.\nIdentify gaps in the existing research or knowledge.\nDefine the specific problem or question the research will address.\nState the overall objective of your research. This should be a concise statement of what you hope to achieve with the research.\n\n\n\nPlanned analysis by Aims:\nBreak down the general research objective into specific aims. These should be clear, concrete goals that you will work towards throughout your research.\n\nAim 1:\n\nDefine the first specific aim of your research. This should be a clear, measurable goal that directly contributes to your overall research objective.\n\nHypothesis:\n\nFormulate a hypothesis for Aim 1. This should be a specific, testable prediction about what you expect to find in your research.\n\nRational:\n\nExplain why you have chosen this particular hypothesis and aim. This should include an explanation of why this hypothesis and aim are important and how they will contribute to the overall field of study.\n\nPrimary Proposed Analysis:\n\nOutline the methods you will use to test your hypothesis. This should include a detailed description of the experimental design, data collection procedures, and statistical methods you plan to use.\n\nAnticipated Problems and Alternative Approaches:\n\nDiscuss potential challenges that may arise during your research, as well as how you plan to address them.\nInclude contingency plans for unexpected results or complications.\nConsider possible alternative approaches or methods that could be used if the primary approach doesn’t work out.\n\nSecondary, exploratory analysis:\n\nExplain any additional analyses you plan to conduct that are not directly tied to testing your hypothesis. This could include examining relationships between variables not included in your primary analysis, or investigating unexpected findings.\nNote that while these analyses may provide interesting additional insights, they are considered exploratory because they were not part of the original research plan.\n\n\n\n\nGantt Chart\n\nUse a Gantt Chart to visualize and manage the timeline of various analytical tasks and project milestones. This allows researchers to easily see the sequence of tasks, their durations, and any dependencies between them.\n\n\n\nReferences\n\nList of references"
   },
   {
     "objectID": "scripts/directories.html#project-directories",
     "href": "scripts/directories.html#project-directories",
-    "title": "8  Directory Structure",
+    "title": "12  Directory Structure",
     "section": "Project Directories",
     "text": "Project Directories\nProject level directories should be a dedicated git repository for a specific project adhering to a modified Snakemake directory structure. Project level directories should be located in /wynton/group/andrews/users/username/project.\n\n\n\n\n\n\nDirectory Structure\n\n\n\n├── .gitignore\n├── README.md\n├── LICENSE.md\n├── workflow\n│   ├── rules\n|   │   ├── module1.smk\n|   │   └── module2.smk\n│   ├── envs\n|   │   ├── tool1.yaml\n|   │   └── tool2.yaml\n│   ├── scripts\n|   │   ├── script1.py\n|   │   └── script2.R\n|   └── Snakefile\n├── config\n│   ├── config.yaml\n│   └── some-sheet.tsv\n├── results\n├── data\n├── docs\n└── resources\n\n\nTo push empty directories while ensureing that large or sensitive files are not inadvertently made available on GitHub, you can add the following .gitignore file. This is useful to included in resources or data directories.\n\n\n\n\n\n\n.gitignore to create empty directories\n\n\n\n# Ignore everything in this directory\n*\n# Except this file\n!.gitignore"
   },
   {
     "objectID": "scripts/directories.html#data-directories",
     "href": "scripts/directories.html#data-directories",
-    "title": "8  Directory Structure",
+    "title": "12  Directory Structure",
     "section": "Data Directories",
     "text": "Data Directories\nDatasets obtained from external sources are housed in the /wynton/group/andrews/data directory. Project-level directories create soft links to these resources for easy and efficient access. Each dataset is assigned its own directory, adhering to the following structure.\n\n\n\n\n\n\nDirectory Structure\n\n\n\nparent/\n├── .gitignore\n├── README.md\n├── LICENSE.md\n├── data/\n└── docs/\n\n\n\nparent is the top-level directory, and should be named according to the dataset.\ndata contains the original files downloaded from the external resources. Potential subdirectories can include different releases.\ndocs contains documentation files such as data dictionries\nREADME.md contains information about the dataset.\n\nThe README.md should contain the following information.\n\n\n\n\n\n\nREADME\n\n\n\n# Data\n## Description\nThis directory contains raw data files downloaded from [repository name]. These files serve as the starting point for our data analysis pipeline.\n\n## Data Source\nRepository Name: [repository name]\nRepository URL: [repository URL]\nDate of Access: [date when the data was downloaded]\n\n## Data Files\nThis section describes the data files included in this directory.\n\nfile1.extension: Brief description of what this file contains.\nfile2.extension: Brief description of what this file contains.\n...\n\n## Data Structure\nBriefly describe the structure of the data. For example, if the data is tabular, describe the columns and what they represent. If the data is in a different format, describe the relevant elements.\n\n### Data Download and Processing\nDescribe the process of downloading the data from the repository and any steps taken to process or clean the data after download. If scripts were used for this process, link to them here.\n\n## Usage Notes\nInclude any additional information that users of the data should be aware of. This could include known issues with the data, special considerations for using the data, or any other relevant notes.\n\n## Contact Information\nFor any additional questions or clarifications, please contact:\n\nName: [Your name]\nEmail: [Your email]"
   },
   {
     "objectID": "scripts/grants.html#ucsf-office-of-sponsored-research",
     "href": "scripts/grants.html#ucsf-office-of-sponsored-research",
-    "title": "9  Grants",
+    "title": "13  Grants",
     "section": "UCSF Office of Sponsored Research",
     "text": "UCSF Office of Sponsored Research\n\nPI Desk Reference: Key resources from the UCSF Office of Sponsored Research for grant submission\nDPBS Intranet"
   },
   {
     "objectID": "scripts/journal_club.html#how-to-find-papers",
     "href": "scripts/journal_club.html#how-to-find-papers",
-    "title": "10  Journal Club",
+    "title": "14  Journal Club",
     "section": "How to find papers",
     "text": "How to find papers\nShea has established an RSS feed to stay updated on newly published papers. Utilizing Feedly, he follows approximately 40 journals, receiving daily updates. Each morning, Shea skims through paper titles to identify articles of interest. He then reviews selected abstracts and fully reads a few of the more compelling papers. Additionally, he uses X (formerly Twitter) to discover papers that are being discussed or shared by other researchers in the field.\n\n\n\nShea Feedly\n\n\nShea follows all the journals in which he has published, as they are presumably relevant to his research. He also keeps tabs on other high-impact journals in the field, as well as the Pre-print servers BioRxiv (Genetics) and MedRxiv (Genetic And Genomic Medicine).\nSome suggested journals are:\n\nNature\nScience\nAlzheimer’s & Dementia\nJAMA Neurology\nLancet Neurology\nNature Genetics\nThe American Journal of Human Genetics"
   },
   {
     "objectID": "scripts/journal_club.html#structure",
     "href": "scripts/journal_club.html#structure",
-    "title": "10  Journal Club",
+    "title": "14  Journal Club",
     "section": "Structure",
     "text": "Structure\nThis is a suggested structure for Journal Club presentations. Presenters should aim for a presentation length of about 30 minutes, followed by a discussion period.\nThe Introduction: Start the presentation by introducting the paper, authors, and affiliations. Share what specifically attracted you to this paper. Was it the topic, the methodology, or something else? Briefly mention why this paper is important to the lab’s work or the field in general.\nThe Problem: This section should clearly state the problem or the project that the research is addressing. It should be concise and to the point, providing enough context for the reader to understand the importance of the research. This section often includes a brief overview of the current state of knowledge or research in the field.\nThe Methods: Summarize the main methods and research techniques that are relevant to the results being presented. Briefly mention where the data comes from, if relevant.\nThe Results: This section should detail the main findings or observations of the research. It should explain what was discovered or observed and how it was done. This section often includes specific details about the methods used in the research.\nCritical analysis: Discuss what the paper does well. This could be anything from innovative methods to significant findings. Point out areas where the paper falls short. This could be limitations in the study design, data collection, or interpretation of results. Evaluate the validity of the results and the soundness of the methodology. Are the conclusions supported by the data?\nThe Implications: This section should discuss the implications of the research findings. It should explain how the findings contribute to the field and what they mean for future research. This section often includes speculation or predictions about future developments in the field based on the research findings."
   },
   {
     "objectID": "scripts/reading_lists.html#alzheimers-disease",
     "href": "scripts/reading_lists.html#alzheimers-disease",
-    "title": "11  Reading List",
+    "title": "15  Reading List",
     "section": "Alzheimer’s disease",
     "text": "Alzheimer’s disease\n\nWhat is AD\n\nKnopman, D. S. et al. Alzheimer disease. Nat Rev Dis Primers 7, 33 (2021).\nAlzheimer’s Association. 2023 Alzheimer’s disease facts and figures. Alzheimer’s Dementia (2023) doi:10.1002/alz.13016.\nSirkis, D. W., et al. Dissecting the clinical heterogeneity of early-onset Alzheimer’s disease. Mol Psychiatr 27, 2674–2688 (2022).\nFrisoni, G. B. et al. The probabilistic model of Alzheimer disease: the amyloid hypothesis revised. Nat Rev Neurosci 23, 53–66 (2022).\n\n\n\nHealth Disparities\n\nKornblith, E. et al. Association of Race and Ethnicity With Incidence of Dementia Among Older Adults. Jama 327, 1488–1495 (2022).\nAdkins‐Jackson, P. B. et al. The structural and social determinants of Alzheimer’s disease related dementias. Alzheimer’s Dementia (2023) doi:10.1002/alz.13027.\n\n\n\nGenetics of AD\n\nAndrews, S. J. et al. The complex genetic architecture of Alzheimer’s disease: novel insights and future directions. eBioMedicine 90, 104511 (2023).\nReitz, C., Pericak-Vance, M. A., Foroud, T. & Mayeux, R. A global view of the genetic basis of Alzheimer disease. Nat Rev Neurol 1–17 (2023) doi:10.1038/s41582-023-00789-z.\nLambert, J.-C., Ramirez, A., Grenier-Boley, B. & Bellenguez, C. Step by step: towards a better understanding of the genetic architecture of Alzheimer’s disease. Mol Psychiatr 1–12 (2023) doi:10.1038/s41380-023-02076-1.\nAndrews, S. J., Fulton-Howard, B. & Goate, A. Interpretation of risk loci from genome-wide association studies of Alzheimer’s disease. Lancet Neurology 19, 326–335 (2020).\nBellenguez, C. et al. New insights into the genetic etiology of Alzheimer’s disease and related dementias. Nat Genet 54, 412–436 (2022).\n\n\n\nRisk factors\n\nLivingston, G. et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet 396, 413–446 (2020).\nNianogo, R. A. et al. Risk Factors Associated With Alzheimer Disease and Related Dementias by Sex and Race and Ethnicity in the US. Jama Neurol 79, 584–591 (2022).\n\n\n\nDementia risk scores\n\nAnstey, K. J. et al. Dementia Risk Scores and Their Role in the Implementation of Risk Reduction Guidelines. Front Neurol 12, 765454 (2022).\nHuque, M. H. et al. CogDrisk, ANU-ADRI, CAIDE, and LIBRA Risk Scores for Estimating Dementia Risk. JAMA Netw. Open 6, e2331460 (2023).\nWalsh, S. et al. What would a population‐level approach to dementia risk reduction look like, and how would it work? Alzheimer’s Dement. 19, 3203–3209 (2023)."
   },
   {
     "objectID": "scripts/reading_lists.html#genetic-epidemiology",
     "href": "scripts/reading_lists.html#genetic-epidemiology",
-    "title": "11  Reading List",
+    "title": "15  Reading List",
     "section": "Genetic Epidemiology",
     "text": "Genetic Epidemiology\n\nGenome-wide association studies\n\nUffelmann, E. et al. Genome-wide association studies. Nat Rev Methods Primers 1, 59 (2021).\nMarees, A. T. et al. A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis. Int J Method Psych 27, e1608 (2018).\nBalagué-Dobón, L., Cáceres, A. & González, J. R. Fully exploiting SNP arrays: a systematic review on the tools to extract underlying genomic structure. Brief Bioinform 23, bbac043 (2022).\nAbdellaoui, A., Yengo, L., Verweij, K. J. H. & Visscher, P. M. 15 years of GWAS discovery: Realizing the promise. Am J Hum Genetics (2023) doi:10.1016/j.ajhg.2022.12.011.\n\nBrandes, N., Weissbrod, O. & Linial, M. Open problems in human trait genetics. Genome Biol 23, 131 (2022).\n\n\n\nPolygenic risk scores\n\nChoi, S. W., Mak, T. S.-H. & O’Reilly, P. F. Tutorial: a guide to performing polygenic risk score analyses. Nat Protoc 15, 2759–2772 (2020).\nKachuri, L. et al. Principles and methods for transferring polygenic risk scores across global populations. Nat. Rev. Genet. 1–18 (2023) doi:10.1038/s41576-023-00637-2.\nDing, Y. et al. Polygenic scoring accuracy varies across the genetic ancestry continuum. Nature 1–8 (2023) doi:10.1038/s41586-023-06079-4.\nMoorthie et al. Evaluation of polygenic score applications. PHG Foundation (2023)\n\n\n\nMendelian randomization\n\nSanderson, E. et al. Mendelian randomization. Nat Rev Methods Primers 2, 6 (2022).\nDavies, N. M., Holmes, M. V. & Smith, G. D. Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians. Bmj 362, k601 (2017).\nHemani, G. et al. The MR-Base platform supports systematic causal inference across the human phenome. Elife 7, e34408 (2018).\n\n\n\nGenetic correlations\n\nRheenen, W. van, Peyrot, W. J., Schork, A. J., Lee, S. H. & Wray, N. R. Genetic correlations of polygenic disease traits: from theory to practice. Nat Rev Genetics 20, 567–581 (2019).\n\n\n\nHeritability\n\nBarry, C.-J. S. et al. How to estimate heritability: a guide for genetic epidemiologists. Int J Epidemiol (2022) doi:10.1093/ije/dyac224.\n\n\n\nGenetic ancestry\n\nNational Academies of Sciences, Engineering, and Medicine. 2023. Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field. Washington, DC: The National Academies Press. https://doi.org/10.17226/26902.\nLewis, A. C. F. et al. Getting genetic ancestry right for science and society. Science 376, 250–252 (2022).\nRebbeck, T. R., Mahal, B., Maxwell, K. N., Garraway, I. P. & Yamoah, K. The distinct impacts of race and genetic ancestry on health. Nat Med 28, 890–893 (2022).\nFatumo, S. et al. A roadmap to increase diversity in genomic studies. Nat Med 28, 243–250 (2022)."
   },
   {
     "objectID": "scripts/reading_lists.html#bioinformatics",
     "href": "scripts/reading_lists.html#bioinformatics",
-    "title": "11  Reading List",
+    "title": "15  Reading List",
     "section": "Bioinformatics",
     "text": "Bioinformatics\n\nReproducibility\n\nRodrigues, Bruno. Building reproducible analytical pipelines with R. 2023\nMölder, F. et al. Sustainable data analysis with Snakemake. F1000research 10, 33 (2021).\nZiemann, Poulain, and Bora. The five pillars of computational reproducibility: Bioinformatics and beyond. OSF (2023)"
   },
   {
     "objectID": "scripts/reading_lists.html#writing-communication",
     "href": "scripts/reading_lists.html#writing-communication",
-    "title": "11  Reading List",
+    "title": "15  Reading List",
     "section": "Writing & communication",
     "text": "Writing & communication\n\nHow to write a paper\n\nMensh, B. & Kording, K. Ten simple rules for structuring papers. PLoS Comput. Biol. 13, e1005619 (2017)\n\nZhang, W. Ten Simple Rules for Writing Research Papers. PLoS Comput. Biol. 10, e1003453 (2014)\nEcarnot, F., Seronde, M.-F., Chopard, R., Schiele, F. & Meneveau, N. Writing a scientific article: A step-by-step guide for beginners. Eur. Geriatr. Med. 6, 573–579 (2015)"
   }
