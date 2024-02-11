@@ -8,6 +8,17 @@
 
 ## New Lab Member Onboarding Tasks
 
+### Wynton Acount 
+[Wynton](https://wynton.ucsf.edu/hpc/index.html) is UCSF's High Performance Cluster
+
+- [Request an account](https://wynton.ucsf.edu/hpc/about/join.html)
+
+### List Servs 
+Global Email list serves that Shea needs to add new employees too. 
+
+- Center for Population Brain Health: Tamar Simone
+- Memory and Aging Center: [MAC ARF](https://wiki.library.ucsf.edu/display/MACipedia/ARFs)
+- Institute of Human Genetics: Aubrey Carstension
 
 ## Materials to Review 
 
