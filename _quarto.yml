@@ -31,7 +31,9 @@ book:
         - scripts/grants.qmd
         - scripts/journal_club.qmd
         - scripts/reading_lists.qmd
-    - part: scripts/acknowldgments.qmd
+    - part: scripts/acknowledgments.qmd
+      chapters:
+        - scripts/acknowledgments.qmd
  
 format:
   html:

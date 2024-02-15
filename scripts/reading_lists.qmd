@@ -30,6 +30,8 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 - Andrews, S. J., Fulton-Howard, B. & Goate, A. Interpretation of risk loci from genome-wide association studies of Alzheimer’s disease. Lancet Neurology 19, 326–335 (2020).
 - Bellenguez, C. et al. New insights into the genetic etiology of Alzheimer’s disease and related dementias. Nat Genet 54, 412–436 (2022).
 
+- [Alzheimer's Disease Genetics Global Symposium](https://alz-genetics.niagads.org/). Webinar series with 40+ presentations and a Q&A discussion from global experts in the field of AD genetics.
+
 ### Risk factors 
 - Livingston, G. et al. Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. Lancet 396, 413–446 (2020).
 - Nianogo, R. A. et al. Risk Factors Associated With Alzheimer Disease and Related Dementias by Sex and Race and Ethnicity in the US. Jama Neurol 79, 584–591 (2022).
@@ -41,6 +43,8 @@ Remember, learning is a lifelong journey, and science is continually evolving. T
 - Walsh, S. et al. What would a population‐level approach to dementia risk reduction look like, and how would it work? Alzheimer’s Dement. 19, 3203–3209 (2023).
 
 ## Genetic Epidemiology
+- [Psychiatric Genomics Consortium Online Textbook](https://youtube.com/playlist?list=PLTQnXmu3Zkmo8209LHBw4SDHqbQaF2NGX&si=gFPDz1OkjZCPSfNo): YouTube series from the PGC highlighting different methods and tools used in genetic epidemiology.  
+
 ### Genome-wide association studies 
 - Uffelmann, E. et al. Genome-wide association studies. Nat Rev Methods Primers 1, 59 (2021).
 - Marees, A. T. et al. A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis. Int J Method Psych 27, e1608 (2018).

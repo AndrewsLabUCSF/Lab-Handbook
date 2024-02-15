@@ -1,22 +1,38 @@
 # Communication 
 
-Our primary means of communiction is Slack, but we also talk with outside collaborators via email, zoom, and social media. 
-
 ## Meetings in the Lab 
+Lab, project, and institutional meetings are integral to keeping abreast of each other's research, fostering collaborations, and furthering our professional development. Therefore, all full-time staff and trainees are encouraged to attend these meetings in person whenever possible.
 
-
-### Lab or Team Meetings 
-
+### Lab Meetings 
+The Andrews Lab convenes every Tuesday and Thursday from 11 AM to 12 PM. These sessions are primarily designed for members to present updates on their research progress. We will also engage in discussions on professional development topics such as writing, presenting, and journal clubs. To ensure productive meetings, all participants should arrive prepared with any necessary materials or updates pertinent to their projects.
 
 ### One-on-One Individual Meetings
+In addition to broader lab meetings, one-on-one meetings offer tailored feedback on research projects and professional development. Staff and trainees should come ready to discuss their project's progression, any challenges encountered, and any questions or concerns they have. It's also a time to review goals and set new ones.
 
+These meetings are ideally held at regular intervals—weekly, biweekly, or monthly—to best accommodate the staff/trainee's and Shea's schedules.
+
+:::{.callout-important}
+Responsibility for these meetings lies with the staff/trainee, who should provide an agenda to Shea at least one day prior. If there are specific materials for review, such as manuscript drafts or abstracts, these should be submitted at least one week in advance.
+:::
 
 ### As-Needed Meetings
-
+If my door is open, feel free to request an ad-hoc meeting. These are intended for issues that don't necessitate a scheduled meeting or when rapid feedback is necessary. Additionally, Shea will make rounds to touch base informally throughout the week.
 
 ### Seminar Series
+See the [UCSF Events Calendar](https://calendar.ucsf.edu/) for upto date information on UCSF seminars. 
+
+- [Insitute of Human Genetics](https://humangenetics.ucsf.edu/events): Seminars from UCSF IHG faculty or invited speakers held Biweekly on Thursdays, 3-4:30pm
+- Memory and Aging Center Lecture Series: Seminars from UCSF MAC faculty or invited speakers held weekly on Mondays, 10-11am
+- Center for Population Brain Health Works in Progress: CPBH staff trainees provide updates on their research works in progress. 
 
 ## Internal Communication
+Our primary means of communiction is Slack, but we also talk with outside collaborators via email, zoom, and social media. 
+
+:::{.callout-important}
+As the PI, Shea juggles a lot of commitments and often works outside of standard work hours. Should you receive messages or emails from him during these times, please know there is no expectation for an immediate response or to adjust to his schedule. Additionally, Shea appreciates your understanding and reminders if there's something you're awaiting from him that hasn't yet been delivered.
+:::
+
+### Slack
 We use Slack as our primary means of communication within the lab. If you plan on sending an e-mail to someone within the lab, try a slack message instead. **You'll find that almost all messages you write on Slack should be in a channel, and not in a Direct Message.** This is because Slack's value is in its search functions: they make it easy to find messages about a particular project long after they have been posted. This only works well if messages are grouped in the right channels; we can't search each other's direct messages. 
 
 :::{.callout-important}

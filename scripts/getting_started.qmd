@@ -8,20 +8,63 @@
 
 ## New Lab Member Onboarding Tasks
 
+### Work Computer
+This is a list of software you should install on your work computer. If something is mising please add it! 
+
+Required software to install 
+
+- IDE: [VScode](https://code.visualstudio.com/download)
+- R: [R](https://cran.rstudio.com/), [RStudio](https://posit.co/download/rstudio-desktop/)
+- Terminal: [iTerm2](https://iterm2.com/downloads.html) or [Warp](https://www.warp.dev/) 
+- [Homebrew](https://brew.sh/)
+    - [Git](https://git-scm.com/download/mac)
+- VPN Pulse Secure: [UCSF request access](https://it.ucsf.edu/how-to/vpn-pulse-secure-install)
+- Reference Manager: [Papers](https://www.papersapp.com/) or [others](https://guides.ucsf.edu/referencemanagers/home)
+- [Slack](https://apps.apple.com/us/app/slack-for-desktop/id803453959?mt=12): 
+- Office 365: [UCSF request access](https://it.ucsf.edu/service/office-365)
+- Zoom: [UCSF request access](https://it.ucsf.edu/service/zoom-web-conferencing)
+- wifi: [UCSFwpa - Secure Wireless](https://it.ucsf.edu/service/ucsfwpa-secure-wireless)
+
+Advanced software to install - project dependent
+
+- [miniforge](https://github.com/conda-forge/miniforge): A package manager that combines Mamba's speed with Conda Forge's environment management for easy software setup.
+- [Snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html): A workflow management tool that automates data analysis pipelines using a Python-based language.
+- [Docker](https://www.docker.com/products/docker-desktop): A platform for packaging applications into containers to ensure they run consistently across different environments.
+
+Optional software to install - Shea reguarly uses these
+
+- [Oh My ZSH](https://ohmyz.sh/): Bring some life to your terminal! 
+- [Dropbox](https://www.dropbox.com/downloading): Save everything in the cloud.  
+- [iStat Menues](https://apps.apple.com/us/app/istat-menus/id1319778037?mt=12): Better tracking of your computers resources
+- [tadam](https://apps.apple.com/us/app/tadam-stay-focused-at-work/id531349534?mt=12): Pomodoro timer for focusing
+- [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12): Better management of windows
+- [Bartender](https://www.macbartender.com/): Take control of your menu bar
+
 ### Wynton Acount 
 [Wynton](https://wynton.ucsf.edu/hpc/index.html) is UCSF's High Performance Cluster
 
 - [Request an account](https://wynton.ucsf.edu/hpc/about/join.html)
+- [Set up VSCode ssh fowarding](https://blog.wytamma.com/blog/hcp-vscode/)
 
 ### List Servs 
 Global Email list serves that Shea needs to add new employees too. 
 
+- Calendar invites for Lab Meetings: Shea
 - Center for Population Brain Health: Tamar Simone
 - Memory and Aging Center: [MAC ARF](https://wiki.library.ucsf.edu/display/MACipedia/ARFs)
 - Institute of Human Genetics: Aubrey Carstension
 
-## Materials to Review 
+### Mobile
+- Email: [UCSF enrollment](https://it.ucsf.edu/how-to/email-mobile#:~:text=To%20access%20access%20your%20UCSF,the%20Android%20OS%20on%20devices.)
+- wifi: [UCSFwpa - Secure Wireless](https://it.ucsf.edu/service/ucsfwpa-secure-wireless)
 
+## Materials to Review 
+As a new member in the lab, there may be several materials that you should read or study to get a better understanding of the lab's research projects and protocols. The timeframe and sequence for reading or studying these materials will vary depending on the project(s) you will be working on. However, it's important to make sure you have a basic understanding of the lab's research and protocols before starting your work. It's also essential to ask questions and seek help from Shea and/or lab members if you need clarification or assistance.
+
+- **Background Material:** Joining the lab comes with an expectation of foundational knowledge. Our [Reading List](https://andrewslabucsf.github.io/Lab-Handbook/scripts/reading_lists.html) offers a selection of introductory papers to help you get started. Please consult with Shea to identify which topics are most pertinent to your research project. 
+- **Technical Manuals**: Each project will use specific software tools, Shea will guide you on specific papers to read.
+- **Grants:** For those involved in grant-funded projects, Shea will provide you with the relevant grant details. 
+- **Publications:** Read some of the lab's recent publications to get a sense of the research questions and methods used by the lab members.
 
 ## Training Basics
 
