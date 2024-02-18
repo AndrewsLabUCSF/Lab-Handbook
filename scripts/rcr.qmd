@@ -1,4 +1,7 @@
 # Responsible Conduct of Research
+Responsible Conduct of Research (RCR) encompasses ethical practices and standards in scientific research, ensuring integrity, accuracy, and the consideration of societal impacts in both basic and clinical studies. It is a fundamental aspect for researchers at all levels, from students to senior faculty, essential for a thriving research career. 
+
+[UCSF RCR training](https://rcr.ucsf.edu/) provides details on RCR training schedules and access to course materials, external resources, grant proposal templates, and tailored training programs for different types of trainees, ensuring all members understand and engage with the principles of responsible research.
 
 ## Compliance
 
@@ -16,3 +19,6 @@
 
 
 ## Conflicts of Interest and Conflicts of Commitment
+
+
+## Use of Artifical Intellegience

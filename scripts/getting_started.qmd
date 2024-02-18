@@ -1,12 +1,26 @@
 # Getting Started in the Lab 
-
-## General Guidance for New Lab Members 
-
+Whether you are an undergraduate student, graduate student, postdoctoral associate/fellow, or associated research staff, starting in a new lab can be a daunting experience. The onboarding process is crucial for ensuring that newcomers feel comfortable and familiar with the lab's procedures, protocols, and guidelines. As you get started you may have a number of questions or uncertainties about your role, your project, our research, or life at UCSF. Just remeber that we are here to support you every step of the way, so we encourage questions and feedback during the onboarding process.
 
 ## New Lab Member Essentials
 
+### Important UCSF Sites 
+- [Office of Diversity and Outreach](https://diversity.ucsf.edu/): UCSF DEI policy
+- [My Access](https://myaccess.ucsf.edu/): UCSF Online Services 
+- [UCSF PeopleConnect](http://peopleconnect.ucsf.edu/): Integrated portal for HR
+- [UCnet](https://ucnet.universityofcalifornia.edu/index.html): Benefits
+- [UCPath](https://ucpath.ucsf.edu/): Payroll 
+- [Campus Life Services](https://campuslifeserviceshome.ucsf.edu/): Information on UC discounts, perks, housing, community organizations etc
 
-## New Lab Member Onboarding Tasks
+## Onboarding Tasks
+
+### Introductions 
+- Make sure to take a moment to introduce yourself to other Andrews lab members. We will also introduce you to our collaborators in the Center for Population Brain Health and Memory and Aging Center. 
+
+### Organize to collect your UCSF ID
+- [Get UCSF ID Card](https://police.ucsf.edu/get-ucsf-id-card): Make an appoinment or drop-in at the Mission Bay Campus. 
+
+### Lab Website 
+- Email Shea a headshot and short bio about your self to be included on the [Andrews Lab Website](https://andrewslab.ucsf.edu/people-0).
 
 ### Work Computer
 This is a list of software you should install on your work computer. If something is mising please add it! 
@@ -17,7 +31,7 @@ Required software to install
 - R: [R](https://cran.rstudio.com/), [RStudio](https://posit.co/download/rstudio-desktop/)
 - Terminal: [iTerm2](https://iterm2.com/downloads.html) or [Warp](https://www.warp.dev/) 
 - [Homebrew](https://brew.sh/)
-    - [Git](https://git-scm.com/download/mac)
+    - [Git](https://git-scm.com/download/mac): Cloning git repo's requires using SSH. See [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - VPN Pulse Secure: [UCSF request access](https://it.ucsf.edu/how-to/vpn-pulse-secure-install)
 - Reference Manager: [Papers](https://www.papersapp.com/) or [others](https://guides.ucsf.edu/referencemanagers/home)
 - [Slack](https://apps.apple.com/us/app/slack-for-desktop/id803453959?mt=12): 
@@ -67,5 +81,18 @@ As a new member in the lab, there may be several materials that you should read 
 - **Publications:** Read some of the lab's recent publications to get a sense of the research questions and methods used by the lab members.
 
 ## Training Basics
+At the end of the hiring process HR will have sent an "Welcome to the University of California, San Francisco" email outlining trainings that need to be completed. These include: 
 
+- HBS Timekeeping system 
+- Office Ergonomics 
+- HIPAA 101 
+- WarnMe
+- UC Cyber Security Awareness Fundamentals
+- UCSF Foundations of Diversity, Equity and Inclusion
+- UC Preventing Harassment & Discrimination: for Non-Supervisors or UC Preventing Harassment & Discrimination: for Supervisors, Faculty, MSP if you supervise others.
+- Document: COVID-19 Prevention Training
+- Any other required training found in your required training
+
+### Read the Lab Handbook 
+Hey you are already doing this! When you are finished, please utilize Git to clone the repository and push a new commit adding your name to the signatures page acknowledging that you have read and comprehended the contents of the Andrews Lab handbook. 
 

@@ -1,5 +1,14 @@
 # Communication 
 
+Effective communication is paramount for a lab to function cohesively and productively. Our lab, a scientific community within the larger University of California, San Francisco (UCSF) ecosystem, thrives on regular interactions. These exchanges foster connections, enhance morale, facilitate the sharing of information, and help to identify and mitigate challenges in our research endeavors. It is crucial that when we communicate, both within our lab and with external colleagues, we adhere to the following principles:
+
+- **Respectfulness**: Approach every interaction with respect, acknowledging the value of each member’s contributions.
+- **Clarity of Expectations**: Clearly articulate goals, responsibilities, and expectations to avoid misunderstandings.
+- **Honesty**: Maintain transparency and honesty in all communications, fostering a culture of trust.
+- **Constructive Feedback**: Offer feedback in a manner that is supportive and aimed at growth, recognizing that constructive criticism is a foundation for development.
+- **Confidentiality**: Respect the privacy of sensitive information, ensuring that what is confidential remains so.
+- **Inclusivity**: Promote an inclusive environment where diverse perspectives are welcomed and valued, recognizing that diversity strengthens our research and enriches our community.
+
 ## Meetings in the Lab 
 Lab, project, and institutional meetings are integral to keeping abreast of each other's research, fostering collaborations, and furthering our professional development. Therefore, all full-time staff and trainees are encouraged to attend these meetings in person whenever possible.
 

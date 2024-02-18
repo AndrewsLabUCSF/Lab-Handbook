@@ -1,4 +1,5 @@
 # Working in the lab
+This section of our handbook is designed to acquaint you with the general lab and institutional policies that underpin our daily operations and long-term objectives, ranging from work hours and time off to professional development and performance evaluations. They reflect our commitment to creating a supportive, productive, and enriching lab environment for all members.
 
 ## Work Hours 
 I expect all lab members to be responsible and accountable for their research projects and to set reasonable goals and expectations for themselves regarding their lab work schedule. While I encourage you to manage your time in a way that suits your personal productivity rhythms, regular attendance is beneficial for your own development as well as for the collaborative spirit of our lab. Being present and engaged helps us to work together more effectively and support one another’s research pursuits. 
@@ -18,15 +19,107 @@ Currently, there are no restricted periods for taking time off. However, I ask e
 
 All lab members are expected to adhere to the [UCSF Researcher Code of Conduct](https://compliance.ucsf.edu/ucsf-researcher-code-conduct). We are all expected to perform our research with integrity, to uphold ethical values and to demonstrate competence in our areas of research. 
 
+Lab members should also be mindful of their behavior and language to promote a respectful and inclusive work environment. Discrimination, harassment, and bullying will not be tolerated.
+
+Responsible conduct of research is foundational to our scientific integrity and credibility, all lab members are required to uphold the highest standards of honesty, accuracy, and objectivity in their work. See the RCR section for more details
+
 ## Performance Reviews
 
+### Performance Evaluations 
+Annual performance evaluations are essential for all non-probationary career employees, in line with [UCSF guidelines](https://hr.ucsf.edu/learning/career-professional-development/performance-evaluations-support#accordion-title-7646). These evaluations aim to fairly assess employee performance, set objectives for the upcoming period, and review the achievement of previously set goals. They play a critical role in enhancing job performance aligned with the lab's and institution's goals, improving individual performance, acknowledging contributions, and supporting professional development. Evaluations also offer an opportunity to address any concerns, suggest improvements, and fulfill both internal and external documentation requirements for individual performance.
+
+The evaluation cycle follows the calendar year, starting on January 1 and concluding on December 31, with evaluations due by mid-March of the subsequent year. This process ensures a structured approach to recognizing achievements, fostering growth, and maintaining high standards of performance within our lab environment.
+
+::: {.callout-note}
+## Probationary Periods
+
+New lab members hired into a Career position serve a six-month probation period, unless otherwise extended pursuant to policy or contract. A mid-point assessment will be be conducted half-way through the probationary period.
+:::
+
+### Individual Development Plans
+At the start of the Academic Year (August/September), Shea will convene a State-of-the-Lab meeting to review the lab's progress, achievements, challenges, and envisaged paths forward. This meeting is designed to foster transparent communication, celebrate the lab's collective and individual accomplishments, and outline the objectives for the upcoming year.
+
+Integral to the State-of-the-Lab is the completion of an [Individual Development Plan](https://myidp.sciencecareers.org/), a tool aimed at defining and achieving their professional career goals. Sheal will discuss the IDP with each person one-on-one. Additionally, the State-of-the-Lab provides a forum for all members to share their goals and receive feedback
 
 ## Professional Development
+I highly encourage everyone to pursue professional development opportunities that will further their careers. UCSF provides a range of resources to support professional development, such as workshops, seminars, and courses. Additionally, there are opportunities for lab members to attend conferences, present their research, and network with colleagues in their field. I am happy to write letters of recommendation or support their applications for these opportunities. In order to gain access to these resources, lab members should consult with Shea or the institution's professional development office to identify relevant opportunities and funding sources.
 
+::: {.callout-tip}
+## Slack
+Use the `#seminars` Slack channel to share any upcoming seminars, conferences or professional development opportunities with the rest of the lab! 
+:::
+
+### UCSF & Bay Area 
+There are numerous opportunities to attend workshops, seminars, and symposiums at UCSF and within the Bay Area. These include, but are not limited to:
+
+- Insitute of Human Genetics Seminars 
+- Memory and Aging Center Lecture Series
+- Center for Population Brain Health Works in Progress
+- [The Office of Career and Professional Development](https://career.ucsf.edu/)
+- UCSF Dementia Day 
+- Bay Area Alzheimer's Disease Researchers Symposium
+- Institute for Human Genetics Genotech Symposium
+- [Gladstone Bioinformatics Workshops](https://github.com/gladstone-institutes/Bioinformatics-Workshops/wiki#computational-genomics)
+
+### Conferences 
+The general expectation for conferences - particuarly national and international -  is that to attend you have submitted an abstract that has been accepted for a poster or oral presentation. A couple of standard conferences. When thinking of what conferences to attend, consider what you want to get out of it, larger conferences offer much larger potential for exposure and the ability to meet with most people in our field. However, smaller conferences are more intermate and offer better opportunities to newtwork. 
+
+- [Alzheimer's Association International Conference (AAIC)](https://aaic.alz.org/)
+- [American Society of Human Gentics (ASHG)](https://www.ashg.org/)
+
+In addition to these larger conferences there are also consortium level meettings
+
+- Alzheiemr's Disease Genetics Consortium (ADGC) Meeting
+- Alzheiemr's Disease Sequencing Projects (ADSP)
+- [Alzheimer's Disease Research Centers Meetings](https://naccdata.org/adrc-resources/meeting-presentations)
+
+Institutions offering career development workshops 
+
+- [Skills for Health and Research Professionals (SHARP) Training](https://www.publichealth.columbia.edu/academics/non-degree-special-programs/professional-non-degree-programs/skills-health-research-professionals-sharp-training)
+- [Cold Spring Harbor Laboratory](https://meetings.cshl.edu/courseshome.aspx)
+- [Advanced Psychometeric Methods for Cognitive Aging Research (ΨMCA)](https://psymca.org/)
+- [Harvard Catalyst](https://catalyst.harvard.edu/train/)
+- [Stanford](https://online.stanford.edu/explore?type=course)
+
+### Letters of Recomendation
+I am honored that you have asked me to write a letter of recommendation for you, and I take this responsibility seriously. In order for me to help you get into the program you want, please provide the following materials to assist me in writing the letter:
+
+- CV
+- Personal statement
+- Details on the program you are applying for (website, etc.)
+
+In addition to these materials, please provide me with answers to the following questions, or any other additional information about you that you would like to be highlighted in the letter:
+
+- What are your strongest attributes?
+- What are you most proud of (academic or personal life)?
+- What sets you apart from other applicants?
+- How would your peers describe you? What makes you a good team player
+- What do you want to make sure the program knows about you?
+- How can I best advocate for you in the letter?
+
+This information will aid me in crafting a compelling and personalized recommendation that aligns with your aspirations and the program's expectations.
 
 ## Leaving the Lab
+Transition is a natural part of the laboratory life cycle, recognizing that each member has unique career aspirations. Shea is committed to supporting these professional goals and encourages open dialogue about future plans. This transparency ensures a seamless transition for both the individual and the lab. Should a situation arise where a member's departure is involuntary, we promise to offer clear, constructive feedback and explore all possible solutions. In instances of funding cessation, we pledge to assist in identifying new opportunities, striving to preserve amicable relationships with departing members under any circumstances.
 
 ### Planned and Voluntary Separation from the Lab
-
+Staff members should refer to [UCSF Offboarding](https://hr.ucsf.edu/my-hr/employees/offboarding#accordion-title-10196) for guideance. Written formal notification of your voluntary resignation should be sent to Shea as soon as possible. This will allow for timely processing of your separation (minimum of 10 business days required). 
 
 ### Involuntary Separation or Termination 
+While not expected, there may be times that a lab member needs to leave the lab unexpectedly due to loss of funding or conduct that violates the expectations of the lab and University. Disciplinary or performance issues will be addressed respectfully and directly, with adherence to University policy regarding the terms of employment.
+
+### Offboarding tasks 
+
+#### Files and Backups
+When you leave, your lab computer will be wiped and repurposed for new researchers.
+
+Therefore, all of your files related to publications and analyses should be on Box or Wynton:
+
+- Spreadsheets, documents, presentations and images should go on Box in your folder here. One exception is if the files are already on the drive in a project- or paper-specific folder.
+- Large datasets used in publications or useful to other members should already be on Wynton. If some such data is not already there, transfer it.
+- Any code that you have used to processed data or generate results for publications should be pushed to a AndrewsLab GitHub repository
+- Experimental data should be in Box. 
+
+#### Slack and GitHub
+
+Former lab members' access to the Lab Slack and GitHub will be reviewed at the start of each academic year. This allows for the finalization of any ongoing projects and publications. Access will be maintained temporarily to facilitate this process but will be revoked once these tasks are concluded.

@@ -1,0 +1,9 @@
+# Signatures
+As we conclude this handbook, we affirm our commitment to excellence, collaboration, and integrity. This document not only outlines our shared values and expectations but also serves as a testament to our collective dedication to advancing science and fostering a supportive, inclusive environment. Your signature below signifies your agreement to uphold these principles, contributing to our lab's success and the broader scientific community. 
+
+
+| Name         | Role   | Date       |
+|--------------|--------|------------|
+| Shea Andrews | PI     | 2024-02-17 |
+
+: {tbl-colwidths="[60,20,20]"}
