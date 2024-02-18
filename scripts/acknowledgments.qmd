@@ -1,9 +1,10 @@
-# Acknowledgments 
+# Acknowledgments {.unnumbered}
 
 This lab handbook was developed as part of the [Compass Training and Mentoring Program](https://researchercompass.org/about-the-program/). 
 
 Inspieration was also obtained from other PI's sharing examples of their lab handbook on [Twitter](https://twitter.com/Amit_Goldenb/status/1672239108368879616). 
 
+References
 - Benjamin C Tendler, Maddie Welland, Karla L Miller, The WIN Handbook Team (2023) _Research Culture: Why every lab needs a handbook._ [eLife 12:e88853](https://elifesciences.org/articles/88853)
 - Mariam Aly. (2018). _The key to a happy lab life is in the manual._ [Nature](https://www.nature.com/articles/d41586-018-06167-w)
 

@@ -1,4 +1,4 @@
-# Getting Started in the Lab 
+# Getting Started in the Lab {.unnumbered}
 Whether you are an undergraduate student, graduate student, postdoctoral associate/fellow, or associated research staff, starting in a new lab can be a daunting experience. The onboarding process is crucial for ensuring that newcomers feel comfortable and familiar with the lab's procedures, protocols, and guidelines. As you get started you may have a number of questions or uncertainties about your role, your project, our research, or life at UCSF. Just remeber that we are here to support you every step of the way, so we encourage questions and feedback during the onboarding process.
 
 ## New Lab Member Essentials
@@ -94,5 +94,5 @@ At the end of the hiring process HR will have sent an "Welcome to the University
 - Any other required training found in your required training
 
 ### Read the Lab Handbook 
-Hey you are already doing this! When you are finished, please utilize Git to clone the repository and push a new commit adding your name to the signatures page acknowledging that you have read and comprehended the contents of the Andrews Lab handbook. 
+Hey you are already doing this! When you are finished, please utilize Git to clone the repository and push a new commit adding your name to the [Signatures](signatures.qmd) page acknowledging that you have read and comprehended the contents of the Andrews Lab handbook. 
 

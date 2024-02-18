@@ -1,4 +1,4 @@
-# Working in the lab
+# Working in the lab {.unnumbered}
 This section of our handbook is designed to acquaint you with the general lab and institutional policies that underpin our daily operations and long-term objectives, ranging from work hours and time off to professional development and performance evaluations. They reflect our commitment to creating a supportive, productive, and enriching lab environment for all members.
 
 ## Work Hours 
@@ -21,7 +21,7 @@ All lab members are expected to adhere to the [UCSF Researcher Code of Conduct](
 
 Lab members should also be mindful of their behavior and language to promote a respectful and inclusive work environment. Discrimination, harassment, and bullying will not be tolerated.
 
-Responsible conduct of research is foundational to our scientific integrity and credibility, all lab members are required to uphold the highest standards of honesty, accuracy, and objectivity in their work. See the RCR section for more details
+Responsible conduct of research is foundational to our scientific integrity and credibility, all lab members are required to uphold the highest standards of honesty, accuracy, and objectivity in their work. See the [RCR](rcr.qmd) section for more details
 
 ## Performance Reviews
 

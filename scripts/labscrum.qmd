@@ -1,4 +1,4 @@
-# LabScrum 
+# LabScrum {.unnumbered}
 LabScrum adapts the Scrum framework from software development for research laboratories. It applies agile principles to scientific research to improve collaboration and streamline workflows. Research projects are divided into "sprints" with regular communication through stand-ups and retrospectives. This approach helps teams adapt to changes and work efficiently.
 
 ## LabScrum sprint cycle

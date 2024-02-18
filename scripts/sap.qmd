@@ -1,6 +1,5 @@
----
-title: Statistical Analysis Plan
----
+# Statistical Analysis Plan {.unnumbered}
+
 
 A Statistical Analysis Plan (SAP) is a comprehensive, detailed document that outlines the strategies and techniques that will be used to analyze the data collected in a research study. The SAP is crucial for ensuring the integrity and objectivity of the research. It specifies the statistical methods for assessing the primary and secondary outcomes, addresses how to handle missing data, and outlines procedures for any subgroup or sensitivity analyses. By pre-specifying these methods, the SAP helps to prevent bias and data dredging, where researchers might otherwise consciously or unconsciously analyze the data in ways that produce desired outcomes. In essence, the SAP serves as a roadmap for data analysis, guiding researchers to adhere to rigorous, pre-established analytical methods.
 

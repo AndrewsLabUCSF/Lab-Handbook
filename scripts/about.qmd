@@ -1,4 +1,4 @@
-# About the Lab
+# About the Lab {.unnumbered}
 
 ## Mission Statement
 The Andrews Lab at the University of California, San Francisco, aims to transform the diagnosis and treatment of Alzheimer's disease and related dementias. Through pioneering research in genetic epidemiology, we are developing predictive risk models that will serve as the foundation for personalized medicine that improves patient care. By integrating genetic factors—such as monogenic variants, polygenic architecture, and family history—with environmental factors consisting of individual-level lifestyle & behavioral exposures and broader macro-environmental factors, our models will empower patients and healthcare providers with actionable insights. Our ultimate objective is to enable targeted, effective interventions that will improve patient outcomes and reduce health disparities in Alzheimer's disease across diverse communities.

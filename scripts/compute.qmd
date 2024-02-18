@@ -1,6 +1,4 @@
----
-title: Compute 
----
+# Compute {.unnumbered}
 
 ## Local Machine 
 
@@ -54,10 +52,11 @@ Install [sge](https://github.com/snakemake-profiles/sge) snakemake profile using
 
 Log into your wynton account and switch to a development node: 
 
+```{{bash}}
 $ ssh username@wynton.ucsf.edu 
 
 $ ssh dev2  (because you can’t use “git” on log1)
-
+```
 
 In your web browser: 
 
@@ -67,10 +66,11 @@ Then find “Linux” under OS, then “x86_64 (amd64)” under Architecture, th
 
 
 In your Wynton terminal:
+```{{bash}}
+$ wget paste_the_mamba_link_here  # So, your command looks like: "wget http://etc"
 
-$ wget paste_the_mamba_link_here  (So, your command looks like: "wget http://etc")
-
-$ bash Mambaforge-Linux-x86_64.sh (make sure that you have this “Mambaforge” file by typing “ls” and seeing the file.) 
+$ bash Mambaforge-Linux-x86_64.sh # make sure that you have this “Mambaforge” file by typing “ls” and seeing the file.
+```
 
 Then, accept the license terms when wynton asks you. Confirm the location when wynton asks you. Initialize Mambaforge when wynton asks you. 
 
@@ -100,20 +100,22 @@ In your web browser:
 
 Go to: https://github.com/AndrewsLabUCSF/sge-wynton and type the wynton command line instructions: 
 
+```{{bash}}
 $ mkdir -p ~/.config/snakemake 
 
 $ cd ~/.config/snakemake 
 
-The final wynton command line, 
+# The final wynton command line, 
 
 $ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git (may fail) 
+```
 
 If it fails, follow the instructions in the lab handbook, “Git on the UCSF HPC Server Wynton” in the “Compute” section of the lab handbook to get git clone to work properly. 
 
 Note: If you already have the key_pair file, overwrite it when wynton asks you.
 
 
-```
+```{{bash}}
 # Print rulegraph 
 snakemake --rulegraph | dot -Tpdf > images/dag.pdf
 
@@ -127,27 +129,27 @@ snakemake --use-conda --conda-create-envs-only
 
 On Wynton (open a terminal):
 
-$ ssh your_wynton_username@log1.wynton.ucsf.edu
+`$ ssh your_wynton_username@log1.wynton.ucsf.edu`
 
 You can’t use git on log1, so switch to a development node:
 
-$ ssh dev2  
+`$ ssh dev2  `
 
 
 You can't use `git clone' yet (You need an authorization key):
 
-$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git
+`$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git`
 
 failure
 
 
 Generate public/private (ed25519) key pair:
 
-$ ssh-keygen -t ed25519 -C your_email_address_assoc_with_GitHub
+`$ ssh-keygen -t ed25519 -C your_email_address_assoc_with_GitHub`
 
 Enter the filename in which to save the key: 
 
-$ key_pair
+`$ key_pair`
 
 Enter passphrase (empty for no passphrase): 
 
@@ -169,32 +171,34 @@ Type “ls -la” to check that your key_pair and key_pair.pub exist.
 
 Open a connection to your authentication agent:
 
-$ eval $(ssh-agent)
+`$ eval $(ssh-agent)`
 
 Agent pid (new number each time)
 
 
 Move your key_pair and key_pair.pub files into a new folder called ".ssh":
 
-$ mkdir .ssh (if .ssh doesn't yet exist)
+```{{bash}}
+$ mkdir .ssh # if .ssh doesn't yet exist
 
 $ mv key_pair .ssh
 
 $ mv key_pair.pub .ssh
-
+```
 
 SSH-ADD your files and assign the necessary permissions:
 
+```{{bash}}
 $ ssh-add .ssh/key_pair
 
 $ chmod 600 .ssh/key_pair.pub
 
 $ ssh-add .ssh/key_pair.pub
-
+```
 
 Copy the contents of your key_pair.pub file to paste in GitHub (This command gives the file's contents):
 
-$ cat .ssh/key_pair.pub
+`$ cat .ssh/key_pair.pub`
 
 Your_key your_email_address_assoc_with_GitHub
 
@@ -212,11 +216,11 @@ Save this key, after giving a title.
 
 Prepare for "git" and "git clone":
 
-$ ssh -T git@github.com
+`$ ssh -T git@github.com`
 
 (You may get this message: . . . Are you sure you want to continue connecting (yes/no)?): 
 
-$ yes
+`$ yes`
 
 
 On GitHub:
@@ -230,41 +234,43 @@ Copy the code in the box to use in your git clone command (see below) - use the 
 
 On Wynton:
 
-$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git
+`$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git`
 
 Success!
 
 
 Logging out and logging back into Wynton:
 
+```{{bash}}
 $ ssh your_wynton_username@log1.wynton.ucsf.edu
 
 $ ssh dev2 (or dev1, etc)
-
+```
 
 Open a connection to your authentication agent:
 
-$ eval $(ssh-agent)
+`$ eval $(ssh-agent)`
 
 Agent pid (new number each time)
 
 
 # Add your key pair:
 
+```{{bash}}
 $ ssh-add .ssh/key_pair
 
 $ ssh-add .ssh/key_pair.pub
-
+```
 
 Prepare for 'git' and 'git clone' on Wynton:
 
-$ ssh -T git@github.com
+`$ ssh -T git@github.com`
 
 Hi GitHub_username! You've successfully authenticated, but GitHub does not provide shell access.
 
 
 Push some previously committed files:
 
-$ git push etc
+`$ git push etc`
 
 Success!

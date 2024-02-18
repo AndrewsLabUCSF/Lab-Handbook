@@ -40,6 +40,9 @@ format:
   html:
     theme: yeti
     number-depth: 1
-
+  pdf:
+    documentclass: scrreport
+  epub:
+    cover-image: images/dementia.jpg
 
 editor: visual

@@ -1,4 +1,4 @@
-# When Things Don’t Go Right in the Lab
+# When Things Don’t Go Right in the Lab {.unnumbered}
 
 ## Making and Disclosing Mistakes and/or Problems
 

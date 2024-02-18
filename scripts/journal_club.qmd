@@ -1,4 +1,4 @@
-# Journal Club
+# Journal Club {.unnumbered}
 Journal clubs serve as a critical cornerstone in the ongoing education and professional development of researchers, clinicians, and students alike. They provide a structured yet collaborative environment for dissecting and discussing current research papers in depth. Not only do these sessions enhance critical thinking and appraisal skills, but they also keep participants abreast of the latest advancements and methodologies in their field. Furthermore, journal clubs foster a culture of collective learning and interdisciplinary dialogue, enabling the exchange of diverse perspectives and insights. This enriches the understanding of complex topics and often sparks innovative ideas for future research endeavors.
 
 ## How to find papers

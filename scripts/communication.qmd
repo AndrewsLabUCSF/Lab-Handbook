@@ -1,4 +1,4 @@
-# Communication 
+# Communication {.unnumbered}
 
 Effective communication is paramount for a lab to function cohesively and productively. Our lab, a scientific community within the larger University of California, San Francisco (UCSF) ecosystem, thrives on regular interactions. These exchanges foster connections, enhance morale, facilitate the sharing of information, and help to identify and mitigate challenges in our research endeavors. It is crucial that when we communicate, both within our lab and with external colleagues, we adhere to the following principles:
 

@@ -1,4 +1,4 @@
-# Directory Structure
+# Directory Structure {.unnumbered}
 In any research project, especially those involving data analysis, maintaining an organized and standardized directory structure is crucial. This practice facilitates efficient data management and ensures the reproducibility of your research. Here are some key reasons why standardized directory structures are important:
 
 1. **Ease of Navigation:** A well-organized directory structure allows you and others to easily locate files and understand their purpose. This is particularly beneficial when working in a team or when your project is handed over to another researcher.

@@ -1,6 +1,5 @@
----
-title: Reading List
----
+# Reading List {.unnumbered}
+
 
 This curated list of references is an essential part of our shared knowledge base, designed to provide you with a solid foundation and a deeper understanding of the fields we are passionate about: genetic epidemiology and neurodegenerative disease. You will also find readings on other aspects of the scientific enterprise such as writing, presentations, and career development.
 
