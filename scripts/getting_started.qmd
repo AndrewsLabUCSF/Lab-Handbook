@@ -10,6 +10,7 @@ Whether you are an undergraduate student, graduate student, postdoctoral associa
 - [UCnet](https://ucnet.universityofcalifornia.edu/index.html): Benefits
 - [UCPath](https://ucpath.ucsf.edu/): Payroll 
 - [Campus Life Services](https://campuslifeserviceshome.ucsf.edu/): Information on UC discounts, perks, housing, community organizations etc
+- [DPBS Intranet](https://psychintranet.ucsf.edu/LPPH)
 
 ## Onboarding Tasks
 
@@ -48,6 +49,7 @@ Advanced software to install - project dependent
 Optional software to install - Shea reguarly uses these
 
 - [Oh My ZSH](https://ohmyz.sh/): Bring some life to your terminal! 
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/): autocomplete commands
 - [Dropbox](https://www.dropbox.com/downloading): Save everything in the cloud.  
 - [iStat Menues](https://apps.apple.com/us/app/istat-menus/id1319778037?mt=12): Better tracking of your computers resources
 - [tadam](https://apps.apple.com/us/app/tadam-stay-focused-at-work/id531349534?mt=12): Pomodoro timer for focusing
@@ -58,7 +60,7 @@ Optional software to install - Shea reguarly uses these
 [Wynton](https://wynton.ucsf.edu/hpc/index.html) is UCSF's High Performance Cluster
 
 - [Request an account](https://wynton.ucsf.edu/hpc/about/join.html)
-- [Set up VSCode ssh fowarding](https://blog.wytamma.com/blog/hcp-vscode/)
+- Once you have an acount read [Compute](compute.qmd) section for Tips on using Wynton
 
 ### List Servs 
 Global Email list serves that Shea needs to add new employees too. 
