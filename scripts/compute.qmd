@@ -1,13 +1,12 @@
 # Compute {.unnumbered}
 
-## Local Machine 
+## Local Machine
 
-- [Set up VSCode ssh fowarding](https://blog.wytamma.com/blog/hcp-vscode/): Allows you to access files on Wynton using VScode
+-   [Set up VSCode ssh fowarding](https://blog.wytamma.com/blog/hcp-vscode/): Allows you to access files on Wynton using VScode
 
 ### Git
 
 To ensure consistency and efficiency in managing code repositories on local machines, it's recommended to clone all repositories into a specific directory. This can be achieved by creating a `gitcode` directory in your home directory using the following commands:
-
 
 ```{{bash}}
 cd # Navigate to your home directory
@@ -20,54 +19,53 @@ After executing these commands, a Finder window will display, allowing you to ea
 
 For more detailed benefits of maintaining a standardized directory structure, refer to the [Directories](directories.qmd) section. This approach not only simplifies project management but also enhances collaboration by ensuring that all team members organize their work in a uniform manner
 
-
 ## High Performance Computing
 
-Resources on using Wynton 
+Resources on using Wynton
 
-- [Get Started with Wynton](https://wynton.ucsf.edu/hpc/get-started/access-cluster.html)
-- [Job Submission](https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html)
-- [File Transfers](https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html)
-- [Wynton Bioinformatics Open Data Resource](https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/): A number of standard genomic datasets/resources are avaliable on so we do not need to download them. 
-- [Getting started with HPC](https://code.sbamin.com/hpc/)
+-   [Get Started with Wynton](https://wynton.ucsf.edu/hpc/get-started/access-cluster.html)
+-   [Job Submission](https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html)
+-   [File Transfers](https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html)
+-   [Wynton Bioinformatics Open Data Resource](https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/): A number of standard genomic datasets/resources are avaliable on so we do not need to download them.
+-   [Getting started with HPC](https://code.sbamin.com/hpc/)
 
 ### Andrews Group
 
 Our labs storage on Wynton is found here: `/wynton/group/andrews`
 
-We have three major directories 
+We have three major directories
 
-- `data`: Where we store all datasets. Individual projects should softlink to these 
-- `bin`: Software, Snakemake workflows etc 
-- `users`: Individual project directories 
+-   `data`: Where we store all datasets. Individual projects should softlink to these
+-   `bin`: Software, Snakemake workflows etc
+-   `users`: Individual project directories
 
-
-::: {.callout-important}
+::: callout-important
 # Soft links
+
 Soft links, also known as symbolic links or symlinks, are a type of shortcut to files and directories on a computer system. They are used to avoid duplicating data by creating a reference to the original dataset, rather than copying it. This practice is particularly useful in managing data efficiently on systems like Wynton and local storage, where minimizing data redundancy is crucial. Creating a soft link allows users to access and work with datasets from different locations without the need for multiple copies, thus saving space and organizing files more effectively. Here's how to manage soft links:
 
-```
+```         
 # add a soft link
 ln -s /path/to/orginal /path/to/softlink
 
 # remove a softlink 
 unlink /path/to/softlink
 ```
-::: 
+:::
 
-
-### Mamba 
+### Mamba
 
 Conda and Mamba are tools that help you install and manage software packages and their dependencies, which are other packages that a software needs to function properly. They're especially useful when different projects need different versions of the same software package. Conda, created by Anaconda, Inc., is well-known for its ability to create isolated spaces (called environments) for your projects, ensuring that the software packages of one project don't interfere with those of another. Mamba is a faster version of Conda, doing the same job but more quickly. Both of them support many programming languages, making them versatile tools for managing software in your projects.
 
 Install [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) in your home directory
 
-### Cookiecutter 
+### Cookiecutter
+
 A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
 
 Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html) using mamba
 
-### Snakemake 
+### Snakemake
 
 Snakemake is a versatile, Python-based workflow management system that enables the creation of reproducible and scalable data analyses. It operates on the principle of defining "rules" that explicitly state how to produce output files from input files. These rules, which can incorporate shell commands or scripts in any language, are written in a Snakefile. Snakemake takes care of determining the correct order of rule execution based on their dependencies. It also supports parallelization of jobs, making it suitable for high-throughput computations. Furthermore, Snakemake workflows are self-documenting, meaning they can serve as a record of your data analysis, enhancing reproducibility. It's widely used in bioinformatics, but its application can extend to any field that involves pipeline-based data analysis.
 
@@ -75,10 +73,9 @@ Install [Snakemake](https://snakemake.readthedocs.io/en/stable/getting_started/i
 
 Install [sge](https://github.com/snakemake-profiles/sge) snakemake profile using cookiecutter
 
-
 ### Installing Mamba and Snakemake (Detailed Instructions):
 
-Log into your wynton account and switch to a development node: 
+Log into your wynton account and switch to a development node:
 
 ```{{bash}}
 $ ssh username@wynton.ucsf.edu 
@@ -86,47 +83,37 @@ $ ssh username@wynton.ucsf.edu
 $ ssh dev2  (because you can’t use “git” on log1)
 ```
 
-In your web browser: 
+In your web browser:
 
 Go to: https://github.com/conda-forge/miniforge#mambaforge to find “Mambaforge."
 
-Then find “Linux” under OS, then “x86_64 (amd64)” under Architecture, then “Mambaforge-Linux-x86_64” under Download. Right-click on the “Mambaforge-Linux-x86_64” link (copying the link). 
+Then find “Linux” under OS, then “x86_64 (amd64)” under Architecture, then “Mambaforge-Linux-x86_64” under Download. Right-click on the “Mambaforge-Linux-x86_64” link (copying the link).
 
+In your Wynton terminal: 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBRAEEAMQBBAEQAQQBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEcASQBBAFkAUQBCAHoAQQBHAGcAQQBmAFEAQgA5AEEAQQBvAEEASgBBAEEAZwBBAEgAYwBBAFoAdwBCAGwAQQBIAFEAQQBJAEEAQgB3AEEARwBFAEEAYwB3AEIAMABBAEcAVQBBAFgAdwBCADAAQQBHAGcAQQBaAFEAQgBmAEEARwAwAEEAWQBRAEIAdABBAEcASQBBAFkAUQBCAGYAQQBHAHcAQQBhAFEAQgB1AEEARwBzAEEAWAB3AEIAbwBBAEcAVQBBAGMAZwBCAGwAQQBDAEEAQQBJAEEAQQBqAEEAQwBBAEEAVQB3AEIAdgBBAEMAdwBBAEkAQQBCADUAQQBHADgAQQBkAFEAQgB5AEEAQwBBAEEAWQB3AEIAdgBBAEcAMABBAGIAUQBCAGgAQQBHADQAQQBaAEEAQQBnAEEARwB3AEEAYgB3AEIAdgBBAEcAcwBBAGMAdwBBAGcAQQBHAHcAQQBhAFEAQgByAEEARwBVAEEATwBnAEEAZwBBAEMASQBBAGQAdwBCAG4AQQBHAFUAQQBkAEEAQQBnAEEARwBnAEEAZABBAEIAMABBAEgAQQBBAE8AZwBBAHYAQQBDADgAQQBaAFEAQgAwAEEARwBNAEEASQBnAEEASwBBAEEAbwBBAEoAQQBBAGcAQQBHAEkAQQBZAFEAQgB6AEEARwBnAEEASQBBAEIATgBBAEcARQBBAGIAUQBCAGkAQQBHAEUAQQBaAGcAQgB2AEEASABJAEEAWgB3AEIAbABBAEMAMABBAFQAQQBCAHAAQQBHADQAQQBkAFEAQgA0AEEAQwAwAEEAZQBBAEEANABBAEQAWQBBAFgAdwBBADIAQQBEAFEAQQBMAGcAQgB6AEEARwBnAEEASQBBAEEAagBBAEMAQQBBAGIAUQBCAGgAQQBHAHMAQQBaAFEAQQBnAEEASABNAEEAZABRAEIAeQBBAEcAVQBBAEkAQQBCADAAQQBHAGcAQQBZAFEAQgAwAEEAQwBBAEEAZQBRAEIAdgBBAEgAVQBBAEkAQQBCAG8AQQBHAEUAQQBkAGcAQgBsAEEAQwBBAEEAZABBAEIAbwBBAEcAawBBAGMAdwBBAGcAQQBCAHcAZwBUAFEAQgBoAEEARwAwAEEAWQBnAEIAaABBAEcAWQBBAGIAdwBCAHkAQQBHAGMAQQBaAFEAQQBkAEkAQwBBAEEAWgBnAEIAcABBAEcAdwBBAFoAUQBBAGcAQQBHAEkAQQBlAFEAQQBnAEEASABRAEEAZQBRAEIAdwBBAEcAawBBAGIAZwBCAG4AQQBDAEEAQQBIAEMAQgBzAEEASABNAEEASABTAEEAZwBBAEcARQBBAGIAZwBCAGsAQQBDAEEAQQBjAHcAQgBsAEEARwBVAEEAYQBRAEIAdQBBAEcAYwBBAEkAQQBCADAAQQBHAGcAQQBaAFEAQQBnAEEARwBZAEEAYQBRAEIAcwBBAEcAVQBBAEwAZwBBAEsAQQBHAEEAQQBZAEEAQgBnAEEAQQA9AD0ACgBzAHUAZgBmAGkAeAA6AA==:31b8e172-b470-440e-83d8-e6b185028602
 
-In your Wynton terminal:
-```{{bash}}
-$ wget paste_the_mamba_link_here  # So, your command looks like: "wget http://etc"
+Then, accept the license terms when wynton asks you. Confirm the location when wynton asks you. Initialize Mambaforge when wynton asks you.
 
-$ bash Mambaforge-Linux-x86_64.sh # make sure that you have this “Mambaforge” file by typing “ls” and seeing the file.
-```
+Mambaforge should now be installed:
 
-Then, accept the license terms when wynton asks you. Confirm the location when wynton asks you. Initialize Mambaforge when wynton asks you. 
-
-
-Mambaforge should now be installed: 
-
-You should get the following message: 
+You should get the following message:
 
 “Thank you for installing Mambaforge!”
 
-
 Log out of wynton (write “logout”) and log back in for the changes to take effect: Log first into log1 and then dev2 (or dev1).
 
-
-Next, do a full installation of Snakemake: 
+Next, do a full installation of Snakemake:
 
 In your web browser:
 
-Go to: https://snakemake.readthedocs.io/en/stable/getting_started/installation.html# 
+Go to: https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#
 
-Find the “Full installation” instructions. (The Wynton commands are “conda activate base”, then “mamba create -c conda-forge -c bioconda -n snakemake snakemake”, then “conda activate snakemake”.) 
+Find the “Full installation” instructions. (The Wynton commands are “conda activate base”, then “mamba create -c conda-forge -c bioconda -n snakemake snakemake”, then “conda activate snakemake”.)
 
 Confirm the changes when wynton asks.
 
+In your web browser:
 
-In your web browser: 
-
-Go to: https://github.com/AndrewsLabUCSF/sge-wynton and type the wynton command line instructions: 
+Go to: https://github.com/AndrewsLabUCSF/sge-wynton and type the wynton command line instructions:
 
 ```{{bash}}
 $ mkdir -p ~/.config/snakemake 
@@ -138,10 +125,9 @@ $ cd ~/.config/snakemake
 $ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git (may fail) 
 ```
 
-If it fails, follow the instructions in the lab handbook, “Git on the UCSF HPC Server Wynton” in the “Compute” section of the lab handbook to get git clone to work properly. 
+If it fails, follow the instructions in the lab handbook, “Git on the UCSF HPC Server Wynton” in the “Compute” section of the lab handbook to get git clone to work properly.
 
 Note: If you already have the key_pair file, overwrite it when wynton asks you.
-
 
 ```{{bash}}
 # Print rulegraph 
@@ -151,9 +137,7 @@ snakemake --rulegraph | dot -Tpdf > images/dag.pdf
 snakemake --use-conda --conda-create-envs-only
 ```
 
-
 ### Git (and Git Clone) on UCSF HPC Server Wynton
-
 
 On Wynton (open a terminal):
 
@@ -161,25 +145,23 @@ On Wynton (open a terminal):
 
 You can’t use git on log1, so switch to a development node:
 
-`$ ssh dev2  `
+`$ ssh dev2`
 
-
-You can't use `git clone' yet (You need an authorization key):
+You can't use \`git clone' yet (You need an authorization key):
 
 `$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git`
 
 failure
 
-
 Generate public/private (ed25519) key pair:
 
 `$ ssh-keygen -t ed25519 -C your_email_address_assoc_with_GitHub`
 
-Enter the filename in which to save the key: 
+Enter the filename in which to save the key:
 
 `$ key_pair`
 
-Enter passphrase (empty for no passphrase): 
+Enter passphrase (empty for no passphrase):
 
 (optional; You can just hit return)
 
@@ -187,22 +169,17 @@ Enter same passphrase again:
 
 (optional; You can just hit return)
 
-Your identification has been saved in key_pair.
-Your public key has been saved in key_pair.pub.
-The key fingerprint is:
+Your identification has been saved in key_pair. Your public key has been saved in key_pair.pub. The key fingerprint is:
 
 Your_key_fingerprint your_email_address_assoc_with_GitHub
 
-
 Type “ls -la” to check that your key_pair and key_pair.pub exist.
-
 
 Open a connection to your authentication agent:
 
 `$ eval $(ssh-agent)`
 
 Agent pid (new number each time)
-
 
 Move your key_pair and key_pair.pub files into a new folder called ".ssh":
 
@@ -230,42 +207,37 @@ Copy the contents of your key_pair.pub file to paste in GitHub (This command giv
 
 Your_key your_email_address_assoc_with_GitHub
 
+Paste the contents of key_pair.pub into the following location:
 
-Paste the contents of key_pair.pub into the following location: 
+Log onto GitHub and click on your personal account, then click on “settings”.
 
-Log onto GitHub and click on your personal account, then click on “settings”. 
+Click on “SSH and GPG keys”.
 
-Click on “SSH and GPG keys”. 
-
-Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”. 
+Click on “New SSH key” and paste the entire contents of key_pair.pub (including your email address associated with GitHub) into the new “Authentication Key”.
 
 Save this key, after giving a title.
-
 
 Prepare for "git" and "git clone":
 
 `$ ssh -T git@github.com`
 
-(You may get this message: . . . Are you sure you want to continue connecting (yes/no)?): 
+(You may get this message: . . . Are you sure you want to continue connecting (yes/no)?):
 
 `$ yes`
 
-
 On GitHub:
 
-Click on “<> Code” in green on the desired repository page. 
+Click on “\<\> Code” in green on the desired repository page.
 
-Click on SSH. 
+Click on SSH.
 
 Copy the code in the box to use in your git clone command (see below) - use the SSH code.
-
 
 On Wynton:
 
 `$ git clone git@github.com:AndrewsLabUCSF/sge-wynton.git`
 
 Success!
-
 
 Logging out and logging back into Wynton:
 
@@ -281,7 +253,6 @@ Open a connection to your authentication agent:
 
 Agent pid (new number each time)
 
-
 # Add your key pair:
 
 ```{{bash}}
@@ -296,9 +267,37 @@ Prepare for 'git' and 'git clone' on Wynton:
 
 Hi GitHub_username! You've successfully authenticated, but GitHub does not provide shell access.
 
-
 Push some previously committed files:
 
 `$ git push etc`
 
 Success!
+
+# Option 2: An more interactive way
+
+Step 1: log into wynton server
+- switch to the dev node ( you should see ```username@dev1 folder```)
+- type the following: 
+    - ```cd /wynton/group/YourLabName/YourFolderName```
+    - ```module load CBI```
+    - ```module load github-cli```
+   
+Step 2: Authenticate 
+ - ```gh auth login``` & answer the questions
+    - Note you must type https://github.com/login/device  into the internet browser. It will        ask for  a one-time code (type the number that is given)
+- To verify the key pair works type ```ssh -T git@github.com``` and you should get a meesage that says: Hi username@github.com  You've successfully authenticated, but   GitHub does not provide shell access
+
+If steps 1 & 2 are done correctly we should see 
+Authentication Complete  - gh config set -h github.com git protocol ssh
+configured git protocol
+Authentication credentials saved in plain text , uploaded the ssh key to your GitHub account
+
+Next log out of Wynton and then log back in. Make sure you are in dev1 or dev2. 
+
+Type ```ssh -T git@github.com``` and you should get a meesage that says: Hi username@github.com  You've successfully authenticated, but   GitHub does not provide shell access
+
+Success! Use git as normal in command line
+
+
+
+
