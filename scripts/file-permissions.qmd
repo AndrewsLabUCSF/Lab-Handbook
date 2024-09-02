@@ -1,0 +1,216 @@
+# Understanding Unix/Linux File Permissions
+
+In Unix/Linux, each file and directory has a set of permissions that determine who can read, write, or execute the file or directory. These permissions are divided into three categories: **owner**, **group**, and **others**.
+
+Here’s a brief tutorial on recognizing, interpreting, and modifying these permissions.
+
+---
+
+### **1. Recognizing File Permissions**
+
+When you use the `ls -l` command to list files and directories, you will see a series of symbols that represent the permissions. Here's an example:
+
+```bash
+drwxr-sr-x  2 rakshyasharma andrews 4096 Aug 22 11:55 example_directory
+
+```
+
+The first column (`drwxr-sr-x`) shows the file type and permissions.
+
+### **Breaking It Down**:
+
+- **First character (`d`)**: This indicates the file type.
+    - `d`: directory
+    - - : regular file
+    - `l`: symbolic link
+- **Next nine characters (`rwxr-sr-x`)**: These represent the permissions for the **owner**, **group**, and **others**.
+    - **Owner (first 3 characters, `rwx`)**:
+        - `r`: read permission
+        - `w`: write permission
+        - `x`: execute permission
+    - **Group (next 3 characters, `r-s`)**:
+        - `r`: read permission
+        - - : no write permission
+        - `s`: setgid bit is set (instead of normal execute permission)
+    - **Others (last 3 characters, `r-x`)**:
+        - `r`: read permission
+        - - : no write permission
+        - `x`: execute permission
+
+---
+
+### **2. Changing File Permissions**
+
+You can change file or directory permissions using the `chmod` command. Only the **owner** of the file or directory (or the superuser `root`) can change its permissions.
+
+### **a. Symbolic Notation**
+
+In symbolic notation, permissions are modified using:
+
+- `u`: owner
+- `g`: group
+- `o`: others
+- `a`: all (owner, group, and others)
+
+### **Examples**:
+
+- **Add write permission for group**:
+    
+    ```bash
+    chmod g+w file.txt
+    
+    ```
+    
+- **Remove execute permission for others**:
+    
+    ```bash
+    chmod o-x file.txt
+    
+    ```
+    
+- **Give all permissions (read, write, execute) to everyone**:
+    
+    ```bash
+    chmod a+rwx file.txt
+    
+    ```
+    
+
+### **b. Numeric Notation**
+
+Permissions can also be modified using numbers:
+
+- **4** = read (`r`)
+- **2** = write (`w`)
+- **1** = execute (`x`)
+
+Each category (owner, group, others) gets a number that sums the permissions. For example:
+
+- `7` = `rwx`
+- `5` = `r-x`
+
+### **Examples**:
+
+- **Set full permissions for the owner and read/execute for group and others**:
+    
+    ```bash
+    chmod 755 file.txt
+    
+    ```
+    
+- **Set read and write permissions for owner and group, and no permissions for others**:
+    
+    ```bash
+    chmod 660 file.txt
+    
+    ```
+    
+
+---
+
+### **3. Special Permissions: `setuid`, `setgid`, and Sticky Bit**
+
+- **`setuid` (Set User ID)**: When a file with `setuid` is executed, it runs with the privileges of the file's owner. This is typically used for executable files.
+    - Set with:
+        
+        ```bash
+        chmod u+s file.txt
+        
+        ```
+        
+- **`setgid` (Set Group ID)**: When a directory has `setgid`, new files created inside it inherit the group of the directory, not the group of the user who created the file.
+    - Set with:
+        
+        ```bash
+        chmod g+s directory_name
+        
+        ```
+        
+- **Sticky Bit**: When applied to a directory, it ensures that only the owner of a file can delete or rename it, even if other users have write permissions.
+    - Set with:
+        
+        ```bash
+        chmod +t directory_name
+        
+        ```
+        
+
+---
+
+### **4. Who Can Change File Permissions?**
+
+- **File Owner**: The owner of the file can modify permissions using `chmod`. You can check the file owner using the `ls -l` command.
+- **Superuser (root)**: The root user can change any file's permissions or ownership.
+- **Group members or others**: Unless they are the owner or have `sudo` privileges, they cannot modify the permissions of a file or directory.
+
+---
+
+### **5. Checking Permissions**
+
+After changing permissions, you can verify the changes by running:
+
+```bash
+ls -l
+
+```
+
+This will display the updated permissions for each file and directory.
+
+---
+
+### **Examples of Permission Changes**:
+
+- **Change permissions to `rwxr-xr-x`** (full control for owner, read/execute for group and others):
+    
+    ```bash
+    chmod 755 directory_name
+    
+    ```
+    
+- **Add write permission for the group**:
+    
+    ```bash
+    chmod g+w file.txt
+    
+    ```
+    
+- **Remove execute permission for others**:
+    
+    ```bash
+    chmod o-x file.txt
+    
+    ```
+    
+- **Set the `setgid` bit on a directory**:
+    
+    ```bash
+    chmod g+s directory_name
+    
+    ```
+    
+
+---
+
+File permissions in Unix/Linux control access to files and directories for the owner, group, and others. The `chmod` command is used to modify these permissions, and only the file owner or the superuser can change them. Understanding how to read and set these permissions helps in securing and organizing files effectively.
+
+### To change permission for multiple files
+
+If all the files you want to modify are in the same directory and follow a specific pattern, you can use a wildcard.
+
+```bash
+chmod 777 *.txt.gz
+```
+
+•	chmod: The command used to change the permissions of a file.
+
+•	777: This sets the permissions to **rwxrwxrwx**, which means:
+
+•	**7**: rwx (read, write, execute) for the owner.
+
+•	**7**: rwx (read, write, execute) for the group.
+
+•	**7**: rwx (read, write, execute) for others.
+
+This command will change the permissions of all .txt.gz files in the current directory to 
+
+-rwxrwxrwx. If you want to target a different pattern, adjust the wildcard accordingly (e.g., * for all files, PGS*.txt.gz for files starting with PGS, etc.).
