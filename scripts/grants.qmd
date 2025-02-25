@@ -4,3 +4,4 @@
 
 - [PI Desk Reference](https://osr.ucsf.edu/pi-desk-reference): Key resources from the UCSF Office of Sponsored Research for grant submission
 - [DPBS Intranet](https://psychintranet.ucsf.edu/)
+- [UCSF Grant Templates](https://guides.ucsf.edu/rdo/templates)
