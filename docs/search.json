@@ -417,6 +417,127 @@
     ]
   },
   {
+    "objectID": "scripts/writing_style.html",
+    "href": "scripts/writing_style.html",
+    "title": "Writing Style Guide",
+    "section": "",
+    "text": "Order of precedence\nThis guide describes Shea’s preferred format for manuscript drafts. These preferences reflect his experience as an author, reviewer, and mentor; they are house style, not universal rules. Following them makes drafts easier to review and keeps collaborators from spending time on avoidable formatting changes.\nUse the following order when requirements differ:\nFor example, Shea prefers justified text and 1.5-line spacing in working drafts. Alzheimer’s & Dementia, however, requests left-aligned, double-spaced manuscripts. Use the journal’s requirements when preparing that submission.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#order-of-precedence",
+    "href": "scripts/writing_style.html#order-of-precedence",
+    "title": "Writing Style Guide",
+    "section": "",
+    "text": "Target journal: Follow the current author instructions for the journal where the manuscript will be submitted.\nDefault journal: If the target journal has not been selected or does not address an issue, follow the Alzheimer’s & Dementia author guidelines.\nLab house style: Use the preferences below when neither set of journal instructions answers the question.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCheck the target journal’s instructions again immediately before submission. Author guidelines and submission systems change.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#file-naming-and-versioning",
+    "href": "scripts/writing_style.html#file-naming-and-versioning",
+    "title": "Writing Style Guide",
+    "section": "File naming and versioning",
+    "text": "File naming and versioning\nDraft manuscripts in Microsoft Word and save them as .docx files. Do not use Google Docs. Store and share active manuscripts in the lab’s shared OneDrive folder so Shea and the coauthors are working from the same file. Use Word’s Track Changes and comments when reviewing or revising a shared draft.\nName each manuscript file using the project name followed by the date in YYMMDD format:\n[project]-[YYMMDD].docx\nFor example:\nad-biomarkers-260812.docx\nCreate a new dated document after every major revision, including after receiving substantive feedback from Shea or another coauthor. Do not overwrite the previous major version. During a single revision cycle, use tracked changes and comments rather than creating many nearly identical files.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#page-and-paragraph-formatting",
+    "href": "scripts/writing_style.html#page-and-paragraph-formatting",
+    "title": "Writing Style Guide",
+    "section": "Page and paragraph formatting",
+    "text": "Page and paragraph formatting\nUnless the target journal specifies otherwise:\n\nUse a sans serif font, such as Arial, in 11- or 12-point type.\nUse 1.5-line spacing for working drafts.\nJustify the main text.\nUse standard 1-inch (2.54-cm) margins.\nNumber pages and use continuous line numbering when the target journal requires it; Alzheimer’s & Dementia requests numbered manuscripts.\nSet paragraph spacing before and after to 0 points.\nSeparate paragraphs with one blank line. Do not use paragraph-spacing settings to create the blank line.\nUse the word processor’s built-in page breaks and section breaks. Do not press Return repeatedly to move content to a new page.\nInsert page or section breaks between the title page, abstract, main text, references, tables, and figures.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#headings",
+    "href": "scripts/writing_style.html#headings",
+    "title": "Writing Style Guide",
+    "section": "Headings",
+    "text": "Headings\nUse the APA heading hierarchy for working drafts unless the target journal specifies another system. Use heading levels in order; do not skip from a first-level heading to a third-level heading. Format the heading levels consistently throughout the manuscript.\nThis preference concerns heading hierarchy and appearance. It does not require APA citation style when the target journal uses a different reference style. Alzheimer’s & Dementia, for example, generally follows AMA style.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#tables-and-figures",
+    "href": "scripts/writing_style.html#tables-and-figures",
+    "title": "Writing Style Guide",
+    "section": "Tables and figures",
+    "text": "Tables and figures\n\nCite every table and figure in the main text and number each in the order first cited.\nPlace tables and figures after the references rather than inline in the main text.\nStart every table and every figure on a new page.\nKeep each table with its title and footnotes.\nKeep each figure with its caption during internal review, unless the target journal requests captions in a separate section or file.\nConfirm that abbreviations, symbols, colors, and sample sizes are defined consistently across the text, tables, figures, and captions.\nAt submission, follow the target journal’s requirements for separate figure files, resolution, dimensions, color mode, and file type.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#gene-and-protein-nomenclature",
+    "href": "scripts/writing_style.html#gene-and-protein-nomenclature",
+    "title": "Writing Style Guide",
+    "section": "Gene and protein nomenclature",
+    "text": "Gene and protein nomenclature\nItalicize gene symbols when referring to genes, alleles, or RNA transcripts. Do not italicize protein symbols. For human genes, use the approved symbol listed by the HUGO Gene Nomenclature Committee; the HGNC guidance explains the distinction between gene and protein styling. Follow the relevant organism-specific nomenclature authority for nonhuman species.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#formatting-an-imrad-manuscript",
+    "href": "scripts/writing_style.html#formatting-an-imrad-manuscript",
+    "title": "Writing Style Guide",
+    "section": "Formatting an IMRaD manuscript",
+    "text": "Formatting an IMRaD manuscript\nUse the target journal’s required organization. If no journal has been selected, use the following working structure for an Introduction, Methods, Results, and Discussion (IMRaD) paper:\nTITLE PAGE\n  Manuscript title\n  Authors and affiliations\n  Corresponding author and contact information\n  Target journal\n  Main-text, abstract, table, and figure counts\n\n[PAGE BREAK]\n\nABSTRACT\n  Abstract\n  Keywords, if required\n\n[PAGE BREAK]\n\nINTRODUCTION\n\nMETHODS\n\nRESULTS\n\nDISCUSSION\n\n[PAGE BREAK]\n\nACKNOWLEDGMENTS\n\nFUNDING\n\nDATA AND CODE SHARING\n\n[PAGE BREAK]\n\nREFERENCES\n\n[PAGE BREAK]\n\nTABLE 1\n\n[PAGE BREAK]\n\nTABLE 2\n  Continue with one table per page\n\n[PAGE BREAK]\n\nFIGURE 1\n\n[PAGE BREAK]\n\nFIGURE 2\n  Continue with one figure per page\nUse descriptive Methods and Results subheadings that align with the study aims and appear in a parallel order. Report findings in Results; reserve interpretation, comparison with prior literature, implications, and limitations for the Discussion.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#supplementary-material",
+    "href": "scripts/writing_style.html#supplementary-material",
+    "title": "Writing Style Guide",
+    "section": "Supplementary material",
+    "text": "Supplementary material\nPrepare supplementary material separately from the main manuscript. Unless the target journal requires a different arrangement, use separate documents for:\n\nsupplementary methods and figures; and\nsupplementary tables and extended results.\n\nNumber supplementary items independently (for example, Table S1 and Figure S1), cite every item in the main manuscript or supplement text, and keep terminology and analysis order consistent with the main paper.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#recommended-writing-resources",
+    "href": "scripts/writing_style.html#recommended-writing-resources",
+    "title": "Writing Style Guide",
+    "section": "Recommended writing resources",
+    "text": "Recommended writing resources\n\nYellowlees Douglas and Maria B. Grant, The Biomedical Writer: What You Need to Succeed in Academic Medicine (2018): practical guidance for biomedical manuscripts, grants, collaboration, and publication.\nYellowlees Douglas, Writing for the Reader’s Brain: A Science-Based Guide (2024): a reader-centered framework built around clarity, continuity, coherence, concision, and cadence.\nStephen B. Heard, The Scientist’s Guide to Writing: How to Write More Easily and Effectively Throughout Your Scientific Career, 3rd ed. (2026): advice on writing habits, manuscript structure, revision, peer review, and journal selection.\nWendy Laura Belcher, Writing Your Journal Article in Twelve Weeks: A Guide to Academic Publishing Success, 2nd ed. (2019): a structured workbook for developing, revising, and submitting a journal article.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
+    "objectID": "scripts/writing_style.html#final-formatting-check",
+    "href": "scripts/writing_style.html#final-formatting-check",
+    "title": "Writing Style Guide",
+    "section": "Final formatting check",
+    "text": "Final formatting check\nBefore sending a draft to Shea or submitting it to a journal, run the manuscript through ChatGPT and ask it to audit the document against every item in this guide. Ask for a checklist that identifies each problem and its page, section, table, or figure location. Use ChatGPT to identify problems, not to change scientific claims or silently rewrite the manuscript.\nThe following prompt can be adapted for the final check:\nAudit this manuscript against the Andrews Lab Writing Style Guide.\n\nFor every checklist item, report one of the following:\n- Pass\n- Needs attention, with the page or section and a specific explanation\n- Cannot verify in the uploaded file\n\nCheck formatting, organization, filename, headings, page and section\nbreaks, tables, figures, supplements, gene and protein styling,\ntracked changes, comments, references, author information,\ndisclosures, and word counts.\n\nDo not rewrite the manuscript or alter scientific claims. Return only\nthe audit and recommended corrections.\nFollow UCSF and project data-handling requirements when using ChatGPT. Do not upload protected, confidential, embargoed, or otherwise restricted material unless its use in the selected ChatGPT workspace has been approved. ChatGPT’s audit is a first-pass check; inspect the final document in Microsoft Word before sharing or submission.\nConfirm that:\n\nthe manuscript is a Microsoft Word .docx file stored in the shared OneDrive folder;\nthe filename follows [project]-[YYMMDD].docx;\nthe target journal and relevant author guidelines are identified;\nheadings use a consistent hierarchy;\nfont, margins, line spacing, paragraph spacing, and alignment follow the applicable standard;\npage and section breaks are intentional;\nevery table, figure, and supplement is cited and numbered in order;\ntables and figures begin on separate pages after the references;\ngene symbols are italicized and protein symbols are not;\nall tracked changes, comments, highlights, and placeholders have been resolved as appropriate for the draft stage; and\nspelling, grammar, references, author information, disclosures, and word counts have been checked.",
+    "crumbs": [
+      "Resources",
+      "Writing Style Guide"
+    ]
+  },
+  {
     "objectID": "scripts/labscrum.html",
     "href": "scripts/labscrum.html",
     "title": "LabScrum",

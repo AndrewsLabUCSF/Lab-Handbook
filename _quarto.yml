@@ -26,6 +26,7 @@ book:
       chapters:
         - scripts/compute.qmd
         - scripts/file-permissions.qmd
+        - scripts/writing_style.qmd
         - scripts/labscrum.qmd
         - scripts/sap.qmd
         - scripts/directories.qmd

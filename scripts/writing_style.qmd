@@ -1,0 +1,185 @@
+# Writing Style Guide {.unnumbered}
+
+This guide describes Shea's preferred format for manuscript drafts. These preferences reflect his experience as an author, reviewer, and mentor; they are house style, not universal rules. Following them makes drafts easier to review and keeps collaborators from spending time on avoidable formatting changes.
+
+## Order of precedence
+
+Use the following order when requirements differ:
+
+1. **Target journal:** Follow the current author instructions for the journal where the manuscript will be submitted.
+2. **Default journal:** If the target journal has not been selected or does not address an issue, follow the [*Alzheimer's & Dementia* author guidelines](https://alz-journals.onlinelibrary.wiley.com/hub/journal/15525279/homepage/author-guidelines).
+3. **Lab house style:** Use the preferences below when neither set of journal instructions answers the question.
+
+For example, Shea prefers justified text and 1.5-line spacing in working drafts. *Alzheimer's & Dementia*, however, requests left-aligned, double-spaced manuscripts. Use the journal's requirements when preparing that submission.
+
+::: {.callout-important}
+Check the target journal's instructions again immediately before submission. Author guidelines and submission systems change.
+:::
+
+## File naming and versioning
+
+Draft manuscripts in Microsoft Word and save them as `.docx` files. Do not use Google Docs. Store and share active manuscripts in the lab's shared OneDrive folder so Shea and the coauthors are working from the same file. Use Word's Track Changes and comments when reviewing or revising a shared draft.
+
+Name each manuscript file using the project name followed by the date in `YYMMDD` format:
+
+```text
+[project]-[YYMMDD].docx
+```
+
+For example:
+
+```text
+ad-biomarkers-260812.docx
+```
+
+Create a new dated document after every major revision, including after receiving substantive feedback from Shea or another coauthor. Do not overwrite the previous major version. During a single revision cycle, use tracked changes and comments rather than creating many nearly identical files.
+
+## Page and paragraph formatting
+
+Unless the target journal specifies otherwise:
+
+- Use a sans serif font, such as Arial, in 11- or 12-point type.
+- Use 1.5-line spacing for working drafts.
+- Justify the main text.
+- Use standard 1-inch (2.54-cm) margins.
+- Number pages and use continuous line numbering when the target journal requires it; *Alzheimer's & Dementia* requests numbered manuscripts.
+- Set paragraph spacing before and after to 0 points.
+- Separate paragraphs with one blank line. Do not use paragraph-spacing settings to create the blank line.
+- Use the word processor's built-in page breaks and section breaks. Do not press Return repeatedly to move content to a new page.
+- Insert page or section breaks between the title page, abstract, main text, references, tables, and figures.
+
+## Headings
+
+Use the [APA heading hierarchy](https://apastyle.apa.org/style-grammar-guidelines/paper-format/headings) for working drafts unless the target journal specifies another system. Use heading levels in order; do not skip from a first-level heading to a third-level heading. Format the heading levels consistently throughout the manuscript.
+
+This preference concerns heading hierarchy and appearance. It does not require APA citation style when the target journal uses a different reference style. *Alzheimer's & Dementia*, for example, generally follows AMA style.
+
+## Tables and figures
+
+- Cite every table and figure in the main text and number each in the order first cited.
+- Place tables and figures after the references rather than inline in the main text.
+- Start every table and every figure on a new page.
+- Keep each table with its title and footnotes.
+- Keep each figure with its caption during internal review, unless the target journal requests captions in a separate section or file.
+- Confirm that abbreviations, symbols, colors, and sample sizes are defined consistently across the text, tables, figures, and captions.
+- At submission, follow the target journal's requirements for separate figure files, resolution, dimensions, color mode, and file type.
+
+## Gene and protein nomenclature
+
+Italicize gene symbols when referring to genes, alleles, or RNA transcripts. Do not italicize protein symbols. For human genes, use the approved symbol listed by the [HUGO Gene Nomenclature Committee](https://www.genenames.org/); the [HGNC guidance](https://www.genenames.org/about/guidelines/) explains the distinction between gene and protein styling. Follow the relevant organism-specific nomenclature authority for nonhuman species.
+
+## Formatting an IMRaD manuscript
+
+Use the target journal's required organization. If no journal has been selected, use the following working structure for an Introduction, Methods, Results, and Discussion (IMRaD) paper:
+
+```text
+TITLE PAGE
+  Manuscript title
+  Authors and affiliations
+  Corresponding author and contact information
+  Target journal
+  Main-text, abstract, table, and figure counts
+
+[PAGE BREAK]
+
+ABSTRACT
+  Abstract
+  Keywords, if required
+
+[PAGE BREAK]
+
+INTRODUCTION
+
+METHODS
+
+RESULTS
+
+DISCUSSION
+
+[PAGE BREAK]
+
+ACKNOWLEDGMENTS
+
+FUNDING
+
+DATA AND CODE SHARING
+
+[PAGE BREAK]
+
+REFERENCES
+
+[PAGE BREAK]
+
+TABLE 1
+
+[PAGE BREAK]
+
+TABLE 2
+  Continue with one table per page
+
+[PAGE BREAK]
+
+FIGURE 1
+
+[PAGE BREAK]
+
+FIGURE 2
+  Continue with one figure per page
+```
+
+Use descriptive Methods and Results subheadings that align with the study aims and appear in a parallel order. Report findings in Results; reserve interpretation, comparison with prior literature, implications, and limitations for the Discussion.
+
+## Supplementary material
+
+Prepare supplementary material separately from the main manuscript. Unless the target journal requires a different arrangement, use separate documents for:
+
+- supplementary methods and figures; and
+- supplementary tables and extended results.
+
+Number supplementary items independently (for example, Table S1 and Figure S1), cite every item in the main manuscript or supplement text, and keep terminology and analysis order consistent with the main paper.
+
+## Recommended writing resources
+
+- Yellowlees Douglas and Maria B. Grant, [*The Biomedical Writer: What You Need to Succeed in Academic Medicine*](https://www.cambridge.org/core/books/the-biomedical-writer/116D9FE29556A8F2AB5BD408B49AB957) (2018): practical guidance for biomedical manuscripts, grants, collaboration, and publication.
+- Yellowlees Douglas, [*Writing for the Reader's Brain: A Science-Based Guide*](https://www.cambridge.org/core/books/writing-for-the-readers-brain/26FD3B7599BC12639DFB660F3CA962C8) (2024): a reader-centered framework built around clarity, continuity, coherence, concision, and cadence.
+- Stephen B. Heard, [*The Scientist's Guide to Writing: How to Write More Easily and Effectively Throughout Your Scientific Career*, 3rd ed.](https://www.degruyterbrill.com/document/isbn/9780691281094/html?lang=en) (2026): advice on writing habits, manuscript structure, revision, peer review, and journal selection.
+- Wendy Laura Belcher, [*Writing Your Journal Article in Twelve Weeks: A Guide to Academic Publishing Success*, 2nd ed.](https://press.uchicago.edu/ucp/books/book/chicago/W/bo26985005) (2019): a structured workbook for developing, revising, and submitting a journal article.
+
+## Final formatting check
+
+Before sending a draft to Shea or submitting it to a journal, run the manuscript through ChatGPT and ask it to audit the document against every item in this guide. Ask for a checklist that identifies each problem and its page, section, table, or figure location. Use ChatGPT to identify problems, not to change scientific claims or silently rewrite the manuscript.
+
+The following prompt can be adapted for the final check:
+
+```text
+Audit this manuscript against the Andrews Lab Writing Style Guide.
+
+For every checklist item, report one of the following:
+- Pass
+- Needs attention, with the page or section and a specific explanation
+- Cannot verify in the uploaded file
+
+Check formatting, organization, filename, headings, page and section
+breaks, tables, figures, supplements, gene and protein styling,
+tracked changes, comments, references, author information,
+disclosures, and word counts.
+
+Do not rewrite the manuscript or alter scientific claims. Return only
+the audit and recommended corrections.
+```
+
+Follow UCSF and project data-handling requirements when using ChatGPT. Do not upload protected, confidential, embargoed, or otherwise restricted material unless its use in the selected ChatGPT workspace has been approved. ChatGPT's audit is a first-pass check; inspect the final document in Microsoft Word before sharing or submission.
+
+Confirm that:
+
+- the manuscript is a Microsoft Word `.docx` file stored in the shared OneDrive folder;
+- the filename follows `[project]-[YYMMDD].docx`;
+- the target journal and relevant author guidelines are identified;
+- headings use a consistent hierarchy;
+- font, margins, line spacing, paragraph spacing, and alignment follow the applicable standard;
+- page and section breaks are intentional;
+- every table, figure, and supplement is cited and numbered in order;
+- tables and figures begin on separate pages after the references;
+- gene symbols are italicized and protein symbols are not;
+- all tracked changes, comments, highlights, and placeholders have been resolved as appropriate for the draft stage; and
+- spelling, grammar, references, author information, disclosures, and word counts have been checked.
