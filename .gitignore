@@ -48,3 +48,18 @@ rsconnect/
 /.quarto/
 .DS_Store
 scripts/.DS_Store
+
+# Quarto output created by rendering individual source files
+/AndrewsLab-Handbook.epub
+/index.aux
+/index.html
+/index.log
+/index.pdf
+/index.tex
+/index.toc
+/index_files/
+/site_libs/
+/scripts/*.html
+
+# Quarto-generated notebooks
+**/*.quarto_ipynb

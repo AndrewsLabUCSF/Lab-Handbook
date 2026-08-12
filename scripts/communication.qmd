@@ -28,9 +28,9 @@ Responsibility for these meetings lies with the staff/trainee, who should provid
 If my door is open, feel free to request an ad-hoc meeting. These are intended for issues that don't necessitate a scheduled meeting or when rapid feedback is necessary. Additionally, Shea will make rounds to touch base informally throughout the week.
 
 ### Seminar Series
-See the [UCSF Events Calendar](https://calendar.ucsf.edu/) for upto date information on UCSF seminars. 
+See the [UCSF Events Calendar](https://calendar.ucsf.edu/) for up-to-date information on UCSF seminars.
 
-- [Insitute of Human Genetics](https://humangenetics.ucsf.edu/events): Seminars from UCSF IHG faculty or invited speakers held Biweekly on Thursdays, 3-4:30pm
+- [Institute of Human Genetics](https://humangenetics.ucsf.edu/events): Seminars from UCSF IHG faculty or invited speakers held biweekly on Thursdays, 3-4:30 p.m.
 - Memory and Aging Center Lecture Series: Seminars from UCSF MAC faculty or invited speakers held weekly on Mondays, 10-11am
 - Center for Population Brain Health Works in Progress: CPBH staff trainees provide updates on their research works in progress. 
 
@@ -71,6 +71,6 @@ There is no need to provide a check-in if you are not working on a particular da
 
 
 #### journal-club
-In an effort to foster a culture of continuous learning and to keep the team updated on the latest scientific developments, all full-time lab members are required to actively participate in our Slack channel, `#journal-club`. Each full-time lab member must post at least once a week - but more often is better! - sharing a scientific paper they find interesting and is relevent to the lab lab's research focus or broader scientific community. Please also include a link to the paper and a brief statement (2-3 sentences) on why you think it is interesting or relevent. Lab members are encouraged to read the shared papers and engage in discussions, either by asking questions, providing insights, or sharing related work. 
+In an effort to foster a culture of continuous learning and to keep the team updated on the latest scientific developments, all full-time lab members are required to actively participate in our Slack channel, `#journal-club`. Each full-time lab member must post at least once a week - but more often is better! - sharing a scientific paper they find interesting and relevant to the lab's research focus or broader scientific community. Please also include a link to the paper and a brief statement (2-3 sentences) on why you think it is interesting or relevant. Lab members are encouraged to read the shared papers and engage in discussions, either by asking questions, providing insights, or sharing related work.
 
-See Journal Club for some suggestions on how to develop a habbit of keeping up with the litrature. 
+See Journal Club for suggestions on how to develop a habit of keeping up with the literature.

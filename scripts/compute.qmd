@@ -2,7 +2,7 @@
 
 ## Local Machine
 
--   [Set up VSCode ssh fowarding](https://blog.wytamma.com/blog/hcp-vscode/): Allows you to access files on Wynton using VScode
+-   [Set up VS Code SSH forwarding](https://blog.wytamma.com/blog/hcp-vscode/): Allows you to access files on Wynton using VS Code
 
 ### Git
 
@@ -26,7 +26,7 @@ Resources on using Wynton
 -   [Get Started with Wynton](https://wynton.ucsf.edu/hpc/get-started/access-cluster.html)
 -   [Job Submission](https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html)
 -   [File Transfers](https://wynton.ucsf.edu/hpc/transfers/files-and-directories.html)
--   [Wynton Bioinformatics Open Data Resource](https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/): A number of standard genomic datasets/resources are avaliable on so we do not need to download them.
+-   [Wynton Bioinformatics Open Data Resource](https://docpollard.org/resources/data/wynton-bioinformatics-open-data-resource/): A number of standard genomic datasets and resources are available so we do not need to download them.
 -   [Getting started with HPC](https://code.sbamin.com/hpc/)
 
 ### Andrews Group
@@ -161,13 +161,7 @@ Enter the filename in which to save the key:
 
 `$ key_pair`
 
-Enter passphrase (empty for no passphrase):
-
-(optional; You can just hit return)
-
-Enter same passphrase again:
-
-(optional; You can just hit return)
+Enter a strong passphrase when prompted, then enter it again to confirm it.
 
 Your identification has been saved in key_pair. Your public key has been saved in key_pair.pub. The key fingerprint is:
 
@@ -184,26 +178,24 @@ Agent pid (new number each time)
 Move your key_pair and key_pair.pub files into a new folder called ".ssh":
 
 ```{{bash}}
-$ mkdir .ssh # if .ssh doesn't yet exist
+$ mkdir -p ~/.ssh
+$ chmod 700 ~/.ssh
 
-$ mv key_pair .ssh
-
-$ mv key_pair.pub .ssh
+$ mv key_pair ~/.ssh/
+$ mv key_pair.pub ~/.ssh/
 ```
 
 SSH-ADD your files and assign the necessary permissions:
 
 ```{{bash}}
-$ ssh-add .ssh/key_pair
-
-$ chmod 600 .ssh/key_pair.pub
-
-$ ssh-add .ssh/key_pair.pub
+$ chmod 600 ~/.ssh/key_pair
+$ chmod 644 ~/.ssh/key_pair.pub
+$ ssh-add ~/.ssh/key_pair
 ```
 
 Copy the contents of your key_pair.pub file to paste in GitHub (This command gives the file's contents):
 
-`$ cat .ssh/key_pair.pub`
+`$ cat ~/.ssh/key_pair.pub`
 
 Your_key your_email_address_assoc_with_GitHub
 
@@ -256,9 +248,7 @@ Agent pid (new number each time)
 # Add your key pair:
 
 ```{{bash}}
-$ ssh-add .ssh/key_pair
-
-$ ssh-add .ssh/key_pair.pub
+$ ssh-add ~/.ssh/key_pair
 ```
 
 Prepare for 'git' and 'git clone' on Wynton:
@@ -273,7 +263,7 @@ Push some previously committed files:
 
 Success!
 
-# Option 2: An more interactive way
+# Option 2: A more interactive way
 
 Step 1: log into wynton server
 - switch to the dev node ( you should see ```username@dev1 folder```)
@@ -284,8 +274,8 @@ Step 1: log into wynton server
    
 Step 2: Authenticate 
  - ```gh auth login``` & answer the questions
-    - Note you must type https://github.com/login/device  into the internet browser. It will        ask for  a one-time code (type the number that is given)
-- To verify the key pair works type ```ssh -T git@github.com``` and you should get a meesage that says: Hi username@github.com  You've successfully authenticated, but   GitHub does not provide shell access
+    - Open https://github.com/login/device in a browser and enter the one-time code provided by the CLI.
+- To verify the key pair works, type ```ssh -T git@github.com```. You should get a message confirming that you authenticated successfully and that GitHub does not provide shell access.
 
 If steps 1 & 2 are done correctly we should see 
 Authentication Complete  - gh config set -h github.com git protocol ssh
@@ -294,10 +284,8 @@ Authentication credentials saved in plain text , uploaded the ssh key to your Gi
 
 Next log out of Wynton and then log back in. Make sure you are in dev1 or dev2. 
 
-Type ```ssh -T git@github.com``` and you should get a meesage that says: Hi username@github.com  You've successfully authenticated, but   GitHub does not provide shell access
+Type ```ssh -T git@github.com```. You should get a message confirming that you authenticated successfully and that GitHub does not provide shell access.
 
 Success! Use git as normal in command line
-
-
 
 

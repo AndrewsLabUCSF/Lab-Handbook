@@ -1,4 +1,4 @@
-# Understanding Unix/Linux File Permissions
+# Understanding Unix/Linux File Permissions {.unnumbered}
 
 In Unix/Linux, each file and directory has a set of permissions that determine who can read, write, or execute the file or directory. These permissions are divided into three categories: **owner**, **group**, and **others**.
 
@@ -195,22 +195,15 @@ File permissions in Unix/Linux control access to files and directories for the o
 
 ### To change permission for multiple files
 
-If all the files you want to modify are in the same directory and follow a specific pattern, you can use a wildcard.
+If all the files you want to modify are in the same directory and follow a specific pattern, you can use a wildcard. Preview the matching files first so that you do not change unintended files.
 
 ```bash
-chmod 777 *.txt.gz
+printf '%s\n' *.txt.gz
+chmod 660 -- *.txt.gz
 ```
 
-•	chmod: The command used to change the permissions of a file.
+- `printf` displays the files matched by the wildcard before anything is changed.
+- `chmod 660` grants read and write access to the owner and group while denying access to others.
+- `--` prevents a filename beginning with a hyphen from being interpreted as an option.
 
-•	777: This sets the permissions to **rwxrwxrwx**, which means:
-
-•	**7**: rwx (read, write, execute) for the owner.
-
-•	**7**: rwx (read, write, execute) for the group.
-
-•	**7**: rwx (read, write, execute) for others.
-
-This command will change the permissions of all .txt.gz files in the current directory to 
-
--rwxrwxrwx. If you want to target a different pattern, adjust the wildcard accordingly (e.g., * for all files, PGS*.txt.gz for files starting with PGS, etc.).
+Compressed data files do not normally need execute permission. If the files should be readable but not writable by the group, use `chmod 640 -- *.txt.gz` instead. Adjust the wildcard only after confirming that it matches the intended files.

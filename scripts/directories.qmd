@@ -44,7 +44,7 @@ Project level directories should be a dedicated git repository for a specific pr
 ::: 
 
 
-To push empty directories while ensureing that large or sensitive files are not inadvertently made available on GitHub, you can add the following .gitignore file. This is useful to included in `resources` or `data` directories.
+To push empty directories while ensuring that large or sensitive files are not inadvertently made available on GitHub, you can add the following `.gitignore` file. This is useful to include in `resources` or `data` directories.
 
 
 ::: {.callout-tip}
@@ -75,7 +75,7 @@ parent/
 
 - `parent` is the top-level directory, and should be named according to the dataset. 
 - `data` contains the original files downloaded from the external resources. Potential subdirectories can include different releases. 
-- `docs` contains documentation files such as data dictionries
+- `docs` contains documentation files such as data dictionaries
 - `README.md` contains information about the dataset. 
 
 

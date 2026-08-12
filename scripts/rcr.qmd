@@ -23,7 +23,7 @@ All authors on a scientific article must meet the [ICMJE Authorship Criteria](ht
 - Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
 
 
-Authorship contributions should be defined based on the Contributor Roles Taxonomy ([CRediT](https://credit.niso.org/implementing-credit/)). This includes Conceptualizaiton, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project administration, and Funding acquisition. Contributions of each author should be documented and agreed upon in writing. This documentation should be revisited and revised as the project progresses and should be included with the manuscript submission if required by the journal.  
+Authorship contributions should be defined based on the Contributor Roles Taxonomy ([CRediT](https://credit.niso.org/implementing-credit/)). This includes Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Writing - Review & Editing, Visualization, Supervision, Project administration, and Funding acquisition. Contributions of each author should be documented and agreed upon in writing. This documentation should be revisited and revised as the project progresses and should be included with the manuscript submission if required by the journal.
 
 
 The order of authorship should reflect the relative contribution of each author to the research project. The first author is typically the individual who has made the most significant contribution to the work, followed by co-authors in order of decreasing contribution. Disputes over authorship order should be resolved through discussion among all contributors and, if necessary, mediation by the principal investigator (PI).
@@ -41,4 +41,4 @@ Individuals who contributed to the research but do not meet the criteria for aut
 ## Conflicts of Interest and Conflicts of Commitment
 
 
-## Use of Artifical Intellegience
+## Use of Artificial Intelligence

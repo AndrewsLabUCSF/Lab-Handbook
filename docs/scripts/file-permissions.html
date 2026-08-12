@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About the Lab – AndrewsLab Handbook</title>
+<title>Understanding Unix/Linux File Permissions – AndrewsLab Handbook</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -33,8 +68,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../scripts/policies.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../scripts/labscrum.html" rel="next">
+<link href="../scripts/compute.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -85,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Welcome</a></li><li class="breadcrumb-item"><a href="../scripts/about.html">About the Lab</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../scripts/resources.html">Resources</a></li><li class="breadcrumb-item"><a href="../scripts/file-permissions.html">Understanding Unix/Linux File Permissions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -125,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/about.html" class="sidebar-item-text sidebar-link active">
+  <a href="../scripts/about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the Lab</span></a>
   </div>
 </li>
@@ -201,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../scripts/file-permissions.html" class="sidebar-item-text sidebar-link">
+  <a href="../scripts/file-permissions.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Understanding Unix/Linux File Permissions</span></a>
   </div>
 </li>
@@ -276,23 +311,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#mission-statement" id="toc-mission-statement" class="nav-link active" data-scroll-target="#mission-statement">Mission Statement</a></li>
-  <li><a href="#lab-philosophy" id="toc-lab-philosophy" class="nav-link" data-scroll-target="#lab-philosophy">Lab Philosophy</a>
-  <ul class="collapse">
-  <li><a href="#team-science" id="toc-team-science" class="nav-link" data-scroll-target="#team-science">Team Science</a></li>
-  <li><a href="#scientific-integrity" id="toc-scientific-integrity" class="nav-link" data-scroll-target="#scientific-integrity">Scientific integrity</a></li>
-  <li><a href="#lifelong-learning" id="toc-lifelong-learning" class="nav-link" data-scroll-target="#lifelong-learning">Lifelong Learning</a></li>
-  <li><a href="#inclusivity-and-diversity" id="toc-inclusivity-and-diversity" class="nav-link" data-scroll-target="#inclusivity-and-diversity">Inclusivity and Diversity</a></li>
-  </ul></li>
+  <li><a href="#recognizing-file-permissions" id="toc-recognizing-file-permissions" class="nav-link active" data-scroll-target="#recognizing-file-permissions"><strong>1. Recognizing File Permissions</strong></a></li>
+  <li><a href="#breaking-it-down" id="toc-breaking-it-down" class="nav-link" data-scroll-target="#breaking-it-down"><strong>Breaking It Down</strong>:</a></li>
+  <li><a href="#changing-file-permissions" id="toc-changing-file-permissions" class="nav-link" data-scroll-target="#changing-file-permissions"><strong>2. Changing File Permissions</strong></a></li>
+  <li><a href="#a.-symbolic-notation" id="toc-a.-symbolic-notation" class="nav-link" data-scroll-target="#a.-symbolic-notation"><strong>a. Symbolic Notation</strong></a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><strong>Examples</strong>:</a></li>
+  <li><a href="#b.-numeric-notation" id="toc-b.-numeric-notation" class="nav-link" data-scroll-target="#b.-numeric-notation"><strong>b. Numeric Notation</strong></a></li>
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1"><strong>Examples</strong>:</a></li>
+  <li><a href="#special-permissions-setuid-setgid-and-sticky-bit" id="toc-special-permissions-setuid-setgid-and-sticky-bit" class="nav-link" data-scroll-target="#special-permissions-setuid-setgid-and-sticky-bit"><strong>3. Special Permissions: <code>setuid</code>, <code>setgid</code>, and Sticky Bit</strong></a></li>
+  <li><a href="#who-can-change-file-permissions" id="toc-who-can-change-file-permissions" class="nav-link" data-scroll-target="#who-can-change-file-permissions"><strong>4. Who Can Change File Permissions?</strong></a></li>
+  <li><a href="#checking-permissions" id="toc-checking-permissions" class="nav-link" data-scroll-target="#checking-permissions"><strong>5. Checking Permissions</strong></a></li>
+  <li><a href="#examples-of-permission-changes" id="toc-examples-of-permission-changes" class="nav-link" data-scroll-target="#examples-of-permission-changes"><strong>Examples of Permission Changes</strong>:</a></li>
+  <li><a href="#to-change-permission-for-multiple-files" id="toc-to-change-permission-for-multiple-files" class="nav-link" data-scroll-target="#to-change-permission-for-multiple-files">To change permission for multiple files</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Welcome</a></li><li class="breadcrumb-item"><a href="../scripts/about.html">About the Lab</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../scripts/resources.html">Resources</a></li><li class="breadcrumb-item"><a href="../scripts/file-permissions.html">Understanding Unix/Linux File Permissions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About the Lab</h1>
+<h1 class="title">Understanding Unix/Linux File Permissions</h1>
 </div>
 
 
@@ -309,38 +348,168 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="mission-statement" class="level2">
-<h2 class="anchored" data-anchor-id="mission-statement">Mission Statement</h2>
-<p>The Andrews Lab at the University of California, San Francisco, aims to transform the diagnosis and treatment of Alzheimer’s disease and related dementias. Through pioneering research in genetic epidemiology, we are developing predictive risk models that will serve as the foundation for personalized medicine that improves patient care. By integrating genetic factors—such as monogenic variants, polygenic architecture, and family history—with environmental factors consisting of individual-level lifestyle &amp; behavioral exposures and broader macro-environmental factors, our models will empower patients and healthcare providers with actionable insights. Our ultimate objective is to enable targeted, effective interventions that will improve patient outcomes and reduce health disparities in Alzheimer’s disease across diverse communities.</p>
+<p>In Unix/Linux, each file and directory has a set of permissions that determine who can read, write, or execute the file or directory. These permissions are divided into three categories: <strong>owner</strong>, <strong>group</strong>, and <strong>others</strong>.</p>
+<p>Here’s a brief tutorial on recognizing, interpreting, and modifying these permissions.</p>
+<hr>
+<section id="recognizing-file-permissions" class="level3">
+<h3 class="anchored" data-anchor-id="recognizing-file-permissions"><strong>1. Recognizing File Permissions</strong></h3>
+<p>When you use the <code>ls -l</code> command to list files and directories, you will see a series of symbols that represent the permissions. Here’s an example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">drwxr-sr-x</span>  2 rakshyasharma andrews 4096 Aug 22 11:55 example_directory</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The first column (<code>drwxr-sr-x</code>) shows the file type and permissions.</p>
 </section>
-<section id="lab-philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="lab-philosophy">Lab Philosophy</h2>
-<p>In the Andrews Lab, our philosophy serves as the cornerstone of our scientific journey, influencing both the research questions we ask and the ethical standards we uphold. Grounded in principles of scientific integrity, collaboration, innovation, and team science, we aim to cultivate an environment that promotes inclusivity, values lifelong learning, and adheres to the principles of open science. Team science is central to our ethos, reinforcing the idea that individual accomplishments are a reflection of collective effort and that our greatest achievements stem from open collaboration and mutual support. This philosophy is not merely a collection of ideals; it’s a commitment to conducting research that is meaningful, ethical, and poised to make a lasting impact in the scientific community.</p>
-<section id="team-science" class="level3">
-<h3 class="anchored" data-anchor-id="team-science">Team Science</h3>
-<p>At the heart of our lab’s philosophy is the concept of Team Science. We firmly believe that we are greater than the sum of our parts. In this lab, your success is everyone’s success, and the same holds true in reverse. We are all collaborators here, each contributing unique skills and perspectives that enrich our collective work. I am committed to promoting not just your research, but also your professional growth, and I expect the same level of cooperation and openness from you in return.</p>
-<p>Collaboration is a cornerstone of our lab philosophy. We believe that the best science is done when diverse minds come together to solve complex problems. This extends to collaborations within the lab, across departments, and even internationally. We encourage lab members to engage in interdisciplinary research and to seek external collaborations that can enhance the impact of our work.</p>
-<p>Sharing—be it materials, data, or opportunities—is a fundamental aspect of our collaborative culture. We don’t see each other as competitors; we are collaborators, both within these walls and in the broader scientific community. When one of us succeeds, it’s a win for all of us. Conversely, setbacks are not borne alone; we rally around each other to find solutions.</p>
-<p>By embracing the principles of Team Science, we aim to create a lab environment that is not just productive but also supportive, inclusive, and conducive to the personal and professional growth of all its members.</p>
+<section id="breaking-it-down" class="level3">
+<h3 class="anchored" data-anchor-id="breaking-it-down"><strong>Breaking It Down</strong>:</h3>
+<ul>
+<li><strong>First character (<code>d</code>)</strong>: This indicates the file type.
+<ul>
+<li><code>d</code>: directory</li>
+<li><ul>
+<li>: regular file</li>
+</ul></li>
+<li><code>l</code>: symbolic link</li>
+</ul></li>
+<li><strong>Next nine characters (<code>rwxr-sr-x</code>)</strong>: These represent the permissions for the <strong>owner</strong>, <strong>group</strong>, and <strong>others</strong>.
+<ul>
+<li><strong>Owner (first 3 characters, <code>rwx</code>)</strong>:
+<ul>
+<li><code>r</code>: read permission</li>
+<li><code>w</code>: write permission</li>
+<li><code>x</code>: execute permission</li>
+</ul></li>
+<li><strong>Group (next 3 characters, <code>r-s</code>)</strong>:
+<ul>
+<li><code>r</code>: read permission</li>
+<li><ul>
+<li>: no write permission</li>
+</ul></li>
+<li><code>s</code>: setgid bit is set (instead of normal execute permission)</li>
+</ul></li>
+<li><strong>Others (last 3 characters, <code>r-x</code>)</strong>:
+<ul>
+<li><code>r</code>: read permission</li>
+<li><ul>
+<li>: no write permission</li>
+</ul></li>
+<li><code>x</code>: execute permission</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
 </section>
-<section id="scientific-integrity" class="level3">
-<h3 class="anchored" data-anchor-id="scientific-integrity">Scientific integrity</h3>
-<p>In the Andrews Lab, we uphold the highest standards of scientific integrity. This means conducting research that is rigorous, transparent, and ethical. We are committed to the responsible handling of data, from collection to analysis and reporting. Any form of data manipulation or scientific misconduct is unacceptable. Our aim is to contribute to the scientific community with work that can be trusted and built upon.</p>
-<p><strong>Accountability:</strong> Accountability is a key aspect of our lab culture. Every lab member is responsible for the quality and integrity of their work, from the planning stage to publication. Regular lab meetings and internal reviews are platforms where we hold ourselves and each other accountable, ensuring that our research meets the high standards we set for ourselves. Mistakes are an inevitable part of the scientific process, and they are not setbacks but learning opportunities. The key is not in avoiding mistakes, but in how we handle them. If you encounter a problem, try to resolve it independently first. If that fails, bring it to my attention as soon as possible. There’s no room for covering up errors; transparency is crucial. Together, we will work to correct the issue, learn from it, and move forward.</p>
-<p><strong>Open Science:</strong> We are strong proponents of open science, believing that scientific knowledge is a public good. Whenever possible, we publish in open-access journals, share our data and code, and engage with the broader scientific community and the public. This commitment to openness increases the impact of our work and contributes to a more collaborative and transparent scientific community.</p>
-<p><strong>Innovation and Adaptability:</strong> In the Andrews Lab, innovation and adaptability go hand in hand as core values that drive our scientific inquiry. We encourage lab members to think creatively, question existing paradigms, and explore novel approaches to complex problems. Innovation is not confined to groundbreaking ideas but also extends to the methodologies, tools, and techniques we employ in our research.</p>
-<p>However, more than innovation is required; the ability to adapt is equally crucial. Science is an ever-evolving field, and unexpected challenges or results are inevitable. We value adaptability as a complementary skill to innovation, enabling us to pivot our research focus or methodologies when warranted by new findings, technical advancements, or unforeseen challenges. This dual commitment to innovation and adaptability ensures that we are not only at the forefront of scientific discovery but also equipped to navigate the complexities and uncertainties that come with pioneering research.</p>
+<section id="changing-file-permissions" class="level3">
+<h3 class="anchored" data-anchor-id="changing-file-permissions"><strong>2. Changing File Permissions</strong></h3>
+<p>You can change file or directory permissions using the <code>chmod</code> command. Only the <strong>owner</strong> of the file or directory (or the superuser <code>root</code>) can change its permissions.</p>
 </section>
-<section id="lifelong-learning" class="level3">
-<h3 class="anchored" data-anchor-id="lifelong-learning">Lifelong Learning</h3>
-<p>Science is a constantly evolving field, and we are all perpetual students. In the Andrews Lab, we emphasize the importance of continuous learning—whether it’s mastering a new research technique, staying updated on the latest literature, or developing soft skills like communication and leadership. We encourage lab members to attend conferences, workshops, and webinars, and to always be curious.</p>
+<section id="a.-symbolic-notation" class="level3">
+<h3 class="anchored" data-anchor-id="a.-symbolic-notation"><strong>a. Symbolic Notation</strong></h3>
+<p>In symbolic notation, permissions are modified using:</p>
+<ul>
+<li><code>u</code>: owner</li>
+<li><code>g</code>: group</li>
+<li><code>o</code>: others</li>
+<li><code>a</code>: all (owner, group, and others)</li>
+</ul>
 </section>
-<section id="inclusivity-and-diversity" class="level3">
-<h3 class="anchored" data-anchor-id="inclusivity-and-diversity">Inclusivity and Diversity</h3>
-<p>Our lab is committed to fostering an environment where all individuals feel respected, included, and valued. We believe that diverse perspectives enrich our research and make us more effective scientists. We strive to recruit lab members from diverse backgrounds, including but not limited to race, gender, sexual orientation, and socioeconomic status, and we are committed to their professional development.</p>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples"><strong>Examples</strong>:</h3>
+<ul>
+<li><p><strong>Add write permission for group</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> g+w file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Remove execute permission for others</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> o-x file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Give all permissions (read, write, execute) to everyone</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> a+rwx file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul>
+</section>
+<section id="b.-numeric-notation" class="level3">
+<h3 class="anchored" data-anchor-id="b.-numeric-notation"><strong>b. Numeric Notation</strong></h3>
+<p>Permissions can also be modified using numbers:</p>
+<ul>
+<li><strong>4</strong> = read (<code>r</code>)</li>
+<li><strong>2</strong> = write (<code>w</code>)</li>
+<li><strong>1</strong> = execute (<code>x</code>)</li>
+</ul>
+<p>Each category (owner, group, others) gets a number that sums the permissions. For example:</p>
+<ul>
+<li><code>7</code> = <code>rwx</code></li>
+<li><code>5</code> = <code>r-x</code></li>
+</ul>
+</section>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1"><strong>Examples</strong>:</h3>
+<ul>
+<li><p><strong>Set full permissions for the owner and read/execute for group and others</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Set read and write permissions for owner and group, and no permissions for others</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 660 file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul>
+<hr>
+</section>
+<section id="special-permissions-setuid-setgid-and-sticky-bit" class="level3">
+<h3 class="anchored" data-anchor-id="special-permissions-setuid-setgid-and-sticky-bit"><strong>3. Special Permissions: <code>setuid</code>, <code>setgid</code>, and Sticky Bit</strong></h3>
+<ul>
+<li><strong><code>setuid</code> (Set User ID)</strong>: When a file with <code>setuid</code> is executed, it runs with the privileges of the file’s owner. This is typically used for executable files.
+<ul>
+<li><p>Set with:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> u+s file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul></li>
+<li><strong><code>setgid</code> (Set Group ID)</strong>: When a directory has <code>setgid</code>, new files created inside it inherit the group of the directory, not the group of the user who created the file.
+<ul>
+<li><p>Set with:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> g+s directory_name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul></li>
+<li><strong>Sticky Bit</strong>: When applied to a directory, it ensures that only the owner of a file can delete or rename it, even if other users have write permissions.
+<ul>
+<li><p>Set with:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +t directory_name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="who-can-change-file-permissions" class="level3">
+<h3 class="anchored" data-anchor-id="who-can-change-file-permissions"><strong>4. Who Can Change File Permissions?</strong></h3>
+<ul>
+<li><strong>File Owner</strong>: The owner of the file can modify permissions using <code>chmod</code>. You can check the file owner using the <code>ls -l</code> command.</li>
+<li><strong>Superuser (root)</strong>: The root user can change any file’s permissions or ownership.</li>
+<li><strong>Group members or others</strong>: Unless they are the owner or have <code>sudo</code> privileges, they cannot modify the permissions of a file or directory.</li>
+</ul>
+<hr>
+</section>
+<section id="checking-permissions" class="level3">
+<h3 class="anchored" data-anchor-id="checking-permissions"><strong>5. Checking Permissions</strong></h3>
+<p>After changing permissions, you can verify the changes by running:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This will display the updated permissions for each file and directory.</p>
+<hr>
+</section>
+<section id="examples-of-permission-changes" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-permission-changes"><strong>Examples of Permission Changes</strong>:</h3>
+<ul>
+<li><p><strong>Change permissions to <code>rwxr-xr-x</code></strong> (full control for owner, read/execute for group and others):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 directory_name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Add write permission for the group</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> g+w file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Remove execute permission for others</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> o-x file.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Set the <code>setgid</code> bit on a directory</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> g+s directory_name</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ul>
+<hr>
+<p>File permissions in Unix/Linux control access to files and directories for the owner, group, and others. The <code>chmod</code> command is used to modify these permissions, and only the file owner or the superuser can change them. Understanding how to read and set these permissions helps in securing and organizing files effectively.</p>
+</section>
+<section id="to-change-permission-for-multiple-files" class="level3">
+<h3 class="anchored" data-anchor-id="to-change-permission-for-multiple-files">To change permission for multiple files</h3>
+<p>If all the files you want to modify are in the same directory and follow a specific pattern, you can use a wildcard. Preview the matching files first so that you do not change unintended files.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="bu">printf</span> <span class="st">'%s\n'</span> <span class="pp">*</span>.txt.gz</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 660 <span class="at">--</span> <span class="pp">*</span>.txt.gz</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><code>printf</code> displays the files matched by the wildcard before anything is changed.</li>
+<li><code>chmod 660</code> grants read and write access to the owner and group while denying access to others.</li>
+<li><code>--</code> prevents a filename beginning with a hyphen from being interpreted as an option.</li>
+</ul>
+<p>Compressed data files do not normally need execute permission. If the files should be readable but not writable by the group, use <code>chmod 640 -- *.txt.gz</code> instead. Adjust the wildcard only after confirming that it matches the intended files.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -746,13 +915,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
+      <a href="../scripts/compute.html" class="pagination-link" aria-label="Compute">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Compute</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../scripts/policies.html" class="pagination-link" aria-label="Lab Policies">
-        <span class="nav-page-text">Lab Policies</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../scripts/labscrum.html" class="pagination-link" aria-label="LabScrum">
+        <span class="nav-page-text">LabScrum</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -39,7 +39,7 @@ New lab members hired into a Career position serve a six-month probation period,
 ### Individual Development Plans
 At the start of the Academic Year (August/September), Shea will convene a State-of-the-Lab meeting to review the lab's progress, achievements, challenges, and envisaged paths forward. This meeting is designed to foster transparent communication, celebrate the lab's collective and individual accomplishments, and outline the objectives for the upcoming year.
 
-Integral to the State-of-the-Lab is the completion of an [Individual Development Plan](https://myidp.sciencecareers.org/), a tool aimed at defining and achieving their professional career goals. Sheal will discuss the IDP with each person one-on-one. Additionally, the State-of-the-Lab provides a forum for all members to share their goals and receive feedback
+Integral to the State-of-the-Lab is the completion of an [Individual Development Plan](https://myidp.sciencecareers.org/), a tool aimed at defining and achieving professional career goals. Shea will discuss the IDP with each person one-on-one. Additionally, the State-of-the-Lab provides a forum for all members to share their goals and receive feedback.
 
 ## Professional Development
 I highly encourage everyone to pursue professional development opportunities that will further their careers. UCSF provides a range of resources to support professional development, such as workshops, seminars, and courses. Additionally, there are opportunities for lab members to attend conferences, present their research, and network with colleagues in their field. I am happy to write letters of recommendation or support their applications for these opportunities. In order to gain access to these resources, lab members should consult with Shea or the institution's professional development office to identify relevant opportunities and funding sources.
@@ -52,7 +52,7 @@ Use the `#seminars` Slack channel to share any upcoming seminars, conferences or
 ### UCSF & Bay Area 
 There are numerous opportunities to attend workshops, seminars, and symposiums at UCSF and within the Bay Area. These include, but are not limited to:
 
-- Insitute of Human Genetics Seminars 
+- Institute of Human Genetics Seminars
 - Memory and Aging Center Lecture Series
 - Center for Population Brain Health Works in Progress
 - [The Office of Career and Professional Development](https://career.ucsf.edu/)
@@ -65,7 +65,7 @@ There are numerous opportunities to attend workshops, seminars, and symposiums a
 The general expectation for conferences - particuarly national and international -  is that to attend you have submitted an abstract that has been accepted for a poster or oral presentation. A couple of standard conferences. When thinking of what conferences to attend, consider what you want to get out of it, larger conferences offer much larger potential for exposure and the ability to meet with most people in our field. However, smaller conferences are more intermate and offer better opportunities to newtwork. 
 
 - [Alzheimer's Association International Conference (AAIC)](https://aaic.alz.org/)
-- [American Society of Human Gentics (ASHG)](https://www.ashg.org/)
+- [American Society of Human Genetics (ASHG)](https://www.ashg.org/)
 
 In addition to these larger conferences there are also consortium level meettings
 
@@ -77,11 +77,11 @@ Institutions offering career development workshops
 
 - [Skills for Health and Research Professionals (SHARP) Training](https://www.publichealth.columbia.edu/academics/non-degree-special-programs/professional-non-degree-programs/skills-health-research-professionals-sharp-training)
 - [Cold Spring Harbor Laboratory](https://meetings.cshl.edu/courseshome.aspx)
-- [Advanced Psychometeric Methods for Cognitive Aging Research (ΨMCA)](https://psymca.org/)
+- [Advanced Psychometric Methods for Cognitive Aging Research (ΨMCA)](https://psymca.org/)
 - [Harvard Catalyst](https://catalyst.harvard.edu/train/)
 - [Stanford](https://online.stanford.edu/explore?type=course)
 
-### Letters of Recomendation
+### Letters of Recommendation
 I am honored that you have asked me to write a letter of recommendation for you, and I take this responsibility seriously. In order for me to help you get into the program you want, please provide the following materials to assist me in writing the letter:
 
 - CV
@@ -93,7 +93,7 @@ In addition to these materials, please provide me with answers to the following 
 - What are your strongest attributes?
 - What are you most proud of (academic or personal life)?
 - What sets you apart from other applicants?
-- How would your peers describe you? What makes you a good team player
+- How would your peers describe you? What makes you a good team player?
 - What do you want to make sure the program knows about you?
 - How can I best advocate for you in the letter?
 
@@ -103,7 +103,7 @@ This information will aid me in crafting a compelling and personalized recommend
 Transition is a natural part of the laboratory life cycle, recognizing that each member has unique career aspirations. Shea is committed to supporting these professional goals and encourages open dialogue about future plans. This transparency ensures a seamless transition for both the individual and the lab. Should a situation arise where a member's departure is involuntary, we promise to offer clear, constructive feedback and explore all possible solutions. In instances of funding cessation, we pledge to assist in identifying new opportunities, striving to preserve amicable relationships with departing members under any circumstances.
 
 ### Planned and Voluntary Separation from the Lab
-Staff members should refer to [UCSF Offboarding](https://hr.ucsf.edu/my-hr/employees/offboarding#accordion-title-10196) for guideance. Written formal notification of your voluntary resignation should be sent to Shea as soon as possible. This will allow for timely processing of your separation (minimum of 10 business days required). 
+Staff members should refer to [UCSF Offboarding](https://hr.ucsf.edu/my-hr/employees/offboarding#accordion-title-10196) for guidance. Written formal notification of your voluntary resignation should be sent to Shea as soon as possible. This will allow for timely processing of your separation (minimum of 10 business days required).
 
 ### Involuntary Separation or Termination 
 While not expected, there may be times that a lab member needs to leave the lab unexpectedly due to loss of funding or conduct that violates the expectations of the lab and University. Disciplinary or performance issues will be addressed respectfully and directly, with adherence to University policy regarding the terms of employment.

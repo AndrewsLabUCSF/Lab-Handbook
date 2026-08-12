@@ -6,7 +6,7 @@ project:
 book:
   title: "AndrewsLab Handbook"
   author: "Shea J Andrews"
-  date: "2023-07-26"
+  date: "2026-08-12"
   repo-url: https://github.com/AndrewsLabUCSF/Lab-Handbook
   sharing: [twitter]
   chapters:
@@ -25,6 +25,7 @@ book:
     - part: scripts/resources.qmd
       chapters:
         - scripts/compute.qmd
+        - scripts/file-permissions.qmd
         - scripts/labscrum.qmd
         - scripts/sap.qmd
         - scripts/directories.qmd
