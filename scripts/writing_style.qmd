@@ -138,6 +138,63 @@ Prepare supplementary material separately from the main manuscript. Unless the t
 
 Number supplementary items independently (for example, Table S1 and Figure S1), cite every item in the main manuscript or supplement text, and keep terminology and analysis order consistent with the main paper.
 
+## Use of artificial intelligence
+
+AI tools can help authors check, organize, and revise a manuscript, but they do not replace scientific judgment or author responsibility. Use the [new JAMA guidance on AI use](https://jamanetwork.com/journals/jama/fullarticle/2852772), the [JAMA Instructions for Authors](https://jamanetwork.com/journals/jama/pages/instructions-for-authors#secArtificialIntelligence), and the target journal's current policy as starting points. The target journal's rules take precedence when they are more restrictive.
+
+Follow these lab expectations:
+
+- Do not list an AI tool as an author. Only people can take responsibility for a manuscript.
+- Authors remain responsible for the accuracy, originality, integrity, and appropriate citation of every part of the submitted work, including material suggested or edited by AI.
+- Independently verify every AI-assisted claim, quotation, statistic, calculation, interpretation, code change, and citation against the primary source or underlying data.
+- Do not use AI to generate or format references. Use a reference manager and verify every reference in the cited source. AI tools can invent references or return incorrect bibliographic details.
+- Do not upload protected health information, identifiable participant data, confidential or embargoed results, unpublished manuscripts received for peer review, reviewer identities, grant applications, proprietary code, or other restricted material to an AI service unless that use has been explicitly approved for the project and workspace.
+- Do not use generative AI to create, alter, or enhance clinical images. If AI-generated or AI-modified content is part of the formal research design, follow the target journal's policy and report the method completely.
+- Do not delegate decisions about authorship, scientific conclusions, interpretation of evidence, or responses to reviewers to AI. The authors must make and defend those decisions.
+- Retain a brief AI-use log with the tool, model or version, manufacturer, date, purpose, manuscript section, and how the output was checked. Store the log with the manuscript files.
+
+Disclose substantive AI assistance according to the target journal's policy. Current JAMA guidance requires disclosure when AI assists with content creation, revision, or formatting. The disclosure should identify the tool, version, manufacturer, date(s) used, what it did, which parts of the manuscript it affected, and confirmation that the authors take responsibility for the resulting content. Put the disclosure in the Acknowledgments, or in the Methods when AI is part of the research design. JAMA exempts basic grammar and spelling tools, but another journal may not.
+
+If AI is part of the research itself, describe its use with enough detail to reproduce the work and follow the applicable AI reporting guideline. Report the model and version, access date, inputs, prompts or instructions when relevant, parameters, outputs, validation, human oversight, and any changes made after generation. Address privacy, bias, copyright, and intellectual-property concerns explicitly.
+
+## Revisions and resubmissions
+
+Preserve an exact record of every submission round in the manuscript's shared OneDrive folder. Use the following folders:
+
+```text
+R0/   Original submission
+R1/   First revision
+R2/   Second revision
+R3/   Third revision, if needed
+```
+
+The `R0` folder must contain the exact files sent with the original submission, including the manuscript, cover letter, tables, figures, supplements, reporting checklists, and submission confirmation. Do not edit files in `R0` after submission. Copy the necessary files into `R1` when preparing the first revision. Follow the same process for later rounds so that `R1`, `R2`, and subsequent folders remain exact records of what was submitted in each round.
+
+Each revision folder should contain:
+
+- the editor's decision letter and all reviewer comments;
+- a point-by-point response to the editor and reviewers;
+- a tracked-changes manuscript;
+- a clean revised manuscript;
+- revised tables, figures, supplements, checklists, and cover letter, as applicable; and
+- the submission confirmation and a copy of every file actually submitted.
+
+Address reviewer comments one at a time and preserve their order. Organize the response by editor and reviewer, number every comment, and reproduce each comment verbatim in bold. Put the response immediately below it in regular, nonbold text. State what changed and give the page and line numbers in the revised manuscript. If no change was made, respond respectfully and explain the scientific or methodological reason.
+
+Use this format:
+
+**Reviewer 1, Comment 1.1: [Paste the reviewer's complete comment here.]**
+
+Response: Thank you for this comment. We revised [brief description of the change].
+
+Location: Page X, lines Y-Z.
+
+**Reviewer 1, Comment 1.2: [Paste the next complete comment here.]**
+
+Response: [Address this comment only.]
+
+Check that every response agrees with the revised manuscript and that every promised change appears in both the clean and tracked versions. Do not mark a comment as addressed until the response, manuscript, tables, figures, and supplements are internally consistent.
+
 ## Recommended writing resources
 
 - Yellowlees Douglas and Maria B. Grant, [*The Biomedical Writer: What You Need to Succeed in Academic Medicine*](https://www.cambridge.org/core/books/the-biomedical-writer/116D9FE29556A8F2AB5BD408B49AB957) (2018): practical guidance for biomedical manuscripts, grants, collaboration, and publication.
@@ -147,7 +204,7 @@ Number supplementary items independently (for example, Table S1 and Figure S1), 
 
 ## Final formatting check
 
-Before sending a draft to Shea or submitting it to a journal, run the manuscript through ChatGPT and ask it to audit the document against every item in this guide. Ask for a checklist that identifies each problem and its page, section, table, or figure location. Use ChatGPT to identify problems, not to change scientific claims or silently rewrite the manuscript.
+Before sending a draft to Shea or submitting it to a journal, and only when permitted by the project and journal policies described under [Use of artificial intelligence](#use-of-artificial-intelligence), run the manuscript through an approved ChatGPT workspace and ask it to audit the document against every item in this guide. Ask for a checklist that identifies each problem and its page, section, table, or figure location. Use ChatGPT to identify problems, not to change scientific claims or silently rewrite the manuscript. Record this use in the AI-use log and disclose it when required by the target journal.
 
 The following prompt can be adapted for the final check:
 
@@ -181,5 +238,8 @@ Confirm that:
 - every table, figure, and supplement is cited and numbered in order;
 - tables and figures begin on separate pages after the references;
 - gene symbols are italicized and protein symbols are not;
+- AI use has been logged and disclosed as required, and all AI-assisted content has been verified by an author;
+- the correct submission-round folder contains the decision letter, response document, clean and tracked manuscripts, and all revised submission files;
+- every editor and reviewer comment has a numbered, point-by-point response and a matching change or rationale;
 - all tracked changes, comments, highlights, and placeholders have been resolved as appropriate for the draft stage; and
 - spelling, grammar, references, author information, disclosures, and word counts have been checked.
